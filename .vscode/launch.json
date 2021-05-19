@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Odoo: Attach for debug",
+            "type": "python",
+            "request": "attach",
+            "port": 8879,
+            "debugServer": 8888,
+            "host": "localhost",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}", //current folder containing .vscode folder
+                    "remoteRoot": "/mnt/extra-addons", //path to custom addons inside docker
+                }
+            ],
+            "logToFile": true
+        }
+    ]
+}

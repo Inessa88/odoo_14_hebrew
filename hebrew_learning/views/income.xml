@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="income_view_tree" model="ir.ui.view">
+        <field name="name">Income List</field>
+        <field name="model">income</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="date_receipt"/>
+                <field name="income_type_id"/>
+                <field name="currency_id_byn" invisible="1"/>
+                <field name="amount_byn"/>
+                <field name="currency_id_usd" invisible="1"/>
+                <field name="amount_usd"/>
+                <field name="currency_id_ils" invisible="1"/>
+                <field name="amount_ils"/>
+                <field name="currency_id_rub" invisible="1"/>
+                <field name="amount_rub"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="income_view_search" model="ir.ui.view">
+        <field name="name">Income Search</field>
+        <field name="model">income</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="income_type_id"/>
+                <field name="date_receipt"/>
+                <field name="currency_id_byn"/>
+                <field name="amount_byn"/>
+                <field name="currency_id_usd"/>
+                <field name="amount_usd"/>
+                <field name="currency_id_ils"/>
+                <field name="amount_ils"/>
+                <field name="currency_id_rub"/>
+                <field name="amount_rub"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="view_income_graph" model="ir.ui.view">
+        <field name="model">income</field>
+        <field name="arch" type="xml">
+            <graph type="bar">
+                <field name="income_type_id"/>
+                <field name="amount_byn" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id='income_action' model='ir.actions.act_window'>
+        <field name="name">Income</field>
+        <field name="res_model">income</field>
+        <field name="view_mode">tree,graph</field>
+    </record>
+
+</odoo>
