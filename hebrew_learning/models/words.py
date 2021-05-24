@@ -36,9 +36,4 @@ class Words(models.Model):
         string='Users who added the word',
         comodel_name='res.users',
     )
-
-    group = fields.Many2many(
-        string='Group',
-        comodel_name='word_group',
-    )
     
