@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="word_groups_view_tree" model="ir.ui.view">
+        <field name="name">Word groups</field>
+        <field name="model">word_groups</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="word_group_name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="word_groups_view_form" model="ir.ui.view">
+        <field name="name">Word groups</field>
+        <field name="model">word_groups</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="word_group_name"/>
+                <field name="word_in_group"/>
+            </form>
+        </field>
+    </record>
+
+    <record id='word_groups_action' model='ir.actions.act_window'>
+        <field name="name">Word groups</field>
+        <field name="res_model">word_groups</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

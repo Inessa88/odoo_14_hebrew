@@ -28,6 +28,10 @@ class Words(models.Model):
         required=True,
     )
 
+    note = fields.Text(
+        string='Note',
+    )
+
     picture = fields.Binary(
         string='Image',
     )

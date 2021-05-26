@@ -10,21 +10,21 @@
     # This data files will be loaded at the installation (commented because file is not added in this example)
     'data': [
 
-        # 'security/groups.xml',
-        # 'security/ir.model.access.csv',
+        'security/groups.xml',
+        'security/ir.model.access.csv',
 
-        # 'views/income.xml',
-        # 'views/expenses.xml',
-        # 'views/expenses_type.xml',
+        'views/words.xml',
+        'views/word_groups.xml',
+        'views/exercise_types.xml',
         # 'views/income_type.xml',
         # 'views/outcome.xml',
         # 'views/currency_exchange.xml',
         # 'views/test_speed.xml',
 
-        # 'views/home_accounting.xml',
+        'views/hebrew_learning.xml',
                 
-        # 'data/res_currency_data.xml',
-        # 'data/outcome_data.xml',
+        # 'data/res_user_data.xml',
+        'data/exercise_types_data.xml',
 
         # 'report/outcome_template.xml',
         # 'report/outcome_report.xml',
