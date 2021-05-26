@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <odoo>
+        <data>
+            <record id="user_inessa" model="res.users">
+                <field name="login">inessa</field>
+                <field name="password">inessa</field>
+                <field name="groups_id" eval="[(4, ref('group_hebrew_learning_user'))]"/>
+                <field name="image_1920" type="base64" file="hebrew_learning/static/img/inessa.jpg"/>
+            </record>
+
+            <record id="user_vitalik" model="res.users">
+                <field name="login">vitalik</field>
+                <field name="password">vitalik</field>
+                <field name="groups_id" eval="[(4, ref('group_hebrew_learning_user'))]"/>
+                <field name="image_1920" type="base64" file="hebrew_learning/static/img/vitalik.jpg"/>
+            </record>
+        </data>
+    </odoo>

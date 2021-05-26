@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="words_view_tree" model="ir.ui.view">
+        <field name="name">Words</field>
+        <field name="model">words</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="hebrew_word"/>
+                <field name="hebrew_word_nikud"/>
+                <field name="pronunciation_word"/>
+                <field name="translation_word"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="words_view_form" model="ir.ui.view">
+        <field name="name">Words</field>
+        <field name="model">words</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="hebrew_word"/>
+                    <field name="hebrew_word_nikud"/>
+                    <field name="pronunciation_word"/>
+                    <field name="translation_word"/>
+                    <field name="note"/>
+                    <field name="picture" widget='image'/>
+                    <field name="word_user" widget="many2many_tags"/>
+                    <field name="group_ids" widget="many2many_tags"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="words_view_search" model="ir.ui.view">
+        <field name="name">Words Search</field>
+        <field name="model">words</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="hebrew_word"/>
+                <field name="translation_word"/>
+            </search>
+        </field>
+    </record>
+
+    <record id='words_action' model='ir.actions.act_window'>
+        <field name="name">Words</field>
+        <field name="res_model">words</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

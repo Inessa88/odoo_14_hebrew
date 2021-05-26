@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="exercise_types_view_form" model="ir.ui.view">
+        <field name="name">Exercise types</field>
+        <field name="model">exercise_types</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="name"/>
+                <field name="exercise_image"/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_exercise_types_kanban" model="ir.ui.view">
+        <field name="name">Exercise types</field>
+        <field name="model">exercise_types</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_mobile">
+                <field name="name"/>
+                <field name="exercise_image"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                            <div>
+                                <strong><span><field name="name"/></span></strong>
+                            </div>
+                            <div class="float-right">
+                                <field name="exercise_image" widget='image' class="oe_avatar"/>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id='exercise_types_action' model='ir.actions.act_window'>
+        <field name="name">Exercise types</field>
+        <field name="res_model">exercise_types</field>
+        <field name="view_mode">kanban,form</field>
+    </record>
+
+</odoo>

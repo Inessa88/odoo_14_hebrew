@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="word_translation" model="exercise_types">
+            <field name="name">Word translation</field>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/inessa.jpg"/>
+        </record>
+
+        <record id="translation_word" model="exercise_types">
+            <field name="name">Translation word</field>
+        </record>
+
+        <record id="writing" model="exercise_types">
+            <field name="name">Writing</field>
+        </record>
+
+        <record id="sprint" model="exercise_types">
+            <field name="name">Sprint</field>
+        </record>
+
+        <record id="learning" model="exercise_types">
+            <field name="name">Learning</field>
+        </record>
+        
+    </data>
+</odoo>
