@@ -25,6 +25,7 @@
                 
         # 'data/res_user_data.xml',
         'data/exercise_types_data.xml',
+        'data/word_groups_and_words_data.xml',
 
         # 'report/outcome_template.xml',
         # 'report/outcome_report.xml',
