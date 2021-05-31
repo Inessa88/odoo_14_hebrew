@@ -21,4 +21,7 @@ class WordGroups(models.Model):
         string='Users who added the group',
         comodel_name='res.users',
     )
-    
+
+    def name_get(self):
+        # Возвращать название рекорда в форме: "word_group_name"
+        return [(record.id, record.word_group_name) for record in self]

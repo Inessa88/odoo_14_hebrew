@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="word_17" model="words">
+            <field name="translation_word">Большое спасибо!</field>
+            <field name="pronunciation_word">toda raba!</field>
+            <field name="hebrew_word_nikud">‬תוֹדָה‬ ‫רַבָּה‬</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_17.png"/> -->
+
+        </record>
+
+        <record id="group_1" model="word_groups">
+            <field name="word_group_name">10. Самые важные глаголы - 1</field>
+        </record>
+
+    
+        <record id="word_1" model="words">
+            <field name="translation_word">бежать</field>
+            <field name="pronunciation_word">laruʦ</field>
+            <field name="hebrew_word_nikud">‫לָרוּץ‬‬</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1.png"/> -->
+            <field name="group_ids" eval="[(4, ref('group_1'))]"/>
+        </record>
+‬
+
+
+    </data>
+</odoo>
