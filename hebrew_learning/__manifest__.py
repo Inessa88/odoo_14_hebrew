@@ -16,7 +16,7 @@
         'views/words.xml',
         'views/word_groups.xml',
         'views/exercise_types.xml',
-        # 'views/income_type.xml',
+        'views/last_exercise_date.xml',
         # 'views/outcome.xml',
         # 'views/currency_exchange.xml',
         # 'views/test_speed.xml',

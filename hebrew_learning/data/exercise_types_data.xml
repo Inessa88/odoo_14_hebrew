@@ -4,23 +4,27 @@
 
         <record id="word_translation" model="exercise_types">
             <field name="name">Word translation</field>
-            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/inessa.jpg"/>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/word_translation.jpg"/>
         </record>
 
         <record id="translation_word" model="exercise_types">
             <field name="name">Translation word</field>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/translation_word.jpg"/>
         </record>
 
         <record id="writing" model="exercise_types">
             <field name="name">Writing</field>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/writing.jpg"/>
         </record>
 
         <record id="sprint" model="exercise_types">
             <field name="name">Sprint</field>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/sprint.jpg"/>
         </record>
 
         <record id="learning" model="exercise_types">
             <field name="name">Learning</field>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/learning.jpg"/>
         </record>
         
     </data>
