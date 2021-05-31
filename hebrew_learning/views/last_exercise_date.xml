@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="last_exercise_date_view_tree" model="ir.ui.view">
+        <field name="name">Last exercise date</field>
+        <field name="model">last_exercise_date</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="word_id"/>
+                <field name="user_id"/>
+                <field name="exercise_type_id"/>
+                <field name="last_exercise_date"/>
+                <field name="repetition_interval"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="last_exercise_date_view_form" model="ir.ui.view">
+        <field name="name">Last exercise date</field>
+        <field name="model">last_exercise_date</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="word_id"/>
+                <field name="user_id"/>
+                <field name="exercise_type_id"/>
+                <field name="last_exercise_date"/>
+                <field name="repetition_interval"/>
+            </form>
+        </field>
+    </record>
+
+    <record id='last_exercise_date_action' model='ir.actions.act_window'>
+        <field name="name">Last exercise date</field>
+        <field name="res_model">last_exercise_date</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>
