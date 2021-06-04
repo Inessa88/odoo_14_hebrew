@@ -6089,7 +6089,1639 @@ groups_and_words_to_parce = [
     #         ),
     #     ]
     # ),
-
+    (
+        # group_name_ru
+        "31. Голова",
+        # words
+        [
+            (
+                # translation_word
+                "голова",
+                # pronunciation_word
+                "roʃ",
+                # hebrew_word_nikud
+                "‫רֹאש‬‬"
+            ),
+            (
+                # translation_word
+                "лицо",
+                # pronunciation_word
+                "panim",
+                # hebrew_word_nikud
+                "‬‫פָּנִים‬"
+            ),
+            (
+                # translation_word
+                "нос",
+                # pronunciation_word
+                "af",
+                # hebrew_word_nikud
+                "‬‫אַף‬"
+            ),
+            (
+                # translation_word
+                "рот",
+                # pronunciation_word
+                "pe",
+                # hebrew_word_nikud
+                "‬‫פֶּה‬"
+            ),
+            (
+                # translation_word
+                "глаз",
+                # pronunciation_word
+                "'ayin",
+                # hebrew_word_nikud
+                "‫עַיִן‬‬"
+            ),
+            (
+                # translation_word
+                "глаза",
+                # pronunciation_word
+                "ei'nayim",
+                # hebrew_word_nikud
+                "‬‫עֵינַיִים‬"
+            ),
+            (
+                # translation_word
+                "бровь",
+                # pronunciation_word
+                "gaba",
+                # hebrew_word_nikud
+                "‫גַבָּה‬‬"
+            ),
+            (
+                # translation_word
+                "язык",
+                # pronunciation_word
+                "laʃon",
+                # hebrew_word_nikud
+                "‫לָשוֹן‬‬"
+            ),
+            (
+                # translation_word
+                "зуб",
+                # pronunciation_word
+                "ʃen",
+                # hebrew_word_nikud
+                "‫שֵן‬‬"
+            ),
+            (
+                # translation_word
+                "губы",
+                # pronunciation_word
+                "sfa'tayim",
+                # hebrew_word_nikud
+                "‬‫שׂפָתַיִים‬"
+            ),
+            (
+                # translation_word
+                "десна",
+                # pronunciation_word
+                "χani'χayim",
+                # hebrew_word_nikud
+                "‬‫חֲנִיכַיִים‬"
+            ),
+            (
+                # translation_word
+                "подбородок",
+                # pronunciation_word
+                "santer",
+                # hebrew_word_nikud
+                "‫סַנטֵר‬‬"
+            ),
+            (
+                # translation_word
+                "щека",
+                # pronunciation_word
+                "'leχi",
+                # hebrew_word_nikud
+                "‫לֶחִי‬‬"
+            ),
+            (
+                # translation_word
+                "лоб",
+                # pronunciation_word
+                "'meʦaχ",
+                # hebrew_word_nikud
+                "‬‫מֵצַח‬"
+            ),
+            (
+                # translation_word
+                "ухо",
+                # pronunciation_word
+                "'ozen",
+                # hebrew_word_nikud
+                "‬‫אוֹזֶן‬"
+            ),
+            (
+                # translation_word
+                "шея",
+                # pronunciation_word
+                "ʦavar",
+                # hebrew_word_nikud
+                "‫צַווָאר‬‬"
+            ),
+            (
+                # translation_word
+                "волосы",
+                # pronunciation_word
+                "seʿar",
+                # hebrew_word_nikud
+                "‫שֵׂיעָר‬‬"
+            ),
+            (
+                # translation_word
+                "стрижка (причёска)",
+                # pronunciation_word
+                "tis'poret",
+                # hebrew_word_nikud
+                "‫תִספּוֹרֶת‬"
+            ),
+            (
+                # translation_word
+                "усы",
+                # pronunciation_word
+                "safam",
+                # hebrew_word_nikud
+                "‫שָׂפָם‬‬"
+            ),
+            (
+                # translation_word
+                "борода",
+                # pronunciation_word
+                "zakan",
+                # hebrew_word_nikud
+                "‬‫זָקָן‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "32. Тело",
+        # words
+        [
+            (
+                # translation_word
+                "кисть руки, ладонь",
+                # pronunciation_word
+                "kaf yad",
+                # hebrew_word_nikud
+                "‬כַּף‬ ‫יָד‬"
+            ),
+            (
+                # translation_word
+                "рука (вся)",
+                # pronunciation_word
+                "yad",
+                # hebrew_word_nikud
+                "‬‫יָד‬"
+            ),
+            (
+                # translation_word
+                "палец",
+                # pronunciation_word
+                "'eʦba",
+                # hebrew_word_nikud
+                "‫אֶצבַּע‬‬"
+            ),
+            (
+                # translation_word
+                "палец (ноги)",
+                # pronunciation_word
+                "'bohen",
+                # hebrew_word_nikud
+                "‬‫בּוֹהֶן‬"
+            ),
+            (
+                # translation_word
+                "ноготь",
+                # pronunciation_word
+                "ʦi'poren",
+                # hebrew_word_nikud
+                "‬‫צִיפּוֹרֶן‬"
+            ),
+            (
+                # translation_word
+                "предплечье",
+                # pronunciation_word
+                "ama",
+                # hebrew_word_nikud
+                "‬‫אַמָּה‬"
+            ),
+            (
+                # translation_word
+                "локоть",
+                # pronunciation_word
+                "marpek",
+                # hebrew_word_nikud
+                "‬‫מַרפֵּק‬"
+            ),
+            (
+                # translation_word
+                "плечо",
+                # pronunciation_word
+                "katef",
+                # hebrew_word_nikud
+                "‫כָּתֵף‬‬"
+            ),
+            (
+                # translation_word
+                "нога (выше ступни)",
+                # pronunciation_word
+                "'regel",
+                # hebrew_word_nikud
+                "‬‫רֶגֶל‬"
+            ),
+            (
+                # translation_word
+                "ступня",
+                # pronunciation_word
+                "kaf 'regel",
+                # hebrew_word_nikud
+                "‬כַּף‬ ‫רֶגֶל‬"
+            ),
+            (
+                # translation_word
+                "колено",
+                # pronunciation_word
+                "'bereχ",
+                # hebrew_word_nikud
+                "‬‫בֶּרֶך‬"
+            ),
+            (
+                # translation_word
+                "тело",
+                # pronunciation_word
+                "guf",
+                # hebrew_word_nikud
+                "‫גוּף‬‬"
+            ),
+            (
+                # translation_word
+                "живот",
+                # pronunciation_word
+                "'beten",
+                # hebrew_word_nikud
+                "‬‫בֶּטֶן‬"
+            ),
+            (
+                # translation_word
+                "грудь (мужская)",
+                # pronunciation_word
+                "χaze",
+                # hebrew_word_nikud
+                "‫חָזֶה‬‬"
+            ),
+            (
+                # translation_word
+                "грудь (женская)",
+                # pronunciation_word
+                "ʃad",
+                # hebrew_word_nikud
+                "‬‫שָד‬"
+            ),
+            (
+                # translation_word
+                "спина",
+                # pronunciation_word
+                "gav",
+                # hebrew_word_nikud
+                "‫גַב‬‬"
+            ),
+            (
+                # translation_word
+                "пупок",
+                # pronunciation_word
+                "tabur",
+                # hebrew_word_nikud
+                "‫טַבּוּר‬‬"
+            ),
+            (
+                # translation_word
+                "ягодицы",
+                # pronunciation_word
+                "aχo'rayim",
+                # hebrew_word_nikud
+                "‫אֲחוֹרַיִים‬‬"
+            ),
+            (
+                # translation_word
+                "зад",
+                # pronunciation_word
+                "yaʃvan",
+                # hebrew_word_nikud
+                "‫יַשבָן‬‬"
+            ),
+            (
+                # translation_word
+                "родинка",
+                # pronunciation_word
+                "nekudat χen",
+                # hebrew_word_nikud
+                "נְקוּדַת‬ ‫חֵן‬‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "33. Верхняя одежда",
+        # words
+        [
+            (
+                # translation_word
+                "одежда",
+                # pronunciation_word
+                "bgadim",
+                # hebrew_word_nikud
+                "‫בּגָדִים‬‬"
+            ),
+            (
+                # translation_word
+                "пальто",
+                # pronunciation_word
+                "meʿil",
+                # hebrew_word_nikud
+                "‫מְעִיל‬‬"
+            ),
+            (
+                # translation_word
+                "шуба",
+                # pronunciation_word
+                "meʿil parva",
+                # hebrew_word_nikud
+                "‬מְעִיל‬ ‫פַּרווָה‬"
+            ),
+            (
+                # translation_word
+                "куртка",
+                # pronunciation_word
+                "meʿil kaʦar",
+                # hebrew_word_nikud
+                "מְעִיל‬ ‫קָצָר‬‬"
+            ),
+            (
+                # translation_word
+                "плащ непромокаемый",
+                # pronunciation_word
+                "meʿil 'geʃem",
+                # hebrew_word_nikud
+                "‬מְעִיל‬ ‫גֶשֶם‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "34. Одежда",
+        # words
+        [
+            (
+                # translation_word
+                "рубашка, блузка",
+                # pronunciation_word
+                "χulʦa",
+                # hebrew_word_nikud
+                "‫חוּלצָה‬‬"
+            ),
+            (
+                # translation_word
+                "брюки",
+                # pronunciation_word
+                "miχna'sayim",
+                # hebrew_word_nikud
+                "‬‫מִכנָסַיִים‬"
+            ),
+            (
+                # translation_word
+                "джинсы",
+                # pronunciation_word
+                "miχnesei 'ʤins",
+                # hebrew_word_nikud
+                "מִכנְסֵי‬ ‫גִ׳ינְס‬‬"
+            ),
+            (
+                # translation_word
+                "пиджак",
+                # pronunciation_word
+                "ʒaket",
+                # hebrew_word_nikud
+                "‫זָ׳קֶט‬‬"
+            ),
+            (
+                # translation_word
+                "костюм (мужской)",
+                # pronunciation_word
+                "χalifa",
+                # hebrew_word_nikud
+                "‬‫חֲלִיפָה‬"
+            ),
+            (
+                # translation_word
+                "платье",
+                # pronunciation_word
+                "simla",
+                # hebrew_word_nikud
+                "‬‫שִׂמלָה‬"
+            ),
+            (
+                # translation_word
+                "юбка",
+                # pronunciation_word
+                "χaʦaʾit",
+                # hebrew_word_nikud
+                "‫חֲצָאִית‬‬"
+            ),
+            (
+                # translation_word
+                "кофта (шерстяная)",
+                # pronunciation_word
+                "ʒaket 'ʦemer",
+                # hebrew_word_nikud
+                "‬זָ׳קֶט‬ ‫צֶמֶר‬"
+            ),
+            (
+                # translation_word
+                "футболка",
+                # pronunciation_word
+                "ti ʃert",
+                # hebrew_word_nikud
+                "‬טִי‬ ‫שֶרט‬"
+            ),
+            (
+                # translation_word
+                "шорты",
+                # pronunciation_word
+                "miχna'sayim kʦarim",
+                # hebrew_word_nikud
+                "מִכנָסַיִים‬ ‫קצָרִים‬‬"
+            ),
+            (
+                # translation_word
+                "пижама",
+                # pronunciation_word
+                "pi'ʤama",
+                # hebrew_word_nikud
+                "‫פִּיגָ׳מָה‬‬"
+            ),
+            (
+                # translation_word
+                "свитер",
+                # pronunciation_word
+                "'sveder",
+                # hebrew_word_nikud
+                "‫סוֶודֶר‬‬"
+            ),
+            (
+                # translation_word
+                "форма (униформа)",
+                # pronunciation_word
+                "madim",
+                # hebrew_word_nikud
+                "‬‫מַדִים‬"
+            ),
+            (
+                # translation_word
+                "рабочая одежда",
+                # pronunciation_word
+                "bigdei avoda",
+                # hebrew_word_nikud
+                "בִּגדֵי‬ ‫עֲבוֹדָה‬‬"
+            ),
+            (
+                # translation_word
+                "халат",
+                # pronunciation_word
+                "χaluk",
+                # hebrew_word_nikud
+                "‬‫חָלוּק‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "35. Одежда. Бельё",
+        # words
+        [
+            (
+                # translation_word
+                "бельё (одежда)",
+                # pronunciation_word
+                "levanim",
+                # hebrew_word_nikud
+                "‬‫לְבָנִים‬"
+            ),
+            (
+                # translation_word
+                "трусы мужские, женское бельё (трусики)",
+                # pronunciation_word
+                "taχtonim",
+                # hebrew_word_nikud
+                "‫תַחתוֹנִים‬‬"
+            ),
+            (
+                # translation_word
+                "майка",
+                # pronunciation_word
+                "gufiya",
+                # hebrew_word_nikud
+                "‫גוּפִייָה‬‬"
+            ),
+            (
+                # translation_word
+                "носки",
+                # pronunciation_word
+                "gar'bayim",
+                # hebrew_word_nikud
+                "‫גַרבַּיִים‬‬"
+            ),
+            (
+                # translation_word
+                "бюстгальтер",
+                # pronunciation_word
+                "χaziya",
+                # hebrew_word_nikud
+                "‬‫חֲזִייָה‬"
+            ),
+            (
+                # translation_word
+                "колготки",
+                # pronunciation_word
+                "garbonim",
+                # hebrew_word_nikud
+                "‫גַרבּוֹנִים‬‬"
+            ),
+            (
+                # translation_word
+                "купальник",
+                # pronunciation_word
+                "'beged yam",
+                # hebrew_word_nikud
+                "‬בֶּגֶד‬ ‫יָם‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "36. Головной убор",
+        # words
+        [
+            (
+                # translation_word
+                "шапка",
+                # pronunciation_word
+                "'kova",
+                # hebrew_word_nikud
+                "‫כּוֹבַע‬‬"
+            ),
+            (
+                # translation_word
+                "кепка",
+                # pronunciation_word
+                "'kova miʦχiya",
+                # hebrew_word_nikud
+                "‬כּוֹבַע‬ ‫מִצחִייָה‬"
+            ),
+            (
+                # translation_word
+                "капюшон",
+                # pronunciation_word
+                "bardas",
+                # hebrew_word_nikud
+                "‫בַּרדָס‬‬"
+            ),
+            (
+                # translation_word
+                "каска",
+                # pronunciation_word
+                "kasda",
+                # hebrew_word_nikud
+                "‫קַסדָה‬‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "37. Обувь",
+        # words
+        [
+            (
+                # translation_word
+                "обувь",
+                # pronunciation_word
+                "hanʿala",
+                # hebrew_word_nikud
+                "‫הַנְעָלָה‬‬"
+            ),
+            (
+                # translation_word
+                "ботинки, туфли",
+                # pronunciation_word
+                "naʿa'layim",
+                # hebrew_word_nikud
+                "‬‫נַעֲלַיִים‬"
+            ),
+            (
+                # translation_word
+                "сапоги",
+                # pronunciation_word
+                "maga'fayim",
+                # hebrew_word_nikud
+                "‫מַגָפַיִים‬‬"
+            ),
+            (
+                # translation_word
+                "кроссовки, кеды",
+                # pronunciation_word
+                "naʿalei sport",
+                # hebrew_word_nikud
+                "נַעֲלֵי‬ ‫ספּוֹרט‬‬"
+            ),
+            (
+                # translation_word
+                "сандалии",
+                # pronunciation_word
+                "sandalim",
+                # hebrew_word_nikud
+                "‫סַנדָלִים‬‬"
+            ),
+            (
+                # translation_word
+                "шнурок",
+                # pronunciation_word
+                "sroχ",
+                # hebrew_word_nikud
+                "‫שׂרוֹך‬‬"
+            ),
+            (
+                # translation_word
+                "рожок (для обуви)",
+                # pronunciation_word
+                "kaf naʿa'layim",
+                # hebrew_word_nikud
+                "‬כַּף‬ ‫נַעֲלַיִים‬"
+            ),
+            (
+                # translation_word
+                "крем для обуви",
+                # pronunciation_word
+                "miʃχat naʿa'layim",
+                # hebrew_word_nikud
+                "מִשחַת‬ ‫נַעֲלַיִים‬‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "38. Ткани. Материалы",
+        # words
+        [
+            (
+                # translation_word
+                "хлопок",
+                # pronunciation_word
+                "kutna",
+                # hebrew_word_nikud
+                "‫כּוּתנָה‬‬"
+            ),
+            (
+                # translation_word
+                "из хлопка",
+                # pronunciation_word
+                "mikutna",
+                # hebrew_word_nikud
+                "‫מִכּוּתנָה‬‬"
+            ),
+            (
+                # translation_word
+                "лён",
+                # pronunciation_word
+                "piʃtan",
+                # hebrew_word_nikud
+                "‫פִּשתָן‬‬"
+            ),
+            (
+                # translation_word
+                "из льна",
+                # pronunciation_word
+                "mipiʃtan",
+                # hebrew_word_nikud
+                "‬‫מִפִּשתָן‬"
+            ),
+            (
+                # translation_word
+                "шёлк",
+                # pronunciation_word
+                "'meʃi",
+                # hebrew_word_nikud
+                "‬‫מֶשִי‬"
+            ),
+            (
+                # translation_word
+                "шёлковый",
+                # pronunciation_word
+                "miʃyi",
+                # hebrew_word_nikud
+                "‫מִשיִי‬‬"
+            ),
+            (
+                # translation_word
+                "шерсть",
+                # pronunciation_word
+                "'ʦemer",
+                # hebrew_word_nikud
+                "‬‫צֶמֶר‬"
+            ),
+            (
+                # translation_word
+                "шерстяной",
+                # pronunciation_word
+                "ʦamri",
+                # hebrew_word_nikud
+                "‬‫צַמרִי‬"
+            ),
+            (
+                # translation_word
+                "полиэстер",
+                # pronunciation_word
+                "poli'ʾester",
+                # hebrew_word_nikud
+                "‫פּוֹלִיאֶסטֶר‬‬"
+            ),
+            (
+                # translation_word
+                "полиэстровый",
+                # pronunciation_word
+                "mipoli'ʾester",
+                # hebrew_word_nikud
+                "‫מִפּוֹלִיאֶסטֶר‬‬"
+            ),
+            (
+                # translation_word
+                "кожа",
+                # pronunciation_word
+                "or",
+                # hebrew_word_nikud
+                "‫עוֹר‬‬"
+            ),
+            (
+                # translation_word
+                "из кожи",
+                # pronunciation_word
+                "meʿor",
+                # hebrew_word_nikud
+                "‫מֵעוֹר‬‬"
+            ),
+            (
+                # translation_word
+                "мех",
+                # pronunciation_word
+                "parva",
+                # hebrew_word_nikud
+                "‫פַּרווָה‬‬"
+            ),
+            (
+                # translation_word
+                "меховой",
+                # pronunciation_word
+                "miparva",
+                # hebrew_word_nikud
+                "‫מִפַּרווָה‬‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "39. Аксессуары (одежда)",
+        # words
+        [
+            (
+                # translation_word
+                "перчатки, варежки",
+                # pronunciation_word
+                "kfafot",
+                # hebrew_word_nikud
+                "‫כּפָפוֹת‬‬"
+            ),
+            (
+                # translation_word
+                "шарф",
+                # pronunciation_word
+                "ʦaʿif",
+                # hebrew_word_nikud
+                "‬‫צָעִיף‬"
+            ),
+            (
+                # translation_word
+                "очки",
+                # pronunciation_word
+                "miʃka'fayim",
+                # hebrew_word_nikud
+                "‫מִשקָפַיִים‬‬"
+            ),
+            (
+                # translation_word
+                "зонт",
+                # pronunciation_word
+                "mitriya",
+                # hebrew_word_nikud
+                "‫מִטרִייָה‬‬"
+            ),
+            (
+                # translation_word
+                "галстук",
+                # pronunciation_word
+                "aniva",
+                # hebrew_word_nikud
+                "‫עֲנִיבָה‬‬"
+            ),
+            (
+                # translation_word
+                "расчёска",
+                # pronunciation_word
+                "masrek",
+                # hebrew_word_nikud
+                "‫מַסרֵק‬‬"
+            ),
+            (
+                # translation_word
+                "пояс (ремень)",
+                # pronunciation_word
+                "χagora",
+                # hebrew_word_nikud
+                "‫חֲגוֹרָה‬‬"
+            ),
+            (
+                # translation_word
+                "сумка, сумочка (женская)",
+                # pronunciation_word
+                "tik",
+                # hebrew_word_nikud
+                "‫תִיק‬‬"
+            ),
+            (
+                # translation_word
+                "рюкзак",
+                # pronunciation_word
+                "tarmil",
+                # hebrew_word_nikud
+                "‬‫תַרמִיל‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "40. Одежда. Разное",
+        # words
+        [
+            (
+                # translation_word
+                "воротник",
+                # pronunciation_word
+                "ʦavaron",
+                # hebrew_word_nikud
+                "‫צַווָארוֹן‬‬"
+            ),
+            (
+                # translation_word
+                "карман",
+                # pronunciation_word
+                "kis",
+                # hebrew_word_nikud
+                "‬‫כִּיס‬"
+            ),
+            (
+                # translation_word
+                "рукав",
+                # pronunciation_word
+                "ʃarvul",
+                # hebrew_word_nikud
+                "‫שַרווּל‬‬"
+            ),
+            (
+                # translation_word
+                "вешалка",
+                # pronunciation_word
+                "mitle",
+                # hebrew_word_nikud
+                "‫מִתלֶה‬‬"
+            ),
+            (
+                # translation_word
+                "ширинка",
+                # pronunciation_word
+                "χanut",
+                # hebrew_word_nikud
+                "‫חֲנוּת‬‬"
+            ),
+            (
+                # translation_word
+                "молния (застежка)",
+                # pronunciation_word
+                "roχsan",
+                # hebrew_word_nikud
+                "‫רוֹכסָן‬‬"
+            ),
+            (
+                # translation_word
+                "пятно",
+                # pronunciation_word
+                "'ketem",
+                # hebrew_word_nikud
+                "‬‫כֶּתֶם‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "41. Предметы личной гигиены. Косметика",
+        # words
+        [
+            (
+                # translation_word
+                "зубная паста",
+                # pronunciation_word
+                "miʃχat ʃi'nayim",
+                # hebrew_word_nikud
+                "מִשחַת‬ ‫שִינַיִים‬"
+            ),
+            (
+                # translation_word
+                "зубная щётка",
+                # pronunciation_word
+                "miv'reʃet ʃi'nayim",
+                # hebrew_word_nikud
+                "‬‬מִברֶשֶת‬ ‫שִינַיִים‬"
+            ),
+            (
+                # translation_word
+                "чистить зубы",
+                # pronunciation_word
+                "leʦaχ'ʦeaχ ʃi'nayim",
+                # hebrew_word_nikud
+                "‬לְצַחצֵח‬ ‫שִינַיִים‬"
+            ),
+            (
+                # translation_word
+                "бритва",
+                # pronunciation_word
+                "'taʿar",
+                # hebrew_word_nikud
+                "‬‫תַעַר‬"
+            ),
+            (
+                # translation_word
+                "крем для бритья",
+                # pronunciation_word
+                "keʦef gi'luaχ",
+                # hebrew_word_nikud
+                "קֶצֵף‬ ‫גִילוּח‬‬"
+            ),
+            (
+                # translation_word
+                "бриться",
+                # pronunciation_word
+                "lehitga'leaχ",
+                # hebrew_word_nikud
+                "‫לְהִתגַלֵח‬‬"
+            ),
+            (
+                # translation_word
+                "мыло",
+                # pronunciation_word
+                "sabon",
+                # hebrew_word_nikud
+                "‬‫סַבּוֹן‬"
+            ),
+            (
+                # translation_word
+                "шампунь",
+                # pronunciation_word
+                "ʃampu",
+                # hebrew_word_nikud
+                "‫שַמפּו‬‬"
+            ),
+            (
+                # translation_word
+                "ножницы",
+                # pronunciation_word
+                "mispa'rayim",
+                # hebrew_word_nikud
+                "‬‫מִספָּרַיִים‬"
+            ),
+            (
+                # translation_word
+                "пилочка для ногтей",
+                # pronunciation_word
+                "pʦira",
+                # hebrew_word_nikud
+                "‬‫פּצִירָה‬"
+            ),
+            (
+                # translation_word
+                "косметика",
+                # pronunciation_word
+                "tamrukim",
+                # hebrew_word_nikud
+                "‬‫תַמרוּקִים‬"
+            ),
+            (
+                # translation_word
+                "маска (косметич.)",
+                # pronunciation_word
+                "maseχa",
+                # hebrew_word_nikud
+                "‬‫מַסֵכָה‬"
+            ),
+            (
+                # translation_word
+                "духи",
+                # pronunciation_word
+                "'bosem",
+                # hebrew_word_nikud
+                "‬‫בּוֹשֶׂם‬"
+            ),
+            (
+                # translation_word
+                "тени для век",
+                # pronunciation_word
+                "ʦlalit",
+                # hebrew_word_nikud
+                "‬‫צלָלִית‬"
+            ),
+            (
+                # translation_word
+                "карандаш для глаз",
+                # pronunciation_word
+                "ai 'lainer",
+                # hebrew_word_nikud
+                "אַי‬ ‫לַיינֶר‬‬"
+            ),
+            (
+                # translation_word
+                "тушь для ресниц",
+                # pronunciation_word
+                "'maskara",
+                # hebrew_word_nikud
+                "‫מַסקָרָה‬‬"
+            ),
+            (
+                # translation_word
+                "губная помада",
+                # pronunciation_word
+                "sfaton",
+                # hebrew_word_nikud
+                "‫שׂפָתוֹן‬‬"
+            ),
+            (
+                # translation_word
+                "лак для ногтей",
+                # pronunciation_word
+                "'laka leʦipor'nayim",
+                # hebrew_word_nikud
+                "לַכָּה‬ ‫לְצִיפּוֹרנַיִים‬‬"
+            ),
+            (
+                # translation_word
+                "дезодорант",
+                # pronunciation_word
+                "deʾodo'rant",
+                # hebrew_word_nikud
+                "‫דֶאוֹדוֹרַנט‬‬"
+            ),
+            (
+                # translation_word
+                "крем",
+                # pronunciation_word
+                "krem",
+                # hebrew_word_nikud
+                "‫קרֶם‬‬"
+            ),
+            (
+                # translation_word
+                "туалетная бумага",
+                # pronunciation_word
+                "neyar tuʾalet",
+                # hebrew_word_nikud
+                "נְייַר‬ ‫טוּאָלֶט‬"
+            ),
+            (
+                # translation_word
+                "фен",
+                # pronunciation_word
+                "meyabeʃ seʿar",
+                # hebrew_word_nikud
+                "מְייַבֵּש‬ ‫שֵׂיעָר‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "42. Украшения. Драгоценности",
+        # words
+        [
+            (
+                # translation_word
+                "драгоценности",
+                # pronunciation_word
+                "taχʃitim",
+                # hebrew_word_nikud
+                "‫תַכשִיטִים‬‬"
+            ),
+            (
+                # translation_word
+                "кольцо",
+                # pronunciation_word
+                "ta'baʿat",
+                # hebrew_word_nikud
+                "‫טַבַּעַת‬‬"
+            ),
+            (
+                # translation_word
+                "серьги",
+                # pronunciation_word
+                "agilim",
+                # hebrew_word_nikud
+                "‬‫עָגִילִים‬"
+            ),
+            (
+                # translation_word
+                "бриллиант",
+                # pronunciation_word
+                "yahalom",
+                # hebrew_word_nikud
+                "‬‫יַהֲלוֹם‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "43. Часы",
+        # words
+        [
+            (
+                # translation_word
+                "часы (наручные)",
+                # pronunciation_word
+                "ʃeʿon yad",
+                # hebrew_word_nikud
+                "שְעוֹן‬ ‫יָד‬‬"
+            ),
+            (
+                # translation_word
+                "батарейка",
+                # pronunciation_word
+                "solela",
+                # hebrew_word_nikud
+                "‬‫סוֹלְלָה‬"
+            ),
+            (
+                # translation_word
+                "часы настенные",
+                # pronunciation_word
+                "ʃeʿon kir",
+                # hebrew_word_nikud
+                "שְעוֹן‬ ‫קִיר‬‬"
+            ),
+            (
+                # translation_word
+                "будильник",
+                # pronunciation_word
+                "ʃaʿon meʿorer",
+                # hebrew_word_nikud
+                "‬שָעוֹן‬ ‫מְעוֹרֵר‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "44. Продукты",
+        # words
+        [
+            (
+                # translation_word
+                "мясо",
+                # pronunciation_word
+                "basar",
+                # hebrew_word_nikud
+                "‬‫בָּשָׂר‬"
+            ),
+            (
+                # translation_word
+                "цыплёнок",
+                # pronunciation_word
+                "pargit",
+                # hebrew_word_nikud
+                "‬‫פַּרגִית‬"
+            ),
+            (
+                # translation_word
+                "индейка",
+                # pronunciation_word
+                "'hodu",
+                # hebrew_word_nikud
+                "‬‫הוֹדו‬"
+            ),
+            (
+                # translation_word
+                "свинина",
+                # pronunciation_word
+                "basar χazir",
+                # hebrew_word_nikud
+                "בָּשָׂר‬ ‫חֲזִיר‬‬"
+            ),
+            (
+                # translation_word
+                "телятина",
+                # pronunciation_word
+                "basar 'egel",
+                # hebrew_word_nikud
+                "בָּשָׂר‬ ‫עֵגֶל‬‬"
+            ),
+            (
+                # translation_word
+                "баранина",
+                # pronunciation_word
+                "basar 'keves",
+                # hebrew_word_nikud
+                "בָּשָׂר‬ ‫כֶּבֶש‬‬"
+            ),
+            (
+                # translation_word
+                "говядина",
+                # pronunciation_word
+                "bakar",
+                # hebrew_word_nikud
+                "‫בָּקָר‬‬"
+            ),
+            (
+                # translation_word
+                "кролик",
+                # pronunciation_word
+                "arnav",
+                # hebrew_word_nikud
+                "‬‫אַרנָב‬"
+            ),
+            (
+                # translation_word
+                "колбаса",
+                # pronunciation_word
+                "naknik",
+                # hebrew_word_nikud
+                "‫נַקנִיק‬‬"
+            ),
+            (
+                # translation_word
+                "сосиска",
+                # pronunciation_word
+                "naknikiya",
+                # hebrew_word_nikud
+                "‫נַקנִיקִייָה‬‬"
+            ),
+            (
+                # translation_word
+                "паштет",
+                # pronunciation_word
+                "pate",
+                # hebrew_word_nikud
+                "‫פָּטֶה‬‬"
+            ),
+            (
+                # translation_word
+                "печень",
+                # pronunciation_word
+                "kaved",
+                # hebrew_word_nikud
+                "‫כָּבֵד‬‬"
+            ),
+            (
+                # translation_word
+                "фарш",
+                # pronunciation_word
+                "basar taχun",
+                # hebrew_word_nikud
+                "‬בָּשָׂר‬ ‫טָחוּן‬"
+            ),
+            (
+                # translation_word
+                "яйцо",
+                # pronunciation_word
+                "beiʦa",
+                # hebrew_word_nikud
+                "‫בֵּיצָה‬‬"
+            ),
+            (
+                # translation_word
+                "яйца",
+                # pronunciation_word
+                "beiʦim",
+                # hebrew_word_nikud
+                "‬‫בֵּיצִים‬"
+            ),
+            (
+                # translation_word
+                "рыба",
+                # pronunciation_word
+                "dag",
+                # hebrew_word_nikud
+                "‬‫דָג‬"
+            ),
+            (
+                # translation_word
+                "хлеб",
+                # pronunciation_word
+                "'leχem",
+                # hebrew_word_nikud
+                "‫לֶחֶם‬‬"
+            ),
+            (
+                # translation_word
+                "сыр",
+                # pronunciation_word
+                "gvina",
+                # hebrew_word_nikud
+                "‫גבִינָה‬‬"
+            ),
+            (
+                # translation_word
+                "сахар",
+                # pronunciation_word
+                "sukar",
+                # hebrew_word_nikud
+                "‬‫סוּכָּר‬"
+            ),
+            (
+                # translation_word
+                "соль",
+                # pronunciation_word
+                "'melaχ",
+                # hebrew_word_nikud
+                "‫מֶלַח‬‬"
+            ),
+            (
+                # translation_word
+                "рис",
+                # pronunciation_word
+                "'orez",
+                # hebrew_word_nikud
+                "‬‫אוֹרֶז‬"
+            ),
+            (
+                # translation_word
+                "макароны",
+                # pronunciation_word
+                "'pasta",
+                # hebrew_word_nikud
+                "‫פַּסטָה‬‬"
+            ),
+            (
+                # translation_word
+                "сливочное масло",
+                # pronunciation_word
+                "χemʾa",
+                # hebrew_word_nikud
+                "‫חֶמאָה‬‬"
+            ),
+            (
+                # translation_word
+                "подсолнечное масло",
+                # pronunciation_word
+                "'ʃemen χamaniyot",
+                # hebrew_word_nikud
+                "שֶמֶן‬ ‫חַמָנִיוֹת‬‬"
+            ),
+            (
+                # translation_word
+                "оливки",
+                # pronunciation_word
+                "zeitim",
+                # hebrew_word_nikud
+                "‫זֵיתִים‬‬"
+            ),
+            (
+                # translation_word
+                "масло оливковое",
+                # pronunciation_word
+                "'ʃemen 'zayit",
+                # hebrew_word_nikud
+                "שֶמֶן‬ ‫זַיִת‬‬"
+            ),
+            (
+                # translation_word
+                "молоко",
+                # pronunciation_word
+                "χalav",
+                # hebrew_word_nikud
+                "‬‫חָלָב‬"
+            ),
+            (
+                # translation_word
+                "сгущённое молоко",
+                # pronunciation_word
+                "χalav merukaz",
+                # hebrew_word_nikud
+                "‬חָלָב‬ ‫מְרוּכָּז‬"
+            ),
+            (
+                # translation_word
+                "йогурт",
+                # pronunciation_word
+                "'yogurt",
+                # hebrew_word_nikud
+                "‫יוֹגוּרט‬‬"
+            ),
+            (
+                # translation_word
+                "сметана, сливки",
+                # pronunciation_word
+                "ʃa'menet",
+                # hebrew_word_nikud
+                "‫שַמֶנֶת‬‬"
+            ),
+            (
+                # translation_word
+                "мука",
+                # pronunciation_word
+                "'kemaχ",
+                # hebrew_word_nikud
+                "‬‫קֶמַח‬"
+            ),
+            (
+                # translation_word
+                "консервы",
+                # pronunciation_word
+                "ʃimurim",
+                # hebrew_word_nikud
+                "‫שִימוּרִים‬‬"
+            ),
+            (
+                # translation_word
+                "мёд",
+                # pronunciation_word
+                "dvaʃ",
+                # hebrew_word_nikud
+                "‬‫דבַש‬"
+            ),
+            (
+                # translation_word
+                "джем, варенье",
+                # pronunciation_word
+                "riba",
+                # hebrew_word_nikud
+                "‬‫רִיבָּה‬"
+            ),
+            (
+                # translation_word
+                "жевательная резинка",
+                # pronunciation_word
+                "'mastik",
+                # hebrew_word_nikud
+                "‫מַסטִיק‬‬"
+            ),
+        ]
+    ),
+    (
+        # group_name_ru
+        "45. Напитки",
+        # words
+        [
+            (
+                # translation_word
+                "вода",
+                # pronunciation_word
+                "'mayim",
+                # hebrew_word_nikud
+                "‫מַיִם‬‬"
+            ),
+            (
+                # translation_word
+                "питьевая вода",
+                # pronunciation_word
+                "mei ʃtiya",
+                # hebrew_word_nikud
+                "מֵי‬ ‫שתִייָה‬‬"
+            ),
+            (
+                # translation_word
+                "минеральная вода",
+                # pronunciation_word
+                "'mayim mine'raliyim",
+                # hebrew_word_nikud
+                "‬מַיִם‬ ‫מִינֶרָלִייִם‬"
+            ),
+            (
+                # translation_word
+                "без газа",
+                # pronunciation_word
+                "lo mugaz",
+                # hebrew_word_nikud
+                "‬לֹא‬ ‫מוּגָז‬"
+            ),
+            (
+                # translation_word
+                "с газом, газированный",
+                # pronunciation_word
+                "mugaz",
+                # hebrew_word_nikud
+                "‫מוּגָז‬‬"
+            ),
+            (
+                # translation_word
+                "вино",
+                # pronunciation_word
+                "'yayin",
+                # hebrew_word_nikud
+                "‫יַיִן‬‬"
+            ),
+            (
+                # translation_word
+                "шампанское",
+                # pronunciation_word
+                "ʃam'panya",
+                # hebrew_word_nikud
+                "‫שַמפַּניָה‬‬"
+            ),
+            (
+                # translation_word
+                "водка",
+                # pronunciation_word
+                "'vodka",
+                # hebrew_word_nikud
+                "‫ווֹדקָה‬‬"
+            ),
+            (
+                # translation_word
+                "кофе",
+                # pronunciation_word
+                "kafe",
+                # hebrew_word_nikud
+                "‬‫קָפֶה‬"
+            ),
+            (
+                # translation_word
+                "молоко",
+                # pronunciation_word
+                "χalav",
+                # hebrew_word_nikud
+                "‬‫חָלָב‬"
+            ),
+            (
+                # translation_word
+                "сок",
+                # pronunciation_word
+                "miʦ",
+                # hebrew_word_nikud
+                "‫מִיץ‬‬"
+            ),
+            (
+                # translation_word
+                "томатный сок",
+                # pronunciation_word
+                "miʦ agvaniyot",
+                # hebrew_word_nikud
+                "מִיץ‬ ‫עַגבָנִיוֹת‬‬"
+            ),
+            (
+                # translation_word
+                "апельсиновый сок",
+                # pronunciation_word
+                "miʦ tapuzim",
+                # hebrew_word_nikud
+                "מִיץ‬ ‫תַפּוּזִים‬‬"
+            ),
+            (
+                # translation_word
+                "пиво",
+                # pronunciation_word
+                "'bira",
+                # hebrew_word_nikud
+                "‫בִּירָה‬‬"
+            ),
+            (
+                # translation_word
+                "чай",
+                # pronunciation_word
+                "te",
+                # hebrew_word_nikud
+                "‬‫תֵה‬"
+            ),
+            (
+                # translation_word
+                "чёрный чай",
+                # pronunciation_word
+                "te ʃaχor",
+                # hebrew_word_nikud
+                "תֵה‬ ‫שָחוֹר‬‬"
+            ),
+            (
+                # translation_word
+                "зелёный чай",
+                # pronunciation_word
+                "te yarok",
+                # hebrew_word_nikud
+                "תֵה‬ ‫יָרוֹק‬‬"
+            ),
+        ]
+    ),
 # INESSA PUTS HER GROUPS HERE (FROM GROUP 125):
     (
         # group_name_ru
