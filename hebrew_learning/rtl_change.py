@@ -1,4 +1,4 @@
-initial_text = "‫מִספָּר‬ ‫שֵם‬"
+initial_text = "‬‬"
 
 def rtl_text_parser(initial_text):
     list = initial_text.split(" ")
