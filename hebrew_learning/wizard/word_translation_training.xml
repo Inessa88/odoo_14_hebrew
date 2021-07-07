@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <record id="wizard_word_translation_training_view_form" model="ir.ui.view">
+            <field name="name">wizard.word.translation.training.view.form</field>
+            <field name="model">wizard_word_translation_training</field>
+            <field name="arch" type="xml">
+                <form string="Word -> translation training">
+                    <div>Word -> translation training</div>
+                    <br/>
+                    <group invisible="0">
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                    </group>
+                    <group>
+                        <group  attrs="{'invisible': [('first_question_answered', '=', True)]}">
+                            <field name="first_word_to_train"/>
+                        </group>
+                        <group  attrs="{'invisible': ['|', ('first_question_answered', '=', False), ('second_question_answered', '=', True)]}">
+                            <field name="second_word_to_train"/>
+                        </group>
+                        <group  attrs="{'invisible': ['|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', True)]}">
+                            <field name="third_word_to_train"/>
+                        </group>
+                        <group  attrs="{'invisible': ['|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', True)]}">
+                            <field name="fourth_word_to_train"/>
+                        </group>
+                        <group  attrs="{'invisible': ['|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', False), ('fifth_question_answered', '=', True)]}">
+                            <field name="fifth_word_to_train"/>
+                        </group>
+                        
+                        
+                        
+                        
+                    </group>
+                    <!-- <field name="agreement_ids" invisible="1"/>
+                    <div>For services that have expired paid period, an invoice for prolongation will be generated.</div>
+                    <div>If there are no matching services, no invoice will be created.</div>
+                    <footer>
+                        <button name="action_create_prolongation_invoice" string="OK" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer> -->
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

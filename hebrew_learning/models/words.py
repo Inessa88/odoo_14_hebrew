@@ -18,7 +18,7 @@ class Words(models.Model):
     )
 
     pronunciation_word = fields.Char(
-        string='Pronunciation word in latin',
+        string='Pronunciation word in Latin',
         required=True,
     )
 
@@ -61,3 +61,7 @@ class Words(models.Model):
             if values.get('hebrew_word_nikud'):
                 values['hebrew_word'] = self.CleanNikkudFromHebrew(values.get('hebrew_word_nikud'))
         return super().create(vals_list)
+
+    def learn_this_word(self):
+        for word in self:
+            word.word_user = [(4, self.env.uid)]

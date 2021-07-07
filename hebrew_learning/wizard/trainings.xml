@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <record id="wizard_learning_action" model="ir.actions.act_window">
+            <field name="name">Learning</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_learning</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_learning_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_word_translation_training_action" model="ir.actions.act_window">
+            <field name="name">Word->translation training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_word_translation_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_word_translation_training_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_translation_word_training_action" model="ir.actions.act_window">
+            <field name="name">Translation->word training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_translation_word_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_translation_word_training_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_writing_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_writing_training_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_sprint_training_action" model="ir.actions.act_window">
+            <field name="name">Sprint training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sprint_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sprint_training_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        
+        
+        
+        
+    </data>
+</odoo>

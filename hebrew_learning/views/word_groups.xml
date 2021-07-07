@@ -7,6 +7,9 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="word_group_name"/>
+                <field name="group_user" widget="many2many_tags"/>
+                <button name="learn_this_group" type="object" string="Learn this group" class="oe_highlight"
+                />
             </tree>
         </field>
     </record>
@@ -16,8 +19,13 @@
         <field name="model">word_groups</field>
         <field name="arch" type="xml">
             <form>
-                <field name="word_group_name"/>
-                <field name="word_in_group"/>
+                <group>
+                    <field name="word_group_name"/>
+                    <field name="word_in_group"/>
+                    <field name="group_user" widget="many2many_tags"/>
+                </group>
+                <button name="learn_this_group" type="object" string="Learn this group" class="oe_highlight"
+                />
             </form>
         </field>
     </record>

@@ -10,6 +10,8 @@
                 <field name="hebrew_word_nikud"/>
                 <field name="pronunciation_word"/>
                 <field name="translation_word"/>
+                <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
+                />
             </tree>
         </field>
     </record>
@@ -29,6 +31,8 @@
                     <field name="word_user" widget="many2many_tags"/>
                     <field name="group_ids" widget="many2many_tags"/>
                 </group>
+                <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
+                />
             </form>
         </field>
     </record>
