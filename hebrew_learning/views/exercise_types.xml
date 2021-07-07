@@ -8,14 +8,29 @@
             <kanban create='0' class="o_kanban_mobile">
                 <field name="name"/>
                 <field name="exercise_image"/>
+                <field name="words_to_train_ids"/>
+                <field name="number_of_words_to_train"/>
                 <templates>
                     <t t-name="kanban-box">
-                        <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                        <div t-attf-class="oe_kanban_card">
                             <div>
                                 <strong><span><field name="name"/></span></strong>
                             </div>
                             <div class="float-right">
                                 <field name="exercise_image" widget='image' class="oe_avatar"/>
+                            </div>
+                            <div>
+                                <strong><span>There is <field name="number_of_words_to_train"/> word(s) to train.</span></strong>
+                            </div>
+                            <field name="words_to_train_ids"/>
+                            <div>
+                                <a href="#" name="start_training" type="object" string="Start training">
+                                    <div t-if="record.number_of_words_to_train.raw_value != 0">
+                                        <div class="o_primary">
+                                            <strong><span>START TRAINING</span></strong>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </t>
@@ -29,8 +44,10 @@
         <field name="model">exercise_types</field>
         <field name="arch" type="xml">
             <form create='0' edit='0' delete='0' duplicate='0'>
-                <field name="name"/>
-                <field name="exercise_image"/>
+                <group>
+                    <field name="name"/>
+                    <field name="exercise_image" widget='image' class="oe_avatar"/>
+                </group>
             </form>
         </field>
     </record>

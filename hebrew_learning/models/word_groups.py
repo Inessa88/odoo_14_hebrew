@@ -25,3 +25,9 @@ class WordGroups(models.Model):
     def name_get(self):
         # Возвращать название рекорда в форме: "word_group_name"
         return [(record.id, record.word_group_name) for record in self]
+
+    def learn_this_group(self):
+        for group in self:
+            group.group_user = [(4, self.env.uid)]
+            for word in group.word_in_group:
+                word.word_user = [(4, self.env.uid)]

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <record id="wizard_learning_view_form" model="ir.ui.view">
+            <field name="name">wizard.learning.view.form</field>
+            <field name="model">wizard_learning</field>
+            <field name="arch" type="xml">
+                <form string="Learning">
+                    <div>Learning</div>
+                    <!-- <field name="agreement_ids" invisible="1"/>
+                    <div>For services that have expired paid period, an invoice for prolongation will be generated.</div>
+                    <div>If there are no matching services, no invoice will be created.</div>
+                    <footer>
+                        <button name="action_create_prolongation_invoice" string="OK" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer> -->
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>
