@@ -2,17 +2,9 @@
 <odoo>
 
     <menuitem name="Hebrew learning" id="hebrew_learning_base_menu"/>
-    <menuitem name="Words" id="words_menu" parent="hebrew_learning_base_menu" action="words_action" sequence="1"/>
+    <menuitem name="Exercise types" id="exercise_types_menu" parent="hebrew_learning_base_menu" action="exercise_types_action" sequence="1"/>
     <menuitem name="Word groups" id="word_groups_menu" parent="hebrew_learning_base_menu" action="word_groups_action" sequence="2"/>
-    <menuitem name="Exercise types" id="exercise_types_menu" parent="hebrew_learning_base_menu" action="exercise_types_action" sequence="3"/>
+    <menuitem name="Words" id="words_menu" parent="hebrew_learning_base_menu" action="words_action" sequence="3"/>
     <menuitem name="Last exercise date" id="last_exercise_date" groups="base.group_no_one" parent="hebrew_learning_base_menu" action="last_exercise_date_action" sequence="4"/>
-    <!-- <menuitem name="Income" id="income_menu" parent="incomes_menu" action="income_action"/>
-    <menuitem name="Income types" id="income_type_menu" parent="incomes_menu" action="income_type_action"/>
-    <menuitem name="Expenses" id="expense_menu" parent="home_accounting_base_menu" sequence="2"/>
-    <menuitem name="Expenses" id="expenses_menu" parent="expense_menu" action="expenses_action"/>
-    <menuitem name="Expenses types" id="expenses_type_menu" parent="expense_menu" action="expenses_type_action"/>    
-    <menuitem name="Outcome" id="outcome_menu" parent="home_accounting_base_menu" action="outcome_action" sequence="6"/>
-    <menuitem name="Currency exchange" id="currency_exchange_menu" parent="home_accounting_base_menu" action="currency_exchange_action" sequence="5"/>
-    <menuitem name="Test Speed" id="test_speed" parent="home_accounting_base_menu" action="test_speed_action" groups="base.group_no_one" sequence="7"/> -->
     
 </odoo>

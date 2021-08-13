@@ -5,7 +5,7 @@
         <field name="name">Words</field>
         <field name="model">words</field>
         <field name="arch" type="xml">
-            <tree>
+            <tree default_order="translation_word">
                 <field name="hebrew_word"/>
                 <field name="hebrew_word_nikud"/>
                 <field name="pronunciation_word"/>

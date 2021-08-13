@@ -6,7 +6,7 @@
     'author': "Inessa Petrova",
     'category': 'Uncategorized',
     'version': '14.0.1',
-    'depends': ['base'],
+    "depends": ["web", "bus", "base"],
     # This data files will be loaded at the installation (commented because file is not added in this example)
     'data': [
 
@@ -33,6 +33,8 @@
         'wizard/writing_training.xml',
         'wizard/sprint_training.xml',
         'wizard/trainings.xml',
+
+        "views/web_notify.xml"
     ],
     'installable': True,
     'application': True,

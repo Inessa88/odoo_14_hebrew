@@ -11,6 +11,7 @@
                 <field name="exercise_type_id"/>
                 <field name="last_exercise_date"/>
                 <field name="repetition_interval"/>
+                <field name="number_of_times_exercise_is_done"/>
             </tree>
         </field>
     </record>
@@ -25,6 +26,7 @@
                 <field name="exercise_type_id"/>
                 <field name="last_exercise_date"/>
                 <field name="repetition_interval"/>
+                <field name="number_of_times_exercise_is_done"/>
             </form>
         </field>
     </record>

@@ -6,15 +6,122 @@
             <field name="name">wizard.learning.view.form</field>
             <field name="model">wizard_learning</field>
             <field name="arch" type="xml">
-                <form string="Learning">
+                <form string="Learning" create="0" edit="0">
                     <div>Learning</div>
-                    <!-- <field name="agreement_ids" invisible="1"/>
-                    <div>For services that have expired paid period, an invoice for prolongation will be generated.</div>
-                    <div>If there are no matching services, no invoice will be created.</div>
-                    <footer>
-                        <button name="action_create_prolongation_invoice" string="OK" type="object" class="btn-primary"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel"/>
-                    </footer> -->
+                    <br/>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_words_to_train_ids"/>
+                        <field name="number_of_words_to_train"/>
+                    </group>
+
+                    <group  attrs="{'invisible': [('first_question_answered', '=', True)]}">
+                        <group>
+                            <field name="first_word_to_train_id" invisible="1"/>
+                            <field name="first_hebrew_word" invisible="1"/>
+                            <field name="first_hebrew_word_nikud" string="Word"/>
+                            <field name="first_pronunciation_word" string="Pronunciation"/>
+                            <field name="first_translation_word" string="Translation"/>
+                            <field name="first_note" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="first_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <!-- Go to the second word to learn -->
+                        <button name="give_answer"
+                                string="Next word"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_first_answer': True,}"
+                        />
+                    </group>
+                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 2)]}">
+                        <group>
+                            <field name="second_word_to_train_id" invisible="1"/>
+                            <field name="second_hebrew_word" invisible="1"/>
+                            <field name="second_hebrew_word_nikud" string="Word"/>
+                            <field name="second_pronunciation_word" string="Pronunciation"/>
+                            <field name="second_translation_word" string="Translation"/>
+                            <field name="second_note" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="second_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+
+                        <!-- Go to the third word to learn -->
+                        <button name="give_answer"
+                                string="Next word"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_second_answer': True,}"
+                        />
+                    </group>
+                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 3)]}">
+                        <group>
+                            <field name="third_word_to_train_id" invisible="1"/>
+                            <field name="third_hebrew_word" invisible="1"/>
+                            <field name="third_hebrew_word_nikud" string="Word"/>
+                            <field name="third_pronunciation_word" string="Pronunciation"/>
+                            <field name="third_translation_word" string="Translation"/>
+                            <field name="third_note" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="third_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+
+                        <!-- Go to the fourth word to learn -->
+                        <button name="give_answer"
+                                string="Next word"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_third_answer': True,}"
+                        />
+                    </group>
+                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 4)]}">
+                        <group>
+                            <field name="fourth_word_to_train_id" invisible="1"/>
+                            <field name="fourth_hebrew_word" invisible="1"/>
+                            <field name="fourth_hebrew_word_nikud" string="Word"/>
+                            <field name="fourth_pronunciation_word" string="Pronunciation"/>
+                            <field name="fourth_translation_word" string="Translation"/>
+                            <field name="fourth_note" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="fourth_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <!-- Go to the fifth word to learn -->
+                        <button name="give_answer"
+                                string="Next word"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_fourth_answer': True,}"
+                        />
+                    </group>
+                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', False), ('fifth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 5)]}">
+                        <group>
+                            <field name="fifth_word_to_train_id" invisible="1"/>
+                            <field name="fifth_hebrew_word" invisible="1"/>
+                            <field name="fifth_hebrew_word_nikud" string="Word"/>
+                            <field name="fifth_pronunciation_word" string="Pronunciation"/>
+                            <field name="fifth_translation_word" string="Translation"/>
+                            <field name="fifth_note" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="fifth_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <!-- Go to the next exercise -->
+                        <button name="give_answer"
+                                string="Next word"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_fifth_answer': True,}"
+                        />
+                    </group>
                 </form>
             </field>
         </record>

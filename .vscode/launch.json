@@ -14,7 +14,8 @@
                     "remoteRoot": "/mnt/extra-addons", //path to custom addons inside docker
                 }
             ],
-            "logToFile": true
+            "logToFile": true,
+            "justMyCode": false,
         }
     ]
 }

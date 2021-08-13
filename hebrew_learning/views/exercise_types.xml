@@ -22,7 +22,7 @@
                             <div>
                                 <strong><span>There is <field name="number_of_words_to_train"/> word(s) to train.</span></strong>
                             </div>
-                            <field name="words_to_train_ids"/>
+                            <field name="words_to_train_ids" invisible="1"/>
                             <div>
                                 <a href="#" name="start_training" type="object" string="Start training">
                                     <div t-if="record.number_of_words_to_train.raw_value != 0">
