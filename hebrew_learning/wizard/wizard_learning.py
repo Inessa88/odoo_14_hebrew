@@ -63,6 +63,7 @@ class WizardLearning(models.TransientModel):
                 'user_id': uid,
                 'exercise_type_id': initial_learning,
                 'last_exercise_date': today_date,
+                'number_of_times_exercise_is_done': 1,
                 'repetition_interval': '1000000', # 'Never'
             })
             # for other types of exercises we create it with yesterday date
