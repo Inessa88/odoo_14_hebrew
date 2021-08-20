@@ -3743,7 +3743,7 @@
                     <field name="translation_word">О чём?</field>
                     <field name="pronunciation_word">al ma?</field>
                     <field name="hebrew_word_nikud">‬עַל‬ ‫מַה‬</field>
-                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_367.png"/>
+                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_367.png"/> -->
                     <field name="audio">hebrew_learning/static/audio/word_367.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_15'))]"/>
                 </record>
@@ -3763,7 +3763,7 @@
                     <field name="translation_word">Сколько?</field>
                     <field name="pronunciation_word">'kama?</field>
                     <field name="hebrew_word_nikud">‬?‫כַּמָה‬</field>
-                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_369.png"/>
+                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_369.png"/> -->
                     <field name="audio">hebrew_learning/static/audio/word_369.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_15'))]"/>
                 </record>
@@ -4233,7 +4233,7 @@
                     <field name="translation_word">изнутри</field>
                     <field name="pronunciation_word">mibifnim</field>
                     <field name="hebrew_word_nikud">‫מִבִּפנִים‬‬</field>
-                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_415.png"/>
+                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_415.png"/> -->
                     <field name="audio">hebrew_learning/static/audio/word_415.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_17'))]"/>
                 </record>
