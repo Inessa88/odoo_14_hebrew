@@ -34,7 +34,9 @@
                                 <field name="first_pronunciation_word" string="Pronunciation"/>
                                 <field name="first_translation_word" invisible="1"/>
                                 <field name="first_note" invisible="1"/>
-                                <field name="first_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <group>
+                            <field name="first_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
                             <!-- Answers -->
@@ -81,7 +83,12 @@
                             >
                                 <field name="first_question_fifth_answer"/>
                             </button>
-
+                        </group>
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="first_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
                         </group>
                     </group>
 
@@ -93,7 +100,9 @@
                             <field name="second_pronunciation_word" string="Pronunciation"/>
                             <field name="second_translation_word" invisible="1"/>
                             <field name="second_note" invisible="1"/>
-                            <field name="second_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <group>
+                            <field name="second_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
                             <!-- Answers -->
@@ -140,7 +149,12 @@
                             >
                                 <field name="second_question_fifth_answer"/>
                             </button>
-
+                        </group>
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="second_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
                         </group>
                     </group>
 
@@ -152,7 +166,9 @@
                             <field name="third_pronunciation_word" string="Pronunciation"/>
                             <field name="third_translation_word" invisible="1"/>
                             <field name="third_note" invisible="1"/>
-                            <field name="third_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <group>
+                            <field name="third_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
                             <!-- Answers -->
@@ -199,7 +215,12 @@
                             >
                                 <field name="third_question_fifth_answer"/>
                             </button>
-
+                        </group>
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="third_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
                         </group>
                     </group>
 
@@ -211,7 +232,9 @@
                             <field name="fourth_pronunciation_word" string="Pronunciation"/>
                             <field name="fourth_translation_word" invisible="1"/>
                             <field name="fourth_note" invisible="1"/>
-                            <field name="fourth_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <group>
+                            <field name="fourth_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
                             <!-- Answers -->
@@ -258,7 +281,12 @@
                             >
                                 <field name="fourth_question_fifth_answer"/>
                             </button>
-
+                        </group>
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="fourth_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
                         </group>
                     </group>
 
@@ -270,7 +298,9 @@
                             <field name="fifth_pronunciation_word" string="Pronunciation"/>
                             <field name="fifth_translation_word" invisible="1"/>
                             <field name="fifth_note" invisible="1"/>
-                            <field name="fifth_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                        </group>
+                        <group>
+                            <field name="fifth_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
                             <!-- Answers -->
@@ -317,7 +347,12 @@
                             >
                                 <field name="fifth_question_fifth_answer"/>
                             </button>
-
+                        </group>
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="fifth_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
                         </group>
                     </group>
 

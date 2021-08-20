@@ -20,7 +20,7 @@
                         <field name="number_of_words_to_train"/>
                     </group>
 
-                    <group  attrs="{'invisible': [('first_question_answered', '=', True)]}">
+                    <group style="font-size: 150% !important;" attrs="{'invisible': [('first_question_answered', '=', True)]}">
                         <group>
                             <field name="first_word_to_train_id" invisible="1"/>
                             <field name="first_hebrew_word" invisible="1"/>
@@ -30,15 +30,23 @@
                             <field name="first_note" invisible="1"/>
                         </group>
                         <group>
-                            <field name="first_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                            <field name="first_picture" widget='image' nolabel="1"/>
                         </group>
                         <!-- Go to the second word to learn -->
-                        <button name="give_answer"
-                                string="Next word"
-                                class="btn-primary"
-                                type="object"
-                                context="{'given_first_answer': True,}"
-                        />
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="first_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                            <button name="give_answer"
+                                    string="Next word"
+                                    class="btn-primary"
+                                    type="object"
+                                    context="{'given_first_answer': True,}"
+                                    width="300"
+                                    height="54"
+                            />
+                        </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 2)]}">
                         <group>
@@ -50,16 +58,24 @@
                             <field name="second_note" invisible="1"/>
                         </group>
                         <group>
-                            <field name="second_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                            <field name="second_picture" widget='image' nolabel="1"/>
                         </group>
 
                         <!-- Go to the third word to learn -->
-                        <button name="give_answer"
-                                string="Next word"
-                                class="btn-primary"
-                                type="object"
-                                context="{'given_second_answer': True,}"
-                        />
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="second_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                            <button name="give_answer"
+                                    string="Next word"
+                                    class="btn-primary"
+                                    type="object"
+                                    context="{'given_second_answer': True,}"
+                                    width="300"
+                                    height="54"
+                            />
+                        </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 3)]}">
                         <group>
@@ -71,16 +87,24 @@
                             <field name="third_note" invisible="1"/>
                         </group>
                         <group>
-                            <field name="third_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                            <field name="third_picture" widget='image' nolabel="1"/>
                         </group>
 
                         <!-- Go to the fourth word to learn -->
-                        <button name="give_answer"
-                                string="Next word"
-                                class="btn-primary"
-                                type="object"
-                                context="{'given_third_answer': True,}"
-                        />
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="third_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                            <button name="give_answer"
+                                    string="Next word"
+                                    class="btn-primary"
+                                    type="object"
+                                    context="{'given_third_answer': True,}"
+                                    width="300"
+                                    height="54"
+                            />
+                        </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 4)]}">
                         <group>
@@ -92,15 +116,24 @@
                             <field name="fourth_note" invisible="1"/>
                         </group>
                         <group>
-                            <field name="fourth_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                            <field name="fourth_picture" widget='image' nolabel="1"/>
                         </group>
                         <!-- Go to the fifth word to learn -->
-                        <button name="give_answer"
-                                string="Next word"
-                                class="btn-primary"
-                                type="object"
-                                context="{'given_fourth_answer': True,}"
-                        />
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="fourth_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                            <button name="give_answer"
+                                    string="Next word"
+                                    class="btn-primary"
+                                    type="object"
+                                    context="{'given_fourth_answer': True,}"
+                                    width="300"
+                                    height="54"
+                            />
+                        </group>
+
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', False), ('fifth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 5)]}">
                         <group>
@@ -112,15 +145,23 @@
                             <field name="fifth_note" invisible="1"/>
                         </group>
                         <group>
-                            <field name="fifth_picture" widget='image' nolabel="1" style="width: 122.4px; height: 122.4px;"/>
+                            <field name="fifth_picture" widget='image' nolabel="1"/>
                         </group>
                         <!-- Go to the next exercise -->
-                        <button name="give_answer"
-                                string="Next word"
-                                class="btn-primary"
-                                type="object"
-                                context="{'given_fifth_answer': True,}"
-                        />
+                        <group>
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="fifth_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                            <button name="give_answer"
+                                    string="Next word"
+                                    class="btn-primary"
+                                    type="object"
+                                    context="{'given_fifth_answer': True,}"
+                                    width="300"
+                                    height="54"
+                            />
+                        </group>
                     </group>
                 </form>
             </field>

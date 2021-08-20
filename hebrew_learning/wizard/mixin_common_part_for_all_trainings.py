@@ -76,6 +76,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         related='first_word_to_train_id.picture',
     )
 
+    first_audio = fields.Char(
+        string='Audio first',
+        related='first_word_to_train_id.audio',
+    )
+
     # SECOND WORD TO TRAIN BLOCK
     second_word_to_train_id = fields.Many2one(
         string='Second word to train',
@@ -262,3 +267,50 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
             elif record.repetition_interval == '90' and current_number_of_repetitions == 10:
                 data['repetition_interval'] = '183'
             record.write(data)
+
+    @api.model
+    def fields_view_get(self, view_id=None, view_type='form', toolbar=False, submenu=False):
+        """
+        расширяем метод, чтобы убрать ненужные действия из кнопки "действие" на форме и списке заявок на хранение
+        """
+        res = super().fields_view_get(view_id=view_id, view_type=view_type, toolbar=toolbar,
+                                                     submenu=submenu)
+        model = res.get('model')
+        if model and model in (
+            'wizard_learning', 'wizard_sprint_training', 'wizard_translation_word_training',
+            'wizard_word_translation_training', 'wizard_writing_training'
+        ) and view_type == 'form':
+            arch = res.get('arch')
+            if arch:
+                default_first_word_to_train_id = self.env.context.get('default_first_word_to_train_id')
+                if default_first_word_to_train_id:
+                    first_word_to_train = self.env['words'].browse(default_first_word_to_train_id)
+                    if first_word_to_train and first_word_to_train.audio:
+                        arch = arch.replace('first_audio', first_word_to_train.audio)
+                default_second_word_to_train_id = self.env.context.get('default_second_word_to_train_id')
+                if default_second_word_to_train_id:
+                    second_word_to_train = self.env['words'].browse(default_second_word_to_train_id)
+                    if second_word_to_train and second_word_to_train.audio:
+                        arch = arch.replace('second_audio', second_word_to_train.audio)
+                default_third_word_to_train_id = self.env.context.get('default_third_word_to_train_id')
+                if default_third_word_to_train_id:
+                    third_word_to_train = self.env['words'].browse(default_third_word_to_train_id)
+                    if third_word_to_train and third_word_to_train.audio:
+                        arch = arch.replace('third_audio', third_word_to_train.audio)
+                default_fourth_word_to_train_id = self.env.context.get('default_fourth_word_to_train_id')
+                if default_fourth_word_to_train_id:
+                    fourth_word_to_train = self.env['words'].browse(default_fourth_word_to_train_id)
+                    if fourth_word_to_train and fourth_word_to_train.audio:
+                        arch = arch.replace('fourth_audio', fourth_word_to_train.audio)
+                default_fifth_word_to_train_id = self.env.context.get('default_fifth_word_to_train_id')
+                if default_fifth_word_to_train_id:
+                    fifth_word_to_train = self.env['words'].browse(default_fifth_word_to_train_id)
+                    if fifth_word_to_train and fifth_word_to_train.audio:
+                        arch = arch.replace('fifth_audio', fifth_word_to_train.audio)
+
+                res['arch'] = arch
+
+
+        return res
+
+        

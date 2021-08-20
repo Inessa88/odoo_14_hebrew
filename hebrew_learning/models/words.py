@@ -35,6 +35,10 @@ class Words(models.Model):
         string='Image',
     )
 
+    audio = fields.Char(
+        string='Audio',
+    )
+
     word_user = fields.Many2many(
         string='Users who added the word',
         comodel_name='res.users',
