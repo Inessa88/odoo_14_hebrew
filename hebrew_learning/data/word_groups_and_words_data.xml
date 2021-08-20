@@ -12113,12 +12113,8 @@
                     <field name="translation_word">любовь</field>
                     <field name="pronunciation_word">ahava</field>
                     <field name="hebrew_word_nikud">‫אַהֲבָה‬‬</field>
-<<<<<<< HEAD
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1182.png"/> -->
-                    <field name="audio">hebrew_learning/static/audio/word_1182.mp3</field>
-=======
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_1182.png"/>
->>>>>>> d5a2e48703ba3926d0ac93cffa3501246d275b73
+                    <field name="audio">hebrew_learning/static/audio/word_1182.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_59'))]"/>
                 </record>
         
