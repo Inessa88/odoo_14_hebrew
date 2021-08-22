@@ -114,7 +114,7 @@ class WizardSprintTraining(models.TransientModel):
                     'default_fifth_question_answered': True,
                 })
                 self._update_last_exercise_date()
-                return {'type': 'ir.actions.act_window_close'}
+                return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -126,7 +126,7 @@ class WizardSprintTraining(models.TransientModel):
                 })
                 if self.number_of_words_to_train == 4:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -138,7 +138,7 @@ class WizardSprintTraining(models.TransientModel):
                 })
                 if self.number_of_words_to_train == 3:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -150,7 +150,7 @@ class WizardSprintTraining(models.TransientModel):
                 })
                 if self.number_of_words_to_train == 2:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -162,7 +162,7 @@ class WizardSprintTraining(models.TransientModel):
                 })
                 if self.number_of_words_to_train == 1:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
