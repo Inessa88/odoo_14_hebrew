@@ -49,6 +49,13 @@ class Words(models.Model):
         compute='_compute_button_learn_this_word_visible',
     )
 
+    picture_exists = fields.Boolean(
+        string='There is picture for this word',
+        compute='_compute_picture_exists',
+        store=True,
+        default=False,
+    )
+
     def name_get(self):
         # Возвращать название рекорда в форме: "hebrew_word"
         return [(record.id, record.hebrew_word) for record in self]
@@ -83,3 +90,11 @@ class Words(models.Model):
                 record.button_learn_this_word_visible = False
             else:
                 record.button_learn_this_word_visible = True
+
+    @api.depends("picture")
+    def _compute_picture_exists(self):
+        for record in self:
+            if record.picture:
+                record.picture_exists = True
+            else:
+                record.picture_exists = False

@@ -10,7 +10,7 @@
                 <field name="hebrew_word_nikud"/>
                 <field name="pronunciation_word"/>
                 <field name="translation_word"/>
-                <field name="picture" invisible="1"/>
+                <field name="picture_exists" invisible="1"/>
                 <field name="word_user" widget="many2many_tags" invisible="1"/>
                 <field name="button_learn_this_word_visible" invisible="1"/>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
@@ -50,6 +50,16 @@
             <search>
                 <field name="translation_word"/>
                 <field name="hebrew_word"/>
+                <separator />
+                <filter string="No picture"
+                        name="no_picture"
+                        domain="[('picture_exists', '=', False)]"
+                />
+                <separator />
+                <filter string="Words I learn"
+                        name="my_words_in_learning"
+                        domain="[('word_user', 'in', uid)]"
+                />
             </search>
         </field>
     </record>
