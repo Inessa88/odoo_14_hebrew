@@ -59,7 +59,7 @@ class ExerciseTypes(models.Model):
                     # Current date is equal or more than last training date + next training (days)
                     lambda lst_training_record: (lst_training_record.last_exercise_date + relativedelta(
                         days=int(lst_training_record.repetition_interval)
-                    )) <= fields.Date.today()
+                    )) <= fields.Date.context_today(record)
                 ).mapped('word_id')
                 word_to_train_ids_list = words_to_train.ids
                 record.words_to_train_ids = word_to_train_ids_list
