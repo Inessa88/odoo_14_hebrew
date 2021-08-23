@@ -10,6 +10,7 @@
                 <field name="hebrew_word_nikud"/>
                 <field name="pronunciation_word"/>
                 <field name="translation_word"/>
+                <field name="picture" invisible="1"/>
                 <field name="word_user" widget="many2many_tags" invisible="1"/>
                 <field name="button_learn_this_word_visible" invisible="1"/>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"

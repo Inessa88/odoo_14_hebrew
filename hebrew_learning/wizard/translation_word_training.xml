@@ -41,6 +41,7 @@
                             <!-- Answers -->
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     context="{'given_first_answer_number': '1', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
                             >
@@ -49,6 +50,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 2)]}"
                                     context="{'given_first_answer_number': '2', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -58,6 +60,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 3)]}"
                                     context="{'given_first_answer_number': '3', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -67,6 +70,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 4)]}"
                                     context="{'given_first_answer_number': '4', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -76,6 +80,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 5)]}"
                                     context="{'given_first_answer_number': '5', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -106,6 +111,7 @@
                             <!-- Answers -->
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     context="{'given_second_answer_number': '1', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
                             >
@@ -114,6 +120,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 2)]}"
                                     context="{'given_second_answer_number': '2', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -123,6 +130,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 3)]}"
                                     context="{'given_second_answer_number': '3', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -132,6 +140,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 4)]}"
                                     context="{'given_second_answer_number': '4', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -141,6 +150,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 5)]}"
                                     context="{'given_second_answer_number': '5', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -171,6 +181,7 @@
                             <!-- Answers -->
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     context="{'given_third_answer_number': '1', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
                             >
@@ -179,6 +190,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 2)]}"
                                     context="{'given_third_answer_number': '2', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -188,6 +200,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 3)]}"
                                     context="{'given_third_answer_number': '3', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -197,6 +210,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 4)]}"
                                     context="{'given_third_answer_number': '4', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -206,6 +220,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 5)]}"
                                     context="{'given_third_answer_number': '5', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -236,6 +251,7 @@
                             <!-- Answers -->
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     context="{'given_fourth_answer_number': '1', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
                             >
@@ -244,6 +260,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 2)]}"
                                     context="{'given_fourth_answer_number': '2', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -253,6 +270,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 3)]}"
                                     context="{'given_fourth_answer_number': '3', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -262,6 +280,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 4)]}"
                                     context="{'given_fourth_answer_number': '4', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -271,6 +290,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 5)]}"
                                     context="{'given_fourth_answer_number': '5', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -301,6 +321,7 @@
                             <!-- Answers -->
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     context="{'given_fifth_answer_number': '1', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
                             >
@@ -309,6 +330,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 2)]}"
                                     context="{'given_fifth_answer_number': '2', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -318,6 +340,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 3)]}"
                                     context="{'given_fifth_answer_number': '3', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -327,6 +350,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 4)]}"
                                     context="{'given_fifth_answer_number': '4', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
@@ -336,6 +360,7 @@
 
                             <button name="give_answer"
                                     class="btn-primary"
+                                    style="font-size: 150%"
                                     type="object"
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 5)]}"
                                     context="{'given_fifth_answer_number': '5', 'return_action_name': 'hebrew_learning.wizard_translation_word_training_action',}"
