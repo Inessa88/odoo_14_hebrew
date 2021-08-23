@@ -205,7 +205,7 @@
                                     attrs="{'invisible': [('number_of_words_to_train', '&lt;', 2)]}"
                                     context="{'given_fifth_answer_number': '2',}"
                             >
-                                <field name="first_question_second_answer"/>
+                                <field name="fifth_question_second_answer"/>
                             </button>
                         </group>
                         <group>
