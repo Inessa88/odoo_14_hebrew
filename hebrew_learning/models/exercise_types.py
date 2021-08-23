@@ -16,7 +16,7 @@ class ExerciseTypes(models.Model):
     )
     
     exercise_image  = fields.Binary(
-        string='Exercise mage',
+        string='Exercise image',
     )
 
     words_to_train_ids = fields.Many2many(
@@ -66,7 +66,7 @@ class ExerciseTypes(models.Model):
                 record.number_of_words_to_train = len(word_to_train_ids_list)
 
     def update_context_for_translation_exercises(self, five_words_to_train, action_context):
-        number_of_words_to_train = len(five_words_to_train)
+        number_of_words_to_train = len([n for n in five_words_to_train if n != False])
         first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train, fifth_word_to_train = \
             False, False, False, False, False
         # No words to train case is covered in xml view part (<div t-if="record.number_of_words_to_train.raw_value != 0">)
@@ -121,10 +121,10 @@ class ExerciseTypes(models.Model):
             # Hebrew word --> translation training
             if action_context.get('default_exercise_type_id') == self.env.ref('hebrew_learning.word_translation').id or self.id == self.env.ref('hebrew_learning.word_translation').id:
                 # There is only one word to train - no need to shuffle list of words to train
-                first_question_first_answer = self.words_to_train_ids.translation_word
+                first_question_first_answer = self.env['words'].browse(five_words_to_train[0]).translation_word
             # translation --> Hebrew word training
             elif action_context.get('default_exercise_type_id') == self.env.ref('hebrew_learning.translation_word').id or self.id == self.env.ref('hebrew_learning.translation_word').id:
-                first_question_first_answer = self.words_to_train_ids.hebrew_word_nikud
+                first_question_first_answer = self.env['words'].browse(five_words_to_train[0]).hebrew_word_nikud
         elif number_of_words_to_train == 2:
             # FIRST QUESTION
             random.shuffle(five_words_to_train) # five_words_to_train - list of maximum 5 ids of words
@@ -412,7 +412,7 @@ class ExerciseTypes(models.Model):
         if number_of_words_to_train == 1:
             first_right_answer_number = '1'
             # There is only one word to train - no need to shuffle list of words to train
-            first_question_first_answer = self.words_to_train_ids.translation_word
+            first_question_first_answer = self.words_to_train_ids[0].translation_word
 
         elif number_of_words_to_train == 2: # there is only 2 words in five_words_to_train
             # FIRST QUESTION

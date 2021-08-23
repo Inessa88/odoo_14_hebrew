@@ -32,6 +32,7 @@
         'wizard/translation_word_training.xml',
         'wizard/writing_training.xml',
         'wizard/sprint_training.xml',
+        'wizard/training_finished.xml',
         'wizard/trainings.xml',
 
         "views/web_notify.xml"

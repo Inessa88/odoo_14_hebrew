@@ -313,4 +313,9 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
 
         return res
 
+    def _return_success_action(self):
+        action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_training_finished_action')
+        # Hide edit buttons
+        action['flags'] = {'mode': 'readonly'}
+        return action
         

@@ -44,6 +44,11 @@ class Words(models.Model):
         comodel_name='res.users',
     )
 
+    button_learn_this_word_visible = fields.Boolean(
+        string='Button "Learn this word" is visible',
+        compute='_compute_button_learn_this_word_visible',
+    )
+
     def name_get(self):
         # Возвращать название рекорда в форме: "hebrew_word"
         return [(record.id, record.hebrew_word) for record in self]
@@ -69,3 +74,12 @@ class Words(models.Model):
     def learn_this_word(self):
         for word in self:
             word.word_user = [(4, self.env.uid)]
+
+    def _compute_button_learn_this_word_visible(self):
+        # Current user id
+        uid = self.env.uid
+        for record in self:
+            if uid in record.word_user.ids:
+                record.button_learn_this_word_visible = False
+            else:
+                record.button_learn_this_word_visible = True

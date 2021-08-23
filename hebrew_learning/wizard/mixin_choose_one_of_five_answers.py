@@ -222,7 +222,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                 self._update_last_exercise_date()
                 if 'initial_learning' in self.env.context:
                     return self._return_next_action()
-                return {'type': 'ir.actions.act_window_close'}
+                return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -236,7 +236,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                     self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -250,7 +250,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                     self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
 
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
@@ -265,7 +265,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                     self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 
@@ -279,7 +279,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                     self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
 

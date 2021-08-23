@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <record id="wizard_training_finished_view_form" model="ir.ui.view">
+            <field name="name">wizard.training.finished.view.form</field>
+            <field name="model">wizard_training_finished</field>
+            <field name="arch" type="xml">
+                <form string="Training finished" create="0" edit="0">
+                    <div style="font-size: 300% !important;">You finished this training! Congratulations!!!</div>
+
+                    <field name="success_image" widget='image'/>
+
+                    <group invisible="1">
+                            <audio controls="1" type="audio/mpeg" 
+                                   onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 100)" 
+                            >
+                                <source src="hebrew_learning/static/audio/success_audio.mp3"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                    </group>
+
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

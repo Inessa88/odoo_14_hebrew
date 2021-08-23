@@ -10,7 +10,10 @@
                 <field name="hebrew_word_nikud"/>
                 <field name="pronunciation_word"/>
                 <field name="translation_word"/>
+                <field name="word_user" widget="many2many_tags" invisible="1"/>
+                <field name="button_learn_this_word_visible" invisible="1"/>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
+                        attrs="{'invisible': [('button_learn_this_word_visible', '=', False)]}"
                 />
             </tree>
         </field>
@@ -30,8 +33,10 @@
                     <field name="picture" widget='image'/>
                     <field name="word_user" widget="many2many_tags"/>
                     <field name="group_ids" widget="many2many_tags"/>
+                    <field name="button_learn_this_word_visible" invisible="1"/>
                 </group>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
+                        attrs="{'invisible': [('button_learn_this_word_visible', '=', False)]}"
                 />
             </form>
         </field>
@@ -42,8 +47,8 @@
         <field name="model">words</field>
         <field name="arch" type="xml">
             <search>
-                <field name="hebrew_word"/>
                 <field name="translation_word"/>
+                <field name="hebrew_word"/>
             </search>
         </field>
     </record>

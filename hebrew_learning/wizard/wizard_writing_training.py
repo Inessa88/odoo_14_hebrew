@@ -61,7 +61,7 @@ class WizardWritingTraining(models.TransientModel):
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })
-                return {'type': 'ir.actions.act_window_close'}
+                return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
 
@@ -74,7 +74,7 @@ class WizardWritingTraining(models.TransientModel):
                 # check if all words are learned
                 if self.number_of_words_to_train == 4:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
         elif self.env.context.get('given_third_answer'):
@@ -86,7 +86,7 @@ class WizardWritingTraining(models.TransientModel):
                 # check if all words are learned
                 if self.number_of_words_to_train == 3:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
         elif self.env.context.get('given_second_answer'):
@@ -98,7 +98,7 @@ class WizardWritingTraining(models.TransientModel):
                 # check if all words are learned
                 if self.number_of_words_to_train == 2:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
         else: # there is self.env.context.get('given_first_answer')
@@ -110,7 +110,7 @@ class WizardWritingTraining(models.TransientModel):
                 # check if all words are learned
                 if self.number_of_words_to_train == 1:
                     self._update_last_exercise_date()
-                    return {'type': 'ir.actions.act_window_close'}
+                    return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
 
@@ -123,8 +123,8 @@ class WizardWritingTraining(models.TransientModel):
         """
         # It is m2o field
         right_answer = self[field_prefix + 'word_to_train_id'].hebrew_word
-        right_answer_cleaned = right_answer.replace('\u202c', '').replace('\u202b', '')
+        right_answer_cleaned = right_answer.replace('\u202c', '').replace('\u202b', '') if right_answer else ''
         # It is Char field
         current_answer = self[field_prefix + 'word_typing']
-        current_answer_cleaned = current_answer.replace('\u202c', '').replace('\u202b', '')
+        current_answer_cleaned = current_answer.replace('\u202c', '').replace('\u202b', '') if current_answer else ''
         return right_answer_cleaned == current_answer_cleaned
