@@ -238,11 +238,10 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
                 ('exercise_type_id', '=', self.exercise_type_id.id),
                 ('word_id', 'in', self.all_words_to_train_ids.ids),
             ])
-        today = fields.Date.today()
         for record in update_exercise_date_records:
             current_number_of_repetitions = record.number_of_times_exercise_is_done + 1
             data = {
-                'last_exercise_date': today,
+                'last_exercise_date': fields.Date.context_today(record),
                 'number_of_times_exercise_is_done': current_number_of_repetitions,
             }
             # ('1', 'In a day'), X 5 TIMES => SUM TIMES: 5

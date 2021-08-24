@@ -30,6 +30,16 @@
         </field>
     </record>
 
+    <record id="word_groups_view_search" model="ir.ui.view">
+        <field name="name">Word Groups Search</field>
+        <field name="model">word_groups</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="word_group_name"/>
+            </search>
+        </field>
+    </record>
+
     <record id='word_groups_action' model='ir.actions.act_window'>
         <field name="name">Word groups</field>
         <field name="res_model">word_groups</field>
