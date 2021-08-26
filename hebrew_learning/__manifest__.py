@@ -17,13 +17,8 @@
         'views/word_groups.xml',
         'views/exercise_types.xml',
         'views/last_exercise_date.xml',
-        # 'views/outcome.xml',
-        # 'views/currency_exchange.xml',
-        # 'views/test_speed.xml',
-
         'views/hebrew_learning.xml',
                 
-        # 'data/res_user_data.xml',
         'data/exercise_types_data.xml',
         'data/word_groups_and_words_data.xml',
 

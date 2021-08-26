@@ -57,10 +57,19 @@
                             </button>
                         </group>
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="first_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
+                            <div conspan="2">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="first_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('first_picture_present', '=', False)]}">
+                                <field name="first_picture_present" widget='image' nolabel="1"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="first_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 2)]}">
@@ -95,10 +104,19 @@
                             </button>
                         </group>
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="second_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
+                            <div conspan="2">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="second_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('second_picture_present', '=', False)]}">
+                                <field name="second_picture_present" widget='image' nolabel="1"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="second_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 3)]}">
@@ -133,10 +151,19 @@
                             </button>
                         </group>
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="third_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
+                            <div conspan="2">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="third_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('third_picture_present', '=', False)]}">
+                                <field name="third_picture_present" widget='image' nolabel="1"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="third_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 4)]}">
@@ -171,10 +198,19 @@
                             </button>
                         </group>
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="fourth_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
+                            <div conspan="2">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fourth_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('fourth_picture_present', '=', False)]}">
+                                <field name="fourth_picture_present" widget='image' nolabel="1"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fourth_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', False), ('fifth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 5)]}">
@@ -209,10 +245,19 @@
                             </button>
                         </group>
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="fifth_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
+                            <div conspan="2">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fifth_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('fifth_picture_present', '=', False)]}">
+                                <field name="fifth_picture_present" widget='image' nolabel="1"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fifth_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </group>
                     </group>
                 </form>

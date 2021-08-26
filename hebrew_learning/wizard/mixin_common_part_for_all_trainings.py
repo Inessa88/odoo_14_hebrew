@@ -76,6 +76,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         related='first_word_to_train_id.picture',
     )
 
+    first_picture_present = fields.Binary(
+        string='Image first present tense',
+        related='first_word_to_train_id.picture_present',
+    )
+
     first_audio = fields.Char(
         string='Audio first',
         related='first_word_to_train_id.audio',
@@ -117,6 +122,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         related='second_word_to_train_id.picture',
     )
 
+    second_picture_present = fields.Binary(
+        string='Image second present tense',
+        related='second_word_to_train_id.picture_present',
+    )
+
     # THIRD WORD TO TRAIN BLOCK
     third_word_to_train_id = fields.Many2one(
         string='Third word to train',
@@ -151,6 +161,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
     third_picture = fields.Binary(
         string='Image third',
         related='third_word_to_train_id.picture',
+    )
+
+    third_picture_present = fields.Binary(
+        string='Image third present tense',
+        related='third_word_to_train_id.picture_present',
     )
 
     # FOURTH WORD TO TRAIN BLOCK
@@ -189,6 +204,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         related='fourth_word_to_train_id.picture',
     )
 
+    fourth_picture_present = fields.Binary(
+        string='Image fourth present tense',
+        related='fourth_word_to_train_id.picture_present',
+    )
+
     # FIFTH WORD TO TRAIN BLOCK
     fifth_word_to_train_id = fields.Many2one(
         string='Fifth word to train',
@@ -223,6 +243,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
     fifth_picture = fields.Binary(
         string='Image fifth',
         related='fifth_word_to_train_id.picture',
+    )
+
+    fifth_picture_present = fields.Binary(
+        string='Image fifth present tense',
+        related='fifth_word_to_train_id.picture_present',
     )
 
     all_words_to_train_ids = fields.Many2many(
@@ -284,28 +309,43 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
                 default_first_word_to_train_id = self.env.context.get('default_first_word_to_train_id')
                 if default_first_word_to_train_id:
                     first_word_to_train = self.env['words'].browse(default_first_word_to_train_id)
-                    if first_word_to_train and first_word_to_train.audio:
-                        arch = arch.replace('first_audio', first_word_to_train.audio)
+                    if first_word_to_train:
+                        if first_word_to_train.audio_present:
+                            arch = arch.replace('first_audio_present', first_word_to_train.audio_present)
+                        if first_word_to_train.audio:
+                            arch = arch.replace('first_audio', first_word_to_train.audio)
                 default_second_word_to_train_id = self.env.context.get('default_second_word_to_train_id')
                 if default_second_word_to_train_id:
                     second_word_to_train = self.env['words'].browse(default_second_word_to_train_id)
-                    if second_word_to_train and second_word_to_train.audio:
-                        arch = arch.replace('second_audio', second_word_to_train.audio)
+                    if second_word_to_train:
+                        if second_word_to_train.audio_present:
+                            arch = arch.replace('second_audio_present', second_word_to_train.audio_present)
+                        if second_word_to_train.audio:
+                            arch = arch.replace('second_audio', second_word_to_train.audio)
                 default_third_word_to_train_id = self.env.context.get('default_third_word_to_train_id')
                 if default_third_word_to_train_id:
                     third_word_to_train = self.env['words'].browse(default_third_word_to_train_id)
-                    if third_word_to_train and third_word_to_train.audio:
-                        arch = arch.replace('third_audio', third_word_to_train.audio)
+                    if third_word_to_train:
+                        if third_word_to_train.audio_present:
+                            arch = arch.replace('third_audio_present', third_word_to_train.audio_present)
+                        if third_word_to_train.audio:
+                            arch = arch.replace('third_audio', third_word_to_train.audio)
                 default_fourth_word_to_train_id = self.env.context.get('default_fourth_word_to_train_id')
                 if default_fourth_word_to_train_id:
                     fourth_word_to_train = self.env['words'].browse(default_fourth_word_to_train_id)
-                    if fourth_word_to_train and fourth_word_to_train.audio:
-                        arch = arch.replace('fourth_audio', fourth_word_to_train.audio)
+                    if fourth_word_to_train:
+                        if fourth_word_to_train.audio_present:
+                            arch = arch.replace('fourth_audio_present', fourth_word_to_train.audio_present)
+                        if fourth_word_to_train.audio:
+                            arch = arch.replace('fourth_audio', fourth_word_to_train.audio)
                 default_fifth_word_to_train_id = self.env.context.get('default_fifth_word_to_train_id')
                 if default_fifth_word_to_train_id:
                     fifth_word_to_train = self.env['words'].browse(default_fifth_word_to_train_id)
-                    if fifth_word_to_train and fifth_word_to_train.audio:
-                        arch = arch.replace('fifth_audio', fifth_word_to_train.audio)
+                    if fifth_word_to_train:
+                        if fifth_word_to_train.audio_present:
+                            arch = arch.replace('fifth_audio_present', fifth_word_to_train.audio_present)
+                        if fifth_word_to_train.audio:
+                            arch = arch.replace('fifth_audio', fifth_word_to_train.audio)
 
                 res['arch'] = arch
 
