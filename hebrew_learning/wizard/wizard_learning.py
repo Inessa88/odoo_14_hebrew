@@ -46,7 +46,7 @@ class WizardLearning(models.TransientModel):
         return next_exercise_action
 
     def _create_last_exercise_date_for_all_trainings(self):
-        today_date = fields.Date.today()
+        today_date = fields.Date.context_today(self)
         yesterday_date = today_date + relativedelta(days=-1)
         uid = self.env.uid
         # exercise_type_id for initial learing
