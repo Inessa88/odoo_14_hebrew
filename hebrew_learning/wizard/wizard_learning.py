@@ -31,6 +31,7 @@ class WizardLearning(models.TransientModel):
             'default_second_question_answered': False,
             'default_third_question_answered': False,
             'default_fourth_question_answered': False,
+            'default_fifth_question_answered': False,
             'given_first_answer': False,
             'given_second_answer': False,
             'given_third_answer': False,
