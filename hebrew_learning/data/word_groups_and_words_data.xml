@@ -2090,6 +2090,8 @@
                     <field name="hebrew_word_nikud">לְהַכִּיר‬ ‫אֶת‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_203.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_203.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_203_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_203_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_10'))]"/>
                 </record>
         
@@ -2732,6 +2734,8 @@
                     <field name="hebrew_word_nikud">‬‫לְהָבִין‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_265.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_265.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_265_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_265_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_12'))]"/>
                 </record>
         
