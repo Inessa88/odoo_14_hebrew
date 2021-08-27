@@ -55,6 +55,10 @@
                         name="no_picture"
                         domain="[('picture_exists', '=', False)]"
                 />
+                <filter string="No audio"
+                        name="no_audio"
+                        domain="[('audio', '=', False)]"
+                />
                 <separator />
                 <filter string="Words I learn"
                         name="my_words_in_learning"

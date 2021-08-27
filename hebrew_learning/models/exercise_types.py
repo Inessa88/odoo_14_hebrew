@@ -66,7 +66,8 @@ class ExerciseTypes(models.Model):
                 record.number_of_words_to_train = len(word_to_train_ids_list)
 
     def update_context_for_translation_exercises(self, five_words_to_train, action_context):
-        number_of_words_to_train = len([n for n in five_words_to_train if n != False])
+        five_words_to_train = [n for n in five_words_to_train if n != False]
+        number_of_words_to_train = len(five_words_to_train)
         first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train, fifth_word_to_train = \
             False, False, False, False, False
         # No words to train case is covered in xml view part (<div t-if="record.number_of_words_to_train.raw_value != 0">)

@@ -35,8 +35,16 @@ class Words(models.Model):
         string='Image',
     )
 
+    picture_present = fields.Binary(
+        string='Image present tense',
+    )
+
     audio = fields.Char(
         string='Audio',
+    )
+
+    audio_present = fields.Char(
+        string='Audio present tense',
     )
 
     word_user = fields.Many2many(

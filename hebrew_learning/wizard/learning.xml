@@ -34,18 +34,29 @@
                         </group>
                         <!-- Go to the second word to learn -->
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="first_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
-                            <button name="give_answer"
+                            <div colspan="4">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="first_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('first_picture_present', '=', False)]}">
+                                <field name="first_picture_present" widget='image' nolabel="1" style="width:150%"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="first_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div>
+                                <button name="give_answer"
                                     string="Next word"
                                     class="btn-primary"
                                     type="object"
                                     context="{'given_first_answer': True,}"
                                     width="300"
                                     height="54"
-                            />
+                                />
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 2)]}">
@@ -63,18 +74,29 @@
 
                         <!-- Go to the third word to learn -->
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="second_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
-                            <button name="give_answer"
+                            <div colspan="4">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="second_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('second_picture_present', '=', False)]}">
+                                <field name="second_picture_present" widget='image' nolabel="1" style="width:150%"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="second_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div>
+                                <button name="give_answer"
                                     string="Next word"
                                     class="btn-primary"
                                     type="object"
                                     context="{'given_second_answer': True,}"
                                     width="300"
                                     height="54"
-                            />
+                                />
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 3)]}">
@@ -92,18 +114,29 @@
 
                         <!-- Go to the fourth word to learn -->
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="third_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
-                            <button name="give_answer"
+                            <div colspan="4">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="third_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('third_picture_present', '=', False)]}">
+                                <field name="third_picture_present" widget='image' nolabel="1" style="width:150%"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="third_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div>
+                                <button name="give_answer"
                                     string="Next word"
                                     class="btn-primary"
                                     type="object"
                                     context="{'given_third_answer': True,}"
                                     width="300"
                                     height="54"
-                            />
+                                />
+                            </div>
                         </group>
                     </group>
                     <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 4)]}">
@@ -120,18 +153,29 @@
                         </group>
                         <!-- Go to the fifth word to learn -->
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="fourth_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
-                            <button name="give_answer"
+                            <div colspan="4">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fourth_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('fourth_picture_present', '=', False)]}">
+                                <field name="fourth_picture_present" widget='image' nolabel="1" style="width:150%"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fourth_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div>
+                                <button name="give_answer"
                                     string="Next word"
                                     class="btn-primary"
                                     type="object"
                                     context="{'given_fourth_answer': True,}"
                                     width="300"
                                     height="54"
-                            />
+                                />
+                            </div>
                         </group>
 
                     </group>
@@ -149,18 +193,29 @@
                         </group>
                         <!-- Go to the next exercise -->
                         <group>
-                            <audio controls="1" type="audio/mpeg">
-                                <source src="fifth_audio"/>
-                                Your browser does not support the audio element.
-                            </audio>
-                            <button name="give_answer"
+                            <div colspan="4">
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fifth_audio"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div colspan="4" attrs="{'invisible': [('fifth_picture_present', '=', False)]}">
+                                <field name="fifth_picture_present" widget='image' nolabel="1" style="width:150%"/>
+                                <audio controls="1" type="audio/mpeg">
+                                    <source src="fifth_audio_present"/>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div>
+                                <button name="give_answer"
                                     string="Next word"
                                     class="btn-primary"
                                     type="object"
                                     context="{'given_fifth_answer': True,}"
                                     width="300"
                                     height="54"
-                            />
+                                />
+                            </div>
                         </group>
                     </group>
                 </form>
