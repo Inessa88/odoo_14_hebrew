@@ -109,7 +109,8 @@ class WizardSprintTraining(models.TransientModel):
         action['context'] = self.env.context.copy()
         if 'given_fifth_answer_number' in self.env.context:
             if self.env.context.get('given_fifth_answer_number') == self.fifth_right_answer_number:
-                self.env.user.notify_success(message='Success')
+                # No notification for last question: interfere to click on close wizard on success wizard on small screens
+                # self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })

@@ -82,7 +82,8 @@ class WizardLearning(models.TransientModel):
         action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_learning_action')
         action['context'] = self.env.context.copy()
         if 'given_fifth_answer' in self.env.context:
-            self.env.user.notify_success(message='Success')
+            # No notification for last question: interfere to click on close wizard on success wizard on small screens
+            # self.env.user.notify_success(message='Success')
             self._create_last_exercise_date_for_all_trainings()
             return self._return_next_action()
 
