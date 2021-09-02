@@ -27750,8 +27750,8 @@
             
                 <record id="word_2702" model="words">
                     <field name="translation_word">искусство</field>
-                    <field name="pronunciation_word">amanut</field>
-                    <field name="hebrew_word_nikud">‫אָמָנוּת‬‬</field>
+                    <field name="pronunciation_word">omanut</field>
+                    <field name="hebrew_word_nikud">אוֹמָנוּת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_2702.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2702.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_138'))]"/>
