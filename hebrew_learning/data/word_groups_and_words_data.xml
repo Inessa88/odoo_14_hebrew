@@ -37227,8 +37227,8 @@
 
                 <record id="word_3634" model="words">
                     <field name="translation_word">атмосфера (романтическая, праздника и т.д.)</field>
-                    <field name="pronunciation_word">aira</field>
-                    <field name="hebrew_word_nikud">אֲוִירָה</field>
+                    <field name="pronunciation_word">avira</field>
+                    <field name="hebrew_word_nikud">אֲווִירָה</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3634.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3634.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_169'))]"/>
