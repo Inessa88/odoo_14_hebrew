@@ -30,6 +30,19 @@ class ExerciseTypes(models.Model):
         compute='_compute_words_to_train',
     )
 
+    button_repeat_all_words_visible = fields.Boolean(
+        string='Button "Repeat all words" is visible',
+        compute='_compute_button_repeat_all_words_visible',
+    )
+
+    def _compute_button_repeat_all_words_visible(self):
+        initial_learning_training = self.env.ref('hebrew_learning.learning').id
+        for record in self:
+            if record.id == initial_learning_training:
+                record.button_repeat_all_words_visible = False
+            else:
+                record.button_repeat_all_words_visible = True
+
     def _compute_words_to_train(self):
         # Current user id
         uid = self.env.uid
@@ -673,7 +686,10 @@ class ExerciseTypes(models.Model):
             False, False, False, False, False
         number_of_words_to_train = len(five_words_to_train)
         # No words to train case is covered in xml view part (<div t-if="record.number_of_words_to_train.raw_value != 0">)
-        if number_of_words_to_train == 1:
+        # but we can come here with 0 words to learn on Repeat all words training
+        if number_of_words_to_train == 0:
+            return self._return_success_action()
+        elif number_of_words_to_train == 1:
             first_word_to_train = five_words_to_train[0]
         elif number_of_words_to_train == 2:
             first_word_to_train, second_word_to_train = five_words_to_train[0], five_words_to_train[1]
@@ -712,6 +728,11 @@ class ExerciseTypes(models.Model):
             'default_fifth_word_to_train_id': fifth_word_to_train,
             # Number of words to train
             'default_number_of_words_to_train': number_of_words_to_train,
+            'given_first_answer_number': '',
+            'given_second_answer_number': '',
+            'given_third_answer_number': '',
+            'given_fourth_answer_number': '',
+            'given_fifth_answer_number': '',
         }
 
         # Additional context for translation trainings
@@ -730,3 +751,12 @@ class ExerciseTypes(models.Model):
             action['flags'] = {'mode': 'readonly'}
 
         return action    
+
+    def repeat_all_words(self):
+        return self.start_training()
+
+    def _return_success_action(self):
+        action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_training_finished_action')
+        # Hide edit buttons
+        action['flags'] = {'mode': 'readonly'}
+        return action

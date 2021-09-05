@@ -62,6 +62,9 @@ class WizardWritingTraining(models.TransientModel):
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })
+                # Repeat all words training
+                if 'repeat_all_words' in self.env.context:
+                    return self.exercise_type_id.start_training()
                 return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')

@@ -10,6 +10,7 @@
                 <field name="exercise_image"/>
                 <field name="words_to_train_ids"/>
                 <field name="number_of_words_to_train"/>
+                <field name="button_repeat_all_words_visible"/>
                 <templates>
                     <t t-name="kanban-box">
                         <div t-attf-class="oe_kanban_card">
@@ -24,13 +25,24 @@
                             </div>
                             <field name="words_to_train_ids" invisible="1"/>
                             <div>
-                                <a href="#" name="start_training" type="object" string="Start training">
-                                    <div t-if="record.number_of_words_to_train.raw_value != 0">
-                                        <div class="o_primary">
-                                            <strong><span>START TRAINING</span></strong>
-                                        </div>
+                                <div t-if="record.number_of_words_to_train.raw_value != 0">
+                                    <div>
+                                        <a href="#" name="start_training" type="object" string="Start training">
+                                            <div class="o_primary">
+                                                <strong><span>START TRAINING</span></strong>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
+                                    <div t-if="record.button_repeat_all_words_visible.raw_value">
+                                        <a href="#" name="repeat_all_words" type="object" string="Repeat all words"
+                                           context="{'repeat_all_words': True}"
+                                        >
+                                            <div class="o_primary">
+                                                <strong><span>REPEAT ALL WORDS</span></strong>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </t>
