@@ -733,6 +733,11 @@ class ExerciseTypes(models.Model):
             'given_third_answer_number': '',
             'given_fourth_answer_number': '',
             'given_fifth_answer_number': '',
+            'given_first_answer': '',
+            'given_second_answer': '',
+            'given_third_answer': '',
+            'given_fourth_answer': '',
+            'given_fifth_answer': '',
         }
 
         # Additional context for translation trainings

@@ -9,6 +9,7 @@
                 <form string="Word -> translation training" create="0" edit="0">
                     <div>Word -> translation training</div>
                     <br/>
+                    <strong><span>There is <field name="number_of_words_left_to_train"/> word(s) left to train.</span></strong>
                     <group invisible="1">
                         <field name="exercise_type_id"/>
                         <field name="first_question_answered"/>

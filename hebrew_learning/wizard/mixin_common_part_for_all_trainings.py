@@ -19,6 +19,11 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         ondelete='cascade',
     )
 
+    number_of_words_left_to_train = fields.Integer(
+        string='Number of words left to train',
+        related='exercise_type_id.number_of_words_to_train',
+    )
+
     # ANSWERED QUESTIONS BLOCK
     first_question_answered = fields.Boolean(
         string='First question answered',
