@@ -57,8 +57,9 @@ class WizardWritingTraining(models.TransientModel):
         if self.env.context.get('given_fifth_answer'):
             if self._test_typing_is_right('fifth_'):
                 self._update_last_exercise_date()
-                # No notification for last question: interfere to click on close wizard on success wizard on small screens
-                # self.env.user.notify_success(message='Success')
+                # Notification for last question: interfere to click on close wizard on success wizard on small screens
+                # Can be used Repeat all words option then!
+                self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })

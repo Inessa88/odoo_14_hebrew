@@ -81,13 +81,14 @@ class WizardLearning(models.TransientModel):
     def give_answer(self):
         action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_learning_action')
         action['context'] = self.env.context.copy()
-        if 'given_fifth_answer' in self.env.context:
-            # No notification for last question: interfere to click on close wizard on success wizard on small screens
-            # self.env.user.notify_success(message='Success')
+        if self.env.context.get('given_fifth_answer'):
+            # Notification for last question: interfere to click on close wizard on success wizard on small screens
+            # Can be used Repeat all words option then!
+            self.env.user.notify_success(message='Success')
             self._create_last_exercise_date_for_all_trainings()
             return self._return_next_action()
 
-        elif 'given_fourth_answer' in self.env.context:
+        elif self.env.context.get('given_fourth_answer'):
             self.env.user.notify_success(message='Success')
             # check if all words are learned
             if self.number_of_words_to_train == 4:
@@ -97,7 +98,7 @@ class WizardLearning(models.TransientModel):
                 action['context'].update({
                     'default_fourth_question_answered': True,
                 })
-        elif 'given_third_answer' in self.env.context:
+        elif self.env.context.get('given_third_answer'):
             self.env.user.notify_success(message='Success')
             # check if all words are learned
             if self.number_of_words_to_train == 3:
@@ -107,7 +108,7 @@ class WizardLearning(models.TransientModel):
                 action['context'].update({
                     'default_third_question_answered': True,
                 })
-        elif 'given_second_answer' in self.env.context:
+        elif self.env.context.get('given_second_answer'):
             self.env.user.notify_success(message='Success')
             # check if all words are learned
             if self.number_of_words_to_train == 2:

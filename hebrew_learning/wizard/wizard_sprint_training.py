@@ -109,8 +109,9 @@ class WizardSprintTraining(models.TransientModel):
         action['context'] = self.env.context.copy()
         if self.env.context.get('given_fifth_answer_number'):
             if self.env.context.get('given_fifth_answer_number') == self.fifth_right_answer_number:
-                # No notification for last question: interfere to click on close wizard on success wizard on small screens
-                # self.env.user.notify_success(message='Success')
+                # Notification for last question: interfere to click on close wizard on success wizard on small screens
+                # Can be used Repeat all words option then!
+                self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })

@@ -86,6 +86,11 @@ class Words(models.Model):
                 values['hebrew_word'] = self.CleanNikkudFromHebrew(values.get('hebrew_word_nikud'))
         return super().create(vals_list)
 
+    def write(self, vals):
+        if vals.get('hebrew_word_nikud'):
+            vals['hebrew_word'] = self.CleanNikkudFromHebrew(vals.get('hebrew_word_nikud'))
+        return super().write(vals)
+
     def learn_this_word(self):
         for word in self:
             word.word_user = [(4, self.env.uid)]
