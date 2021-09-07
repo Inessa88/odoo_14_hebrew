@@ -10,6 +10,8 @@
                 <field name="exercise_image"/>
                 <field name="words_to_train_ids"/>
                 <field name="number_of_words_to_train"/>
+                <field name="words_to_train_tomorrow_ids"/>
+                <field name="number_of_words_to_train_tomorrow"/>
                 <field name="button_repeat_all_words_visible"/>
                 <templates>
                     <t t-name="kanban-box">
@@ -34,11 +36,22 @@
                                         </a>
                                     </div>
                                     <div t-if="record.button_repeat_all_words_visible.raw_value">
+                                        <br/>
                                         <a href="#" name="repeat_all_words" type="object" string="Repeat all words"
                                            context="{'repeat_all_words': True}"
                                         >
                                             <div class="o_primary">
                                                 <strong><span>REPEAT ALL WORDS</span></strong>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div t-if="record.number_of_words_to_train_tomorrow.raw_value != 0">
+                                    <br/>
+                                    <div>
+                                        <a href="#" name="add_words_to_learn_from_tomorrow" type="object" string="Add words from tomorrow">
+                                            <div class="o_primary">
+                                                <strong><span>I FEEL STRONG! GIVE ME <field name="number_of_words_to_train_tomorrow"/> WORDS FROM TOMORROW!</span></strong>
                                             </div>
                                         </a>
                                     </div>

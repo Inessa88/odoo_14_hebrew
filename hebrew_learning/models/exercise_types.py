@@ -30,6 +30,17 @@ class ExerciseTypes(models.Model):
         compute='_compute_words_to_train',
     )
 
+    words_to_train_tomorrow_ids = fields.Many2many(
+        string='Words to train tomorrow',
+        comodel_name='words',
+        compute='_compute_words_to_train',
+    )
+
+    number_of_words_to_train_tomorrow = fields.Integer(
+        string='Number of words to train tomorrow',
+        compute='_compute_words_to_train',
+    )
+
     button_repeat_all_words_visible = fields.Boolean(
         string='Button "Repeat all words" is visible',
         compute='_compute_button_repeat_all_words_visible',
@@ -63,20 +74,47 @@ class ExerciseTypes(models.Model):
                 word_to_learn_ids_list = list(set(word_ids_list) - set(learned_word_ids_list))
                 record.words_to_train_ids = word_to_learn_ids_list
                 record.number_of_words_to_train = len(word_to_learn_ids_list)
+                record.words_to_train_tomorrow_ids = []
+                record.number_of_words_to_train_tomorrow = 0
             # Other types of learning
             else:
-                words_to_train = self.env['last_exercise_date'].search([
+                all_user_exercises_of_this_type = self.env['last_exercise_date'].search([
                     ('user_id', '=', uid),
                     ('exercise_type_id', '=', record.id),
-                ]).filtered(
+                ])
+                words_to_train = all_user_exercises_of_this_type.filtered(
                     # Current date is equal or more than last training date + next training (days)
                     lambda lst_training_record: (lst_training_record.last_exercise_date + relativedelta(
                         days=int(lst_training_record.repetition_interval)
                     )) <= fields.Date.context_today(record)
                 ).mapped('word_id')
+                words_to_train_tomorrow = all_user_exercises_of_this_type.filtered(
+                    # Tomorrow date is equal to last training date + next training (days)
+                    lambda lst_training_record: (lst_training_record.last_exercise_date + relativedelta(
+                        days=int(lst_training_record.repetition_interval)
+                    )) == fields.Date.context_today(record) + relativedelta(days=1)
+                ).mapped('word_id')
                 word_to_train_ids_list = words_to_train.ids
+                word_to_train_tomorrow_ids_list = words_to_train_tomorrow.ids
                 record.words_to_train_ids = word_to_train_ids_list
                 record.number_of_words_to_train = len(word_to_train_ids_list)
+                record.words_to_train_tomorrow_ids = word_to_train_tomorrow_ids_list
+                record.number_of_words_to_train_tomorrow = len(word_to_train_tomorrow_ids_list)
+
+    def add_words_to_learn_from_tomorrow(self):
+        # We allow to add words from tomorrow only for one training at a time!
+        self.ensure_one()
+        # Current user id
+        uid = self.env.uid
+        all_user_exercises_of_this_type_for_tomorrow = self.env['last_exercise_date'].search([
+            ('user_id', '=', uid),
+            ('exercise_type_id', '=', self.id),
+            ('word_id', 'in', self.words_to_train_tomorrow_ids.ids),
+        ])
+        for record in all_user_exercises_of_this_type_for_tomorrow:
+            record.update({
+               'last_exercise_date': record.last_exercise_date - relativedelta(days=1), 
+            })
 
     def update_context_for_translation_exercises(self, five_words_to_train, action_context):
         five_words_to_train = [n for n in five_words_to_train if n != False]
