@@ -406,7 +406,7 @@
                 <record id="word_40" model="words">
                     <field name="translation_word">Простите! (м.р.)</field>
                     <field name="pronunciation_word">ani miʦtaʿer</field>
-                    <field name="hebrew_word_nikud">‬</field>
+                    <field name="hebrew_word_nikud">‬אֲנִי‬ ‫מִצטַעֵר‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_40.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_40.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_2'))]"/>
@@ -414,7 +414,7 @@
         
                 
                 <record id="word_41" model="words">
-                    <field name="translation_word">Простите!(ж.р.)</field>
+                    <field name="translation_word">Простите! (ж.р.)</field>
                     <field name="pronunciation_word">ani miʦta'ʿeret</field>
                     <field name="hebrew_word_nikud">‬אֲנִי‬ ‫מִצטַעֵרֶת‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_41.png"/>
@@ -3855,7 +3855,7 @@
                 <record id="word_374" model="words">
                     <field name="translation_word">в (предлог движения)</field>
                     <field name="pronunciation_word">le…</field>
-                    <field name="hebrew_word_nikud">‬…ְ‫ל‬</field>
+                    <field name="hebrew_word_nikud">לְ‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_374.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_374.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_16'))]"/>
@@ -37156,7 +37156,7 @@
 
                 <record id="word_3627" model="words">
                     <field name="translation_word">фабрика, завод</field>
-                    <field name="pronunciation_word">mip ʿal</field>
+                    <field name="pronunciation_word">mifʿal</field>
                     <field name="hebrew_word_nikud">מִפְעָל</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3627.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3627.mp3</field>
