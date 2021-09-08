@@ -33957,7 +33957,7 @@
                     <field name="translation_word">специальный</field>
                     <field name="pronunciation_word">meyuχad</field>
                     <field name="hebrew_word_nikud">‫מְיוּחָד‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3310.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3310.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3310.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_163'))]"/>
                 </record>
