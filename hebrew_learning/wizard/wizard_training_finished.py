@@ -15,3 +15,9 @@ class WizardTrainingFinished(models.TransientModel):
        string='Success image',
        default=get_default_img(),
     )
+
+    def reload_page(self):
+        return {
+            'type': 'ir.actions.client',
+            'tag': 'reload',
+        }

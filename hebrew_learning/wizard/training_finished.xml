@@ -10,6 +10,7 @@
                     <div style="font-size: 300% !important;">You finished this training! Congratulations!!!</div>
 
                     <field name="success_image" widget='image'/>
+                    <button name="reload_page" class="btn-primary" type="object">Reload Page</button>
 
                     <group invisible="1">
                             <audio controls="1" type="audio/mpeg" 
