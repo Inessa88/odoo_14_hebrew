@@ -2,8 +2,8 @@
 <odoo>
     <data>
 
-        <record id="wizard_writing_training_view_form" model="ir.ui.view">
-            <field name="name">wizard.writing.training.view.form</field>
+        <record id="wizard_writing_training_first_word_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.first.word.view.form</field>
             <field name="model">wizard_writing_training</field>
             <field name="arch" type="xml">
                 <form string="Writing training" create="0">
@@ -20,7 +20,7 @@
                         <field name="all_words_to_train_ids"/>
                         <field name="number_of_words_to_train"/>
                     </group>
-                    <group style="font-size: 150% !important;" attrs="{'invisible': [('first_question_answered', '=', True)]}">
+                    <group style="font-size: 150% !important;">
                         <group>
                             <field name="first_word_to_train_id" invisible="1"/>
                             <field name="first_hebrew_word" attrs="{'invisible': [('first_word_help', '=', False)]}" readonly="1"/>
@@ -34,7 +34,7 @@
                         </group>
                         <group>
                             <field name="first_word_help" string="HELP!!!"/>
-                            <field name="first_word_typing" nolabel="1"/>
+                            <field name="first_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
                                     class="btn-primary"
@@ -56,7 +56,29 @@
                             </div>
                         </group>
                     </group>
-                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 2)]}">
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_writing_training_second_word_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.second.word.view.form</field>
+            <field name="model">wizard_writing_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_words_left_to_train"/> word(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_words_to_train_ids"/>
+                        <field name="number_of_words_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
                         <group>
                             <field name="second_word_to_train_id" invisible="1"/>
                             <field name="second_hebrew_word" attrs="{'invisible': [('second_word_help', '=', False)]}" readonly="1"/>
@@ -70,7 +92,7 @@
                         </group>
                         <group>
                             <field name="second_word_help" string="HELP!!!"/>
-                            <field name="second_word_typing" nolabel="1"/>
+                            <field name="second_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
                                     class="btn-primary"
@@ -92,7 +114,29 @@
                             </div>
                         </group>
                     </group>
-                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 3)]}">
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_writing_training_third_word_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.third.word.view.form</field>
+            <field name="model">wizard_writing_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_words_left_to_train"/> word(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_words_to_train_ids"/>
+                        <field name="number_of_words_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
                         <group>
                             <field name="third_word_to_train_id" invisible="1"/>
                             <field name="third_hebrew_word" attrs="{'invisible': [('third_word_help', '=', False)]}" readonly="1"/>
@@ -106,7 +150,7 @@
                         </group>
                         <group>
                             <field name="third_word_help" string="HELP!!!"/>
-                            <field name="third_word_typing" nolabel="1"/>
+                            <field name="third_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
                                     class="btn-primary"
@@ -128,7 +172,29 @@
                             </div>
                         </group>
                     </group>
-                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 4)]}">
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_writing_training_fourth_word_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.fourth.word.view.form</field>
+            <field name="model">wizard_writing_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_words_left_to_train"/> word(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_words_to_train_ids"/>
+                        <field name="number_of_words_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
                         <group>
                             <field name="fourth_word_to_train_id" invisible="1"/>
                             <field name="fourth_hebrew_word" attrs="{'invisible': [('fourth_word_help', '=', False)]}" readonly="1"/>
@@ -142,7 +208,7 @@
                         </group>
                         <group>
                             <field name="fourth_word_help" string="HELP!!!"/>
-                            <field name="fourth_word_typing" nolabel="1"/>
+                            <field name="fourth_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
                                     class="btn-primary"
@@ -164,7 +230,29 @@
                             </div>
                         </group>
                     </group>
-                    <group style="font-size: 150% !important;" attrs="{'invisible': ['|', '|', '|', '|', '|', ('first_question_answered', '=', False), ('second_question_answered', '=', False), ('third_question_answered', '=', False), ('fourth_question_answered', '=', False), ('fifth_question_answered', '=', True), ('number_of_words_to_train', '&lt;', 5)]}">
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_writing_training_fifth_word_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.fifth.word.view.form</field>
+            <field name="model">wizard_writing_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_words_left_to_train"/> word(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_words_to_train_ids"/>
+                        <field name="number_of_words_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
                         <group>
                             <field name="fifth_word_to_train_id" invisible="1"/>
                             <field name="fifth_hebrew_word" attrs="{'invisible': [('fifth_word_help', '=', False)]}" readonly="1"/>
@@ -178,7 +266,7 @@
                         </group>
                         <group>
                             <field name="fifth_word_help" string="HELP!!!"/>
-                            <field name="fifth_word_typing" nolabel="1"/>
+                            <field name="fifth_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
                                     class="btn-primary"

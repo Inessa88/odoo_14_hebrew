@@ -750,7 +750,7 @@ class ExerciseTypes(models.Model):
             # translation word training
             self.env.ref('hebrew_learning.translation_word').id: 'hebrew_learning.wizard_translation_word_training_action',
             # writing training
-            self.env.ref('hebrew_learning.writing').id: 'hebrew_learning.wizard_writing_training_action',
+            self.env.ref('hebrew_learning.writing').id: 'hebrew_learning.wizard_writing_training_first_word_action',
             # sprint training
             self.env.ref('hebrew_learning.sprint').id: 'hebrew_learning.wizard_sprint_training_action',
         }

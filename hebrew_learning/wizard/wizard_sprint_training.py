@@ -115,7 +115,7 @@ class WizardSprintTraining(models.TransientModel):
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })
-                self._update_last_exercise_date()
+                self._update_last_exercise_date(self.fifth_word_to_train_id.id)
                 # Repeat all words training
                 if 'repeat_all_words' in self.env.context:
                     return self.exercise_type_id.start_training()
@@ -129,8 +129,8 @@ class WizardSprintTraining(models.TransientModel):
                 action['context'].update({
                     'default_fourth_question_answered': True,
                 })
+                self._update_last_exercise_date(self.fourth_word_to_train_id.id)
                 if self.number_of_words_to_train == 4:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
@@ -141,8 +141,8 @@ class WizardSprintTraining(models.TransientModel):
                 action['context'].update({
                     'default_third_question_answered': True,
                 })
+                self._update_last_exercise_date(self.third_word_to_train_id.id)
                 if self.number_of_words_to_train == 3:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
@@ -153,8 +153,8 @@ class WizardSprintTraining(models.TransientModel):
                 action['context'].update({
                     'default_second_question_answered': True,
                 })
+                self._update_last_exercise_date(self.second_word_to_train_id.id)
                 if self.number_of_words_to_train == 2:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')
@@ -165,8 +165,8 @@ class WizardSprintTraining(models.TransientModel):
                 action['context'].update({
                     'default_first_question_answered': True,
                 })
+                self._update_last_exercise_date(self.first_word_to_train_id.id)
                 if self.number_of_words_to_train == 1:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else: # wrong anser on this question
                 self.env.user.notify_warning(message='Warning')

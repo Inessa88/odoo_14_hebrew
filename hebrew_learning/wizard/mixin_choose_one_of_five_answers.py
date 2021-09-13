@@ -166,7 +166,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
 
     def _return_next_action(self):
         next_translation_word_action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_translation_word_training_action')
-        next_writing_action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_action')
+        next_writing_action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_first_word_action')
         # return action with next exercise
         if self._table == 'wizard_word_translation_training':
             action = next_translation_word_action
@@ -221,7 +221,7 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                 action['context'].update({
                     'default_fifth_question_answered': True,
                 })
-                self._update_last_exercise_date()
+                self._update_last_exercise_date(self.fifth_word_to_train_id.id)
                 if 'initial_learning' in self.env.context:
                     return self._return_next_action()
                 # Repeat all words training
@@ -237,8 +237,8 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                 action['context'].update({
                     'default_fourth_question_answered': True,
                 })
+                self._update_last_exercise_date(self.fourth_word_to_train_id.id)
                 if self.number_of_words_to_train == 4:
-                    self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
                     return self._return_success_action()
@@ -251,8 +251,8 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                 action['context'].update({
                     'default_third_question_answered': True,
                 })
+                self._update_last_exercise_date(self.third_word_to_train_id.id)
                 if self.number_of_words_to_train == 3:
-                    self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
                     return self._return_success_action()
@@ -266,8 +266,8 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                 action['context'].update({
                     'default_second_question_answered': True,
                 })
+                self._update_last_exercise_date(self.second_word_to_train_id.id)
                 if self.number_of_words_to_train == 2:
-                    self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
                     return self._return_success_action()
@@ -280,8 +280,8 @@ class ChooseOneOfFiveAnswersMixin(models.AbstractModel):
                 action['context'].update({
                     'default_first_question_answered': True,
                 })
+                self._update_last_exercise_date(self.first_word_to_train_id.id)
                 if self.number_of_words_to_train == 1:
-                    self._update_last_exercise_date()
                     if 'initial_learning' in self.env.context:
                         return self._return_next_action()
                     return self._return_success_action()

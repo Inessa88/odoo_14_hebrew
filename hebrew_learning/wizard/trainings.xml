@@ -29,14 +29,56 @@
             <field name="target">new</field>
         </record>
 
-        <record id="wizard_writing_training_action" model="ir.actions.act_window">
+        <record id="wizard_writing_training_first_word_action" model="ir.actions.act_window">
             <field name="name">Writing training</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">wizard_writing_training</field>
             <field name="view_mode">form</field>
-            <field name="view_id" ref="wizard_writing_training_view_form"/>
+            <field name="view_id" ref="wizard_writing_training_first_word_view_form"/>
             <field name="target">new</field>
         </record>
+
+        <record id="wizard_writing_training_second_word_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_writing_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_writing_training_second_word_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_third_word_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_writing_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_writing_training_third_word_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_fourth_word_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_writing_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_writing_training_fourth_word_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_fifth_word_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_writing_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_writing_training_fifth_word_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        
+        
+        
+        
+        
 
         <record id="wizard_sprint_training_action" model="ir.actions.act_window">
             <field name="name">Sprint training</field>

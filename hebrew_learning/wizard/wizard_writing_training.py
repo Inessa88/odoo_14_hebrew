@@ -52,11 +52,12 @@ class WizardWritingTraining(models.TransientModel):
     )
 
     def give_answer(self):
-        action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_action')
-        action['context'] = self.env.context.copy()
+        current_context = self.env.context.copy()
         if self.env.context.get('given_fifth_answer'):
+            action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_fifth_word_action')
+            action['context'] = current_context
             if self._test_typing_is_right('fifth_'):
-                self._update_last_exercise_date()
+                self._update_last_exercise_date(self.fifth_word_to_train_id.id)
                 # Notification for last question: interfere to click on close wizard on success wizard on small screens
                 # Can be used Repeat all words option then!
                 self.env.user.notify_success(message='Success')
@@ -71,50 +72,66 @@ class WizardWritingTraining(models.TransientModel):
                 self.env.user.notify_warning(message='Warning')
 
         elif self.env.context.get('given_fourth_answer'):
+            action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_fourth_word_action')
+            action['context'] = current_context
             if self._test_typing_is_right('fourth_'):
+                action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_fifth_word_action')
+                action['context'] = current_context
                 self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_fourth_question_answered': True,
                 })
+                self._update_last_exercise_date(self.fourth_word_to_train_id.id)
                 # check if all words are learned
                 if self.number_of_words_to_train == 4:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
         elif self.env.context.get('given_third_answer'):
+            action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_third_word_action')
+            action['context'] = current_context
             if self._test_typing_is_right('third_'):
+                action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_fourth_word_action')
+                action['context'] = current_context
                 self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_third_question_answered': True,
                 })
+                self._update_last_exercise_date(self.third_word_to_train_id.id)
                 # check if all words are learned
                 if self.number_of_words_to_train == 3:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
         elif self.env.context.get('given_second_answer'):
+            action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_second_word_action')
+            action['context'] = current_context
             if self._test_typing_is_right('second_'):
+                action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_third_word_action')
+                action['context'] = current_context
                 self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_second_question_answered': True,
                 })
+                self._update_last_exercise_date(self.second_word_to_train_id.id)
                 # check if all words are learned
                 if self.number_of_words_to_train == 2:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
         else: # there is self.env.context.get('given_first_answer')
+            action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_first_word_action')
+            action['context'] = current_context
             if self._test_typing_is_right('first_'):
+                action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_writing_training_second_word_action')
+                action['context'] = current_context
                 self.env.user.notify_success(message='Success')
                 action['context'].update({
                     'default_first_question_answered': True,
                 })
+                self._update_last_exercise_date(self.first_word_to_train_id.id)
                 # check if all words are learned
                 if self.number_of_words_to_train == 1:
-                    self._update_last_exercise_date()
                     return self._return_success_action()
             else:
                 self.env.user.notify_warning(message='Warning')
