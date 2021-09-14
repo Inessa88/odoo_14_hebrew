@@ -18639,7 +18639,7 @@
                 <record id="word_1817" model="words">
                     <field name="translation_word">многоэтажный</field>
                     <field name="pronunciation_word">rav komot</field>
-                    <field name="hebrew_word_nikud">‫רַב־קוֹמוֹת‬‬</field>
+                    <field name="hebrew_word_nikud">‫רַב קוֹמוֹת‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_1817.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1817.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_84'))]"/>
@@ -19743,7 +19743,7 @@
             
                 <record id="word_1923" model="words">
                     <field name="translation_word">мебель</field>
-                    <field name="pronunciation_word">rehitim</field>
+                    <field name="pronunciation_word">rahitim</field>
                     <field name="hebrew_word_nikud">‫רָהִיטִים‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_1923.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1923.mp3</field>
