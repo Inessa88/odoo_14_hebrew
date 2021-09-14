@@ -16,6 +16,9 @@
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
                         attrs="{'invisible': [('button_learn_this_word_visible', '=', False)]}"
                 />
+                <button name="repeat_this_word_today" type="object" string="Repeat it today!" class="oe_highlight btn-danger"
+                        attrs="{'invisible': [('button_learn_this_word_visible', '=', True)]}"
+                />
             </tree>
         </field>
     </record>
@@ -38,6 +41,9 @@
                 </group>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
                         attrs="{'invisible': [('button_learn_this_word_visible', '=', False)]}"
+                />
+                <button name="repeat_this_word_today" type="object" string="Repeat it today!" class="oe_highlight btn-danger"
+                        attrs="{'invisible': [('button_learn_this_word_visible', '=', True)]}"
                 />
             </form>
         </field>

@@ -92,8 +92,9 @@ class Words(models.Model):
         return super().write(vals)
 
     def learn_this_word(self):
+        uid = self.env.uid
         for word in self:
-            word.word_user = [(4, self.env.uid)]
+            word.word_user = [(4, uid)]
 
     def _compute_button_learn_this_word_visible(self):
         # Current user id
