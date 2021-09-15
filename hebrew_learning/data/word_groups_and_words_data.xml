@@ -2522,7 +2522,7 @@
                 <record id="word_245" model="words">
                     <field name="translation_word">отвечать</field>
                     <field name="pronunciation_word">laʿanot</field>
-                    <field name="hebrew_word_nikud">‫לְעַנוֹת‬‬</field>
+                    <field name="hebrew_word_nikud">לַעֲנוֹת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_245.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_245.mp3</field>
                     <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3490_present.png"/>
@@ -23089,9 +23089,11 @@
                 <record id="word_2249" model="words">
                     <field name="translation_word">ответить</field>
                     <field name="pronunciation_word">laʿanot</field>
-                    <field name="hebrew_word_nikud">‫לְעַנוֹת‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2249.png"/> -->
+                    <field name="hebrew_word_nikud">לַעֲנוֹת</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2249.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2249.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_2249_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_2249_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_110'))]"/>
                 </record>
         
@@ -35791,7 +35793,7 @@
                 <record id="word_3490" model="words">
                     <field name="translation_word">отвечать</field>
                     <field name="pronunciation_word">laʿanot</field>
-                    <field name="hebrew_word_nikud">‫לְעַנוֹת‬‬</field>
+                    <field name="hebrew_word_nikud">לַעֲנוֹת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3490.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3490.mp3</field>
                     <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3490_present.png"/>
