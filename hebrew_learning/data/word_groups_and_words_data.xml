@@ -6959,7 +6959,7 @@
                     <field name="translation_word">бумага</field>
                     <field name="pronunciation_word">neyar</field>
                     <field name="hebrew_word_nikud">‫נְייָר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_678.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_678.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_678.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_27'))]"/>
                 </record>
@@ -21323,7 +21323,7 @@
                 
                 <record id="word_2077" model="words">
                     <field name="translation_word">мебель</field>
-                    <field name="pronunciation_word">rehitim</field>
+                    <field name="pronunciation_word">rahitim</field>
                     <field name="hebrew_word_nikud">‫רָהִיטִים‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_2077.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2077.mp3</field>
@@ -21365,7 +21365,7 @@
                     <field name="translation_word">бумага</field>
                     <field name="pronunciation_word">neyar</field>
                     <field name="hebrew_word_nikud">‫נְייָר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2081.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2081.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2081.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_101'))]"/>
                 </record>
@@ -23695,7 +23695,7 @@
                 
                 <record id="word_2308" model="words">
                     <field name="translation_word">мебель</field>
-                    <field name="pronunciation_word">rehitim</field>
+                    <field name="pronunciation_word">rahitim</field>
                     <field name="hebrew_word_nikud">‫רָהִיטִים‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_2308.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2308.mp3</field>
