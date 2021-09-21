@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="sentences_view_tree" model="ir.ui.view">
+        <field name="name">Sentences</field>
+        <field name="model">sentences</field>
+        <field name="arch" type="xml">
+            <tree default_order="translation_sentence">
+                <field name="hebrew_sentence"/>
+                <field name="translation_sentence"/>
+                <field name="sentence_user" widget="many2many_tags" invisible="1"/>
+                <field name="button_learn_this_sentence_visible" invisible="1"/>
+                <button name="learn_this_sentence" type="object" string="Learn this sentence" class="oe_highlight"
+                        attrs="{'invisible': [('button_learn_this_sentence_visible', '=', False)]}"
+                />
+                <button name="repeat_this_sentence_today" type="object" string="Repeat it today!" class="oe_highlight btn-danger"
+                        attrs="{'invisible': [('button_learn_this_sentence_visible', '=', True)]}"
+                />
+            </tree>
+        </field>
+    </record>
+
+    <record id="sentences_view_form" model="ir.ui.view">
+        <field name="name">Sentences</field>
+        <field name="model">sentences</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="hebrew_sentence"/>
+                    <field name="translation_sentence"/>
+                    <field name="picture" widget='image'/>
+                    <field name="sentence_user" widget="many2many_tags"/>
+                    <field name="button_learn_this_sentence_visible" invisible="1"/>
+                </group>
+                <button name="learn_this_sentence" type="object" string="Learn this sentence" class="oe_highlight"
+                        attrs="{'invisible': [('button_learn_this_sentence_visible', '=', False)]}"
+                />
+                <button name="repeat_this_sentence_today" type="object" string="Repeat it today!" class="oe_highlight btn-danger"
+                        attrs="{'invisible': [('button_learn_this_sentence_visible', '=', True)]}"
+                />
+            </form>
+        </field>
+    </record>
+
+    <record id="sentences_view_search" model="ir.ui.view">
+        <field name="name">Sentences Search</field>
+        <field name="model">sentences</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="translation_sentence"/>
+                <field name="hebrew_sentence"/>
+                <separator />
+                <filter string="No audio"
+                        name="no_audio"
+                        domain="[('audio', '=', False)]"
+                />
+                <separator />
+                <filter string="Sentences I learn"
+                        name="my_sentences_in_learning"
+                        domain="[('sentence_user', 'in', uid)]"
+                />
+            </search>
+        </field>
+    </record>
+
+    <record id='sentences_action' model='ir.actions.act_window'>
+        <field name="name">Sentences</field>
+        <field name="res_model">sentences</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

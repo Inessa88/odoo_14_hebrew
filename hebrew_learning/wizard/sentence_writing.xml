@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <record id="wizard_sentence_training_first_sentence_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.first.sentence.view.form</field>
+            <field name="model">wizard_sentence_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_sentences_left_to_train"/> sentence(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_sentences_to_train_ids"/>
+                        <field name="number_of_sentences_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <group>
+                            <field name="first_sentence_to_train_id" invisible="1"/>
+                            <field name="first_hebrew_sentence" attrs="{'invisible': [('first_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="first_translation_sentence"/>
+                        </group>
+                        <group>
+                            <field name="first_picture" widget='image' nolabel="1"/>
+                        </group>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <field name="first_sentence_help" string="HELP!!!"/>
+                        <field name="first_sentence_typing" nolabel="1" default_focus="1"/>
+                        <button name="give_answer"
+                                string="Test"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_first_answer': True,}"
+                        />
+                        <div colspan="4">
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="first_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_sentence_training_second_sentence_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.second.sentence.view.form</field>
+            <field name="model">wizard_sentence_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_sentences_left_to_train"/> sentence(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_sentences_to_train_ids"/>
+                        <field name="number_of_sentences_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <group>
+                            <field name="second_sentence_to_train_id" invisible="1"/>
+                            <field name="second_hebrew_sentence" attrs="{'invisible': [('second_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="second_translation_sentence"/>
+                        </group>
+                        <group>
+                            <field name="second_picture" widget='image' nolabel="1"/>
+                        </group>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <field name="second_sentence_help" string="HELP!!!"/>
+                        <field name="second_sentence_typing" nolabel="1" default_focus="1"/>
+                        <button name="give_answer"
+                                string="Test"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_second_answer': True,}"
+                        />
+                        <div colspan="4">
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="second_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_sentence_training_third_sentence_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.third.sentence.view.form</field>
+            <field name="model">wizard_sentence_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_sentences_left_to_train"/> sentence(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_sentences_to_train_ids"/>
+                        <field name="number_of_sentences_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <group>
+                            <field name="third_sentence_to_train_id" invisible="1"/>
+                            <field name="third_hebrew_sentence" attrs="{'invisible': [('third_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="third_translation_sentence"/>
+                        </group>
+                        <group>
+                            <field name="third_picture" widget='image' nolabel="1"/>
+                        </group>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <field name="third_sentence_help" string="HELP!!!"/>
+                        <field name="third_sentence_typing" nolabel="1" default_focus="1"/>
+                        <button name="give_answer"
+                                string="Test"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_third_answer': True,}"
+                        />
+                        <div colspan="4">
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="third_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_sentence_training_fourth_sentence_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.fourth.sentence.view.form</field>
+            <field name="model">wizard_sentence_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_sentences_left_to_train"/> sentence(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_sentences_to_train_ids"/>
+                        <field name="number_of_sentences_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <group>
+                            <field name="fourth_sentence_to_train_id" invisible="1"/>
+                            <field name="fourth_hebrew_sentence" attrs="{'invisible': [('fourth_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="fourth_translation_sentence"/>
+                        </group>
+                        <group>
+                            <field name="fourth_picture" widget='image' nolabel="1"/>
+                        </group>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <field name="fourth_sentence_help" string="HELP!!!"/>
+                        <field name="fourth_sentence_typing" nolabel="1" default_focus="1"/>
+                        <button name="give_answer"
+                                string="Test"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_fourth_answer': True,}"
+                        />
+                        <div colspan="4">
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="fourth_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_sentence_training_fifth_sentence_view_form" model="ir.ui.view">
+            <field name="name">wizard.writing.training.fifth.sentence.view.form</field>
+            <field name="model">wizard_sentence_training</field>
+            <field name="arch" type="xml">
+                <form string="Writing training" create="0">
+                    <div>Writing training</div>
+                    <br/>
+                    <strong><span>There is <field name="number_of_sentences_left_to_train"/> sentence(s) left to train.</span></strong>
+                    <group invisible="1">
+                        <field name="exercise_type_id"/>
+                        <field name="first_question_answered"/>
+                        <field name="second_question_answered"/>
+                        <field name="third_question_answered"/>
+                        <field name="fourth_question_answered"/>
+                        <field name="fifth_question_answered"/>
+                        <field name="all_sentences_to_train_ids"/>
+                        <field name="number_of_sentences_to_train"/>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <group>
+                            <field name="fifth_sentence_to_train_id" invisible="1"/>
+                            <field name="fifth_hebrew_sentence" attrs="{'invisible': [('fifth_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="fifth_translation_sentence"/>
+                        </group>
+                        <group>
+                            <field name="fifth_picture" widget='image' nolabel="1"/>
+                        </group>
+                    </group>
+                    <group style="font-size: 150% !important;">
+                        <field name="fifth_sentence_help" string="HELP!!!"/>
+                        <field name="fifth_sentence_typing" nolabel="1" default_focus="1"/>
+                        <button name="give_answer"
+                                string="Test"
+                                class="btn-primary"
+                                type="object"
+                                context="{'given_fifth_answer': True,}"
+                        />
+                        <div colspan="4">
+                            <audio controls="1" type="audio/mpeg">
+                                <source src="fifth_audio"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

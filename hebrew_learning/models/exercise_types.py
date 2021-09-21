@@ -19,6 +19,7 @@ class ExerciseTypes(models.Model):
         string='Exercise image',
     )
 
+    # Word fields
     words_to_train_ids = fields.Many2many(
         string='Words to train',
         comodel_name='words',
@@ -46,13 +47,65 @@ class ExerciseTypes(models.Model):
         compute='_compute_button_repeat_all_words_visible',
     )
 
-    def _compute_button_repeat_all_words_visible(self):
-        initial_learning_training = self.env.ref('hebrew_learning.learning').id
+    # Sentences fields
+    sentences_to_train_ids = fields.Many2many(
+        string='Sentences to train',
+        comodel_name='sentences',
+        compute='_compute_sentences_to_train',
+    )
+
+    number_of_sentences_to_train = fields.Integer(
+        string='Number of sentences to train',
+        compute='_compute_sentences_to_train',
+    )
+
+    sentences_to_train_tomorrow_ids = fields.Many2many(
+        string='Sentences to train tomorrow',
+        comodel_name='sentences',
+        compute='_compute_sentences_to_train',
+    )
+
+    number_of_sentences_to_train_tomorrow = fields.Integer(
+        string='Number of sentences to train tomorrow',
+        compute='_compute_sentences_to_train',
+    )
+
+    button_repeat_all_sentences_visible = fields.Boolean(
+        string='Button "Repeat all sentences" is visible',
+        compute='_compute_button_repeat_all_sentences_visible',
+    )
+
+    this_is_words_training = fields.Boolean(
+        string='This is words training',
+        compute='_compute_this_is_words_training',
+    )
+
+    def _compute_this_is_words_training(self):
+        sentences_training = self.env.ref('hebrew_learning.sentences').id
         for record in self:
-            if record.id == initial_learning_training:
+            if record.id == sentences_training:
+                record.this_is_words_training = False
+            else:
+                record.this_is_words_training = True
+
+    def _compute_button_repeat_all_words_visible(self):
+        trainings_to_hide_button_on = (
+            self.env.ref('hebrew_learning.learning').id, 
+            self.env.ref('hebrew_learning.sentences').id,
+        )
+        for record in self:
+            if record.id in trainings_to_hide_button_on:
                 record.button_repeat_all_words_visible = False
             else:
                 record.button_repeat_all_words_visible = True
+
+    def _compute_button_repeat_all_sentences_visible(self):
+        sentence_training = self.env.ref('hebrew_learning.sentences').id
+        for record in self:
+            if record.id == sentence_training:
+                record.button_repeat_all_sentences_visible = True
+            else:
+                record.button_repeat_all_sentences_visible = False
 
     def _compute_words_to_train(self):
         # Current user id
@@ -76,11 +129,17 @@ class ExerciseTypes(models.Model):
                 record.number_of_words_to_train = len(word_to_learn_ids_list)
                 record.words_to_train_tomorrow_ids = []
                 record.number_of_words_to_train_tomorrow = 0
+            elif record.id == self.env.ref('hebrew_learning.sentences').id:
+                record.words_to_train_ids = []
+                record.number_of_words_to_train = 0
+                record.words_to_train_tomorrow_ids = []
+                record.number_of_words_to_train_tomorrow = 0
             # Other types of learning
             else:
                 all_user_exercises_of_this_type = self.env['last_exercise_date'].search([
                     ('user_id', '=', uid),
                     ('exercise_type_id', '=', record.id),
+                    ('word_id', '!=', None),
                 ])
                 words_to_train = all_user_exercises_of_this_type.filtered(
                     # Current date is equal or more than last training date + next training (days)
@@ -101,6 +160,56 @@ class ExerciseTypes(models.Model):
                 record.words_to_train_tomorrow_ids = word_to_train_tomorrow_ids_list
                 record.number_of_words_to_train_tomorrow = len(word_to_train_tomorrow_ids_list)
 
+    def _compute_sentences_to_train(self):
+        # Current user id
+        uid = self.env.uid
+        for record in self:
+            # Sentences learning
+            if record.id == self.env.ref('hebrew_learning.sentences').id:
+                current_user_all_sentences = self.env['sentences'].search([
+                    ('sentence_user', '=', uid)
+                ])
+                sentence_ids_list = current_user_all_sentences.ids
+                current_user_already_learned_sentences = self.env['last_exercise_date'].search([
+                    ('sentence_id', 'in', sentence_ids_list),
+                    ('user_id', '=', uid),
+                    ('exercise_type_id', '=', record.id), # sentence learning already has happened
+                ])
+                learned_sentence_ids_list = current_user_already_learned_sentences.mapped('sentence_id').ids
+                # Only not learned sentences
+                sentence_to_learn_ids_list = list(set(sentence_ids_list) - set(learned_sentence_ids_list))
+                # Sentences have due today to train
+                all_user_exercises_of_this_type = self.env['last_exercise_date'].search([
+                    ('user_id', '=', uid),
+                    ('exercise_type_id', '=', record.id),
+                    ('sentence_id', '!=', None),
+                ])
+                sentences_to_train = all_user_exercises_of_this_type.filtered(
+                    # Current date is equal or more than last training date + next training (days)
+                    lambda lst_training_record: (lst_training_record.last_exercise_date + relativedelta(
+                        days=int(lst_training_record.repetition_interval)
+                    )) <= fields.Date.context_today(record)
+                ).mapped('sentence_id')
+                sentences_to_train_tomorrow = all_user_exercises_of_this_type.filtered(
+                    # Tomorrow date is equal to last training date + next training (days)
+                    lambda lst_training_record: (lst_training_record.last_exercise_date + relativedelta(
+                        days=int(lst_training_record.repetition_interval)
+                    )) == fields.Date.context_today(record) + relativedelta(days=1)
+                ).mapped('sentence_id')
+                sentence_to_train_ids_list = sentences_to_train.ids + sentence_to_learn_ids_list
+                sentence_to_train_tomorrow_ids_list = sentences_to_train_tomorrow.ids
+                record.sentences_to_train_ids = sentence_to_train_ids_list
+                record.number_of_sentences_to_train = len(sentence_to_train_ids_list)
+                record.sentences_to_train_tomorrow_ids = sentence_to_train_tomorrow_ids_list
+                record.number_of_sentences_to_train_tomorrow = len(sentence_to_train_tomorrow_ids_list)
+
+            # Other types of learning
+            else:
+                record.sentences_to_train_ids = []
+                record.number_of_sentences_to_train = 0
+                record.sentences_to_train_tomorrow_ids = []
+                record.number_of_sentences_to_train_tomorrow = 0
+
     def add_words_to_learn_from_tomorrow(self):
         # We allow to add words from tomorrow only for one training at a time!
         self.ensure_one()
@@ -115,6 +224,21 @@ class ExerciseTypes(models.Model):
             record.update({
                'last_exercise_date': record.last_exercise_date - relativedelta(days=1), 
             })
+
+    def add_sentences_to_learn_from_tomorrow(self):
+        # We allow to add sentences from tomorrow only for one training at a time!
+        self.ensure_one()
+        # Current user id
+        uid = self.env.uid
+        all_user_exercises_of_this_type_for_tomorrow = self.env['last_exercise_date'].search([
+            ('user_id', '=', uid),
+            ('exercise_type_id', '=', self.id),
+            ('sentence_id', 'in', self.sentences_to_train_tomorrow_ids.ids),
+        ])
+        for record in all_user_exercises_of_this_type_for_tomorrow:
+            record.update({
+               'last_exercise_date': record.last_exercise_date - relativedelta(days=1), 
+            })        
 
     def update_context_for_translation_exercises(self, five_words_to_train, action_context):
         five_words_to_train = [n for n in five_words_to_train if n != False]
@@ -719,29 +843,11 @@ class ExerciseTypes(models.Model):
         })
 
     def start_training(self):
-        five_words_to_train = self.words_to_train_ids.ids[:5]
-        first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train, fifth_word_to_train = \
-            False, False, False, False, False
-        number_of_words_to_train = len(five_words_to_train)
-        # No words to train case is covered in xml view part (<div t-if="record.number_of_words_to_train.raw_value != 0">)
-        # but we can come here with 0 words to learn on Repeat all words training
-        if number_of_words_to_train == 0:
-            return self._return_success_action()
-        elif number_of_words_to_train == 1:
-            first_word_to_train = five_words_to_train[0]
-        elif number_of_words_to_train == 2:
-            first_word_to_train, second_word_to_train = five_words_to_train[0], five_words_to_train[1]
-        elif number_of_words_to_train == 3:
-            first_word_to_train, second_word_to_train, third_word_to_train = \
-                five_words_to_train[0], five_words_to_train[1], five_words_to_train[2]
-        elif number_of_words_to_train == 4:
-            first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train = \
-                five_words_to_train[0], five_words_to_train[1], five_words_to_train[2], five_words_to_train[3]
-        # There are all 5 words to train
+        if self.id == self.env.ref('hebrew_learning.sentences').id:
+            sentence_mode=True
         else:
-            first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train, fifth_word_to_train = \
-                five_words_to_train[0], five_words_to_train[1], five_words_to_train[2], \
-                    five_words_to_train[3], five_words_to_train[4]
+            sentence_mode=False
+
         possible_trainings_dict = {
             # initial learning
             self.env.ref('hebrew_learning.learning').id: 'hebrew_learning.wizard_learning_action',
@@ -753,19 +859,12 @@ class ExerciseTypes(models.Model):
             self.env.ref('hebrew_learning.writing').id: 'hebrew_learning.wizard_writing_training_first_word_action',
             # sprint training
             self.env.ref('hebrew_learning.sprint').id: 'hebrew_learning.wizard_sprint_training_action',
+            # sentence training
+            self.env.ref('hebrew_learning.sentences').id: 'hebrew_learning.wizard_sentence_training_action',
         }
         training_action = possible_trainings_dict[self.id]
         action = self.env["ir.actions.actions"]._for_xml_id(training_action)
         action['context'] = {
-            'default_all_words_to_train_ids': five_words_to_train,
-            'default_exercise_type_id': self.id,
-            'default_first_word_to_train_id': first_word_to_train,
-            'default_second_word_to_train_id': second_word_to_train,
-            'default_third_word_to_train_id': third_word_to_train,
-            'default_fourth_word_to_train_id': fourth_word_to_train,
-            'default_fifth_word_to_train_id': fifth_word_to_train,
-            # Number of words to train
-            'default_number_of_words_to_train': number_of_words_to_train,
             'given_first_answer_number': '',
             'given_second_answer_number': '',
             'given_third_answer_number': '',
@@ -777,6 +876,78 @@ class ExerciseTypes(models.Model):
             'given_fourth_answer': '',
             'given_fifth_answer': '',
         }
+        if not sentence_mode:
+            five_words_to_train = self.words_to_train_ids.ids[:5]
+            first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train, fifth_word_to_train = \
+                False, False, False, False, False
+            number_of_words_to_train = len(five_words_to_train)
+            # No words to train case is covered in xml view part (<div t-if="record.number_of_words_to_train.raw_value != 0">)
+            # but we can come here with 0 words to learn on Repeat all words training
+            if number_of_words_to_train == 0:
+                return self._return_success_action()
+            elif number_of_words_to_train == 1:
+                first_word_to_train = five_words_to_train[0]
+            elif number_of_words_to_train == 2:
+                first_word_to_train, second_word_to_train = five_words_to_train[0], five_words_to_train[1]
+            elif number_of_words_to_train == 3:
+                first_word_to_train, second_word_to_train, third_word_to_train = \
+                    five_words_to_train[0], five_words_to_train[1], five_words_to_train[2]
+            elif number_of_words_to_train == 4:
+                first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train = \
+                    five_words_to_train[0], five_words_to_train[1], five_words_to_train[2], five_words_to_train[3]
+            # There are all 5 words to train
+            else:
+                first_word_to_train, second_word_to_train, third_word_to_train, fourth_word_to_train, fifth_word_to_train = \
+                    five_words_to_train[0], five_words_to_train[1], five_words_to_train[2], \
+                        five_words_to_train[3], five_words_to_train[4]
+            action['context'].update({
+                'default_all_words_to_train_ids': five_words_to_train,
+                'default_exercise_type_id': self.id,
+                'default_first_word_to_train_id': first_word_to_train,
+                'default_second_word_to_train_id': second_word_to_train,
+                'default_third_word_to_train_id': third_word_to_train,
+                'default_fourth_word_to_train_id': fourth_word_to_train,
+                'default_fifth_word_to_train_id': fifth_word_to_train,
+                # Number of words to train
+                'default_number_of_words_to_train': number_of_words_to_train,
+            })
+        # It is sentence mode
+        else:
+            five_sentences_to_train = self.sentences_to_train_ids.ids[:5]
+            first_sentence_to_train, second_sentence_to_train, third_sentence_to_train, fourth_sentence_to_train, fifth_sentence_to_train = \
+                False, False, False, False, False
+            number_of_sentences_to_train = len(five_sentences_to_train)
+            # No sentences to train case is covered in xml view part (<div t-if="record.number_of_sentences_to_train.raw_value != 0">)
+            # but we can come here with 0 sentences to learn on Repeat all sentences training
+            if number_of_sentences_to_train == 0:
+                return self._return_success_action()
+            elif number_of_sentences_to_train == 1:
+                first_sentence_to_train = five_sentences_to_train[0]
+            elif number_of_sentences_to_train == 2:
+                first_sentence_to_train, second_sentence_to_train = five_sentences_to_train[0], five_sentences_to_train[1]
+            elif number_of_sentences_to_train == 3:
+                first_sentence_to_train, second_sentence_to_train, third_sentence_to_train = \
+                    five_sentences_to_train[0], five_sentences_to_train[1], five_sentences_to_train[2]
+            elif number_of_sentences_to_train == 4:
+                first_sentence_to_train, second_sentence_to_train, third_sentence_to_train, fourth_sentence_to_train = \
+                    five_sentences_to_train[0], five_sentences_to_train[1], five_sentences_to_train[2], five_sentences_to_train[3]
+            # There are all 5 sentences to train
+            else:
+                first_sentence_to_train, second_sentence_to_train, third_sentence_to_train, fourth_sentence_to_train, fifth_sentence_to_train = \
+                    five_sentences_to_train[0], five_sentences_to_train[1], five_sentences_to_train[2], \
+                        five_sentences_to_train[3], five_sentences_to_train[4]
+            action['context'].update({
+                'default_all_sentences_to_train_ids': five_sentences_to_train,
+                'default_exercise_type_id': self.id,
+                'default_first_sentence_to_train_id': first_sentence_to_train,
+                'default_second_sentence_to_train_id': second_sentence_to_train,
+                'default_third_sentence_to_train_id': third_sentence_to_train,
+                'default_fourth_sentence_to_train_id': fourth_sentence_to_train,
+                'default_fifth_sentence_to_train_id': fifth_sentence_to_train,
+                # Number of sentences to train
+                'default_number_of_sentences_to_train': number_of_sentences_to_train,
+            })
+
 
         # Additional context for translation trainings
         if self.id in (
@@ -790,13 +961,19 @@ class ExerciseTypes(models.Model):
             self.update_context_for_sprint_exercise(five_words_to_train, action['context'])
 
         # Hide edit buttons except writing training
-        if self.id != self.env.ref('hebrew_learning.writing').id:
+        if self.id not in (
+            self.env.ref('hebrew_learning.writing').id,
+            self.env.ref('hebrew_learning.sentences').id,
+        ): 
             action['flags'] = {'mode': 'readonly'}
 
         return action    
 
     def repeat_all_words(self):
         return self.start_training()
+
+    def repeat_all_sentences(self):
+        return self.start_training()    
 
     def _return_success_action(self):
         action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_training_finished_action')

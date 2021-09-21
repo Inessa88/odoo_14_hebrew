@@ -6,3 +6,4 @@ from . import wizard_translation_word_training
 from . import wizard_writing_training
 from . import wizard_sprint_training
 from . import wizard_training_finished
+from . import wizard_sentence_training

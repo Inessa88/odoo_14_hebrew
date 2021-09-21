@@ -26,6 +26,11 @@
             <field name="name">Learning</field>
             <field name="exercise_image" type="base64" file="hebrew_learning/static/img/learning.jpg"/>
         </record>
+
+        <record id="sentences" model="exercise_types">
+            <field name="name">Sentences</field>
+            <field name="exercise_image" type="base64" file="hebrew_learning/static/img/sentences.jpg"/>
+        </record>
         
     </data>
 </odoo>

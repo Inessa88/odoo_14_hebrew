@@ -15,20 +15,23 @@
 
         'views/words.xml',
         'views/word_groups.xml',
+        'views/sentences.xml',
         'views/exercise_types.xml',
         'views/last_exercise_date.xml',
         'views/hebrew_learning.xml',
                 
         'data/exercise_types_data.xml',
         'data/word_groups_and_words_data.xml',
+        'data/sentences_data.xml',
 
         'wizard/learning.xml',
         'wizard/word_translation_training.xml',
         'wizard/translation_word_training.xml',
         'wizard/writing_training.xml',
         'wizard/sprint_training.xml',
-        'wizard/training_finished.xml',
+        'wizard/sentence_writing.xml',
         'wizard/trainings.xml',
+        'wizard/training_finished.xml',
 
         "views/web_notify.xml"
     ],

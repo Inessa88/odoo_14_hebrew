@@ -11,7 +11,12 @@ class LastExerciseDate(models.Model):
     word_id = fields.Many2one(
         string='Word id',
         comodel_name='words',
-        required=True,
+        ondelete='cascade',
+    )
+
+    sentence_id = fields.Many2one(
+        string='Sentence id',
+        comodel_name='sentences',
         ondelete='cascade',
     )
 
@@ -32,6 +37,7 @@ class LastExerciseDate(models.Model):
     last_exercise_date = fields.Date(
         string='Last exercise date',
         required=True,
+        default=fields.Date.today(),
     )
 
     number_of_times_exercise_is_done = fields.Integer(

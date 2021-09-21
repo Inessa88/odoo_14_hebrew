@@ -5,8 +5,9 @@
         <field name="name">Last exercise date</field>
         <field name="model">last_exercise_date</field>
         <field name="arch" type="xml">
-            <tree editable="bottom">
+            <tree editable="top">
                 <field name="word_id"/>
+                <field name="sentence_id"/>
                 <field name="user_id"/>
                 <field name="exercise_type_id"/>
                 <field name="last_exercise_date"/>

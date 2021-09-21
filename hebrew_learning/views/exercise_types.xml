@@ -13,6 +13,12 @@
                 <field name="words_to_train_tomorrow_ids"/>
                 <field name="number_of_words_to_train_tomorrow"/>
                 <field name="button_repeat_all_words_visible"/>
+                <field name="button_repeat_all_sentences_visible"/>
+                <field name="sentences_to_train_ids"/>
+                <field name="number_of_sentences_to_train"/>
+                <field name="sentences_to_train_tomorrow_ids"/>
+                <field name="number_of_sentences_to_train_tomorrow"/>
+                <field name="this_is_words_training"/>
                 <templates>
                     <t t-name="kanban-box">
                         <div t-attf-class="oe_kanban_card">
@@ -22,8 +28,11 @@
                             <div class="float-right">
                                 <field name="exercise_image" widget='image' class="oe_avatar"/>
                             </div>
-                            <div>
+                            <div t-if="record.this_is_words_training.raw_value">
                                 <strong><span>There is <field name="number_of_words_to_train"/> word(s) to train.</span></strong>
+                            </div>
+                            <div t-else="">
+                                <strong><span>There is <field name="number_of_sentences_to_train"/> sentence(s) to train.</span></strong>
                             </div>
                             <field name="words_to_train_ids" invisible="1"/>
                             <div>
@@ -46,12 +55,41 @@
                                         </a>
                                     </div>
                                 </div>
+                                <div t-if="record.number_of_sentences_to_train.raw_value != 0">
+                                    <div>
+                                        <a href="#" name="start_training" type="object" string="Start training">
+                                            <div class="o_primary">
+                                                <strong><span>START TRAINING</span></strong>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div t-if="record.button_repeat_all_sentences_visible.raw_value">
+                                        <br/>
+                                        <a href="#" name="repeat_all_sentences" type="object" string="Repeat all sentences"
+                                           context="{'repeat_all_words': True}"
+                                        >
+                                            <div class="o_primary">
+                                                <strong><span>REPEAT ALL SENTENCES</span></strong>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                                 <div t-if="record.number_of_words_to_train_tomorrow.raw_value != 0">
                                     <br/>
                                     <div>
                                         <a href="#" name="add_words_to_learn_from_tomorrow" type="object" string="Add words from tomorrow">
                                             <div class="o_primary">
                                                 <strong><span>I FEEL STRONG! GIVE ME <field name="number_of_words_to_train_tomorrow"/> WORDS FROM TOMORROW!</span></strong>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div t-if="record.number_of_sentences_to_train_tomorrow.raw_value != 0">
+                                    <br/>
+                                    <div>
+                                        <a href="#" name="add_sentences_to_learn_from_tomorrow" type="object" string="Add sentences from tomorrow">
+                                            <div class="o_primary">
+                                                <strong><span>I FEEL STRONG! GIVE ME <field name="number_of_sentences_to_train_tomorrow"/> SENTENCES FROM TOMORROW!</span></strong>
                                             </div>
                                         </a>
                                     </div>

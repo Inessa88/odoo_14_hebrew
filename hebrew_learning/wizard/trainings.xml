@@ -74,11 +74,50 @@
             <field name="target">new</field>
         </record>
 
-        
-        
-        
-        
-        
+        <record id="wizard_writing_training_first_sentence_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sentence_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sentence_training_first_sentence_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_second_sentence_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sentence_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sentence_training_second_sentence_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_third_sentence_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sentence_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sentence_training_third_sentence_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_fourth_sentence_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sentence_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sentence_training_fourth_sentence_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_writing_training_fifth_sentence_action" model="ir.actions.act_window">
+            <field name="name">Writing training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sentence_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sentence_training_fifth_sentence_view_form"/>
+            <field name="target">new</field>
+        </record>
 
         <record id="wizard_sprint_training_action" model="ir.actions.act_window">
             <field name="name">Sprint training</field>
@@ -86,6 +125,15 @@
             <field name="res_model">wizard_sprint_training</field>
             <field name="view_mode">form</field>
             <field name="view_id" ref="wizard_sprint_training_view_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <record id="wizard_sentence_training_action" model="ir.actions.act_window">
+            <field name="name">Sentence training</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard_sentence_training</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_sentence_training_first_sentence_view_form"/>
             <field name="target">new</field>
         </record>
 
