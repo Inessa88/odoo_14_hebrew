@@ -215,6 +215,7 @@ class WizardSentenceTraining(models.TransientModel):
                 'exercise_type_id': self.exercise_type_id.id,
                 'sentence_id': sentence_id,
                 'number_of_times_exercise_is_done': 1,
+                'last_exercise_date': fields.Date.context_today(self),
             })
         else:
             current_number_of_repetitions = update_exercise_date_record.number_of_times_exercise_is_done + 1
