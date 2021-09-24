@@ -2325,7 +2325,7 @@
         
         <record id="sentence_291" model="sentences">
             <field name="translation_sentence">Рад нашей встрече.</field>
-            <field name="hebrew_sentence">נעים להכים אותך</field>
+            <field name="hebrew_sentence">נעים להכיר אותך</field>
             <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_291.png"/>
             <field name="audio">hebrew_learning/static/audio/sentences/sentence_291.mp3</field>
         </record>

@@ -28871,7 +28871,7 @@
                     <field name="translation_word">пляж</field>
                     <field name="pronunciation_word">χof yam</field>
                     <field name="hebrew_word_nikud">חוֹף‬ ‫יָם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2807.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2807.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2807.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_145'))]"/>
                 </record>
@@ -28891,7 +28891,7 @@
                     <field name="translation_word">пустынный (пляж)</field>
                     <field name="pronunciation_word">ʃomem</field>
                     <field name="hebrew_word_nikud">‫שוֹמֵם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2809.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2809.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2809.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_145'))]"/>
                 </record>
@@ -30746,7 +30746,7 @@
                     <field name="translation_word">море</field>
                     <field name="pronunciation_word">yam</field>
                     <field name="hebrew_word_nikud">‫יָם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2990.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2990.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2990.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_154'))]"/>
                 </record>
