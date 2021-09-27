@@ -28,6 +28,7 @@
                             <field name="first_pronunciation_word"/>
                             <field name="first_translation_word"/>
                             <field name="first_note" invisible="1"/>
+                            <field name="first_word_hard_to_learn"/>
                         </group>
                         <group>
                             <field name="first_picture" widget='image' nolabel="1"/>
@@ -86,6 +87,7 @@
                             <field name="second_pronunciation_word"/>
                             <field name="second_translation_word"/>
                             <field name="second_note" invisible="1"/>
+                            <field name="second_word_hard_to_learn"/>
                         </group>
                         <group>
                             <field name="second_picture" widget='image' nolabel="1"/>
@@ -144,6 +146,7 @@
                             <field name="third_pronunciation_word"/>
                             <field name="third_translation_word"/>
                             <field name="third_note" invisible="1"/>
+                            <field name="third_word_hard_to_learn"/>
                         </group>
                         <group>
                             <field name="third_picture" widget='image' nolabel="1"/>
@@ -202,6 +205,7 @@
                             <field name="fourth_pronunciation_word"/>
                             <field name="fourth_translation_word"/>
                             <field name="fourth_note" invisible="1"/>
+                            <field name="fourth_word_hard_to_learn"/>
                         </group>
                         <group>
                             <field name="fourth_picture" widget='image' nolabel="1"/>
@@ -260,6 +264,7 @@
                             <field name="fifth_pronunciation_word"/>
                             <field name="fifth_translation_word"/>
                             <field name="fifth_note" invisible="1"/>
+                            <field name="fifth_word_hard_to_learn"/>
                         </group>
                         <group>
                             <field name="fifth_picture" widget='image' nolabel="1"/>

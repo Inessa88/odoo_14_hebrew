@@ -64,6 +64,11 @@ class Words(models.Model):
         default=False,
     )
 
+    hard_to_learn = fields.Boolean(
+        string='This word is hard one!',
+        default=False,
+    )
+
     def name_get(self):
         # Возвращать название рекорда в форме: "hebrew_word"
         return [(record.id, record.hebrew_word) for record in self]

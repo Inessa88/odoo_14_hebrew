@@ -47,6 +47,32 @@ class WizardWritingTraining(models.TransientModel):
         string='Fifth word help to type',
     )
 
+    first_word_hard_to_learn = fields.Boolean(
+        string='First word is hard to learn',
+        related='first_word_to_train_id.hard_to_learn',
+        readonly=False,
+    )
+    second_word_hard_to_learn = fields.Boolean(
+        string='Second word is hard to learn',
+        related='second_word_to_train_id.hard_to_learn',
+        readonly=False,
+    )
+    third_word_hard_to_learn = fields.Boolean(
+        string='Third word is hard to learn',
+        related='third_word_to_train_id.hard_to_learn',
+        readonly=False,
+    )
+    fourth_word_hard_to_learn = fields.Boolean(
+        string='Fourth word is hard to learn',
+        related='fourth_word_to_train_id.hard_to_learn',
+        readonly=False,
+    )
+    fifth_word_hard_to_learn = fields.Boolean(
+        string='Fifth word is hard to learn',
+        related='fifth_word_to_train_id.hard_to_learn',
+        readonly=False,
+    )
+
     number_of_words_to_train = fields.Integer(
         string='Number of words to train',
     )

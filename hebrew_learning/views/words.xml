@@ -11,6 +11,7 @@
                 <field name="pronunciation_word"/>
                 <field name="translation_word"/>
                 <field name="picture_exists" invisible="1"/>
+                <field name="hard_to_learn"/>
                 <field name="word_user" widget="many2many_tags" invisible="1"/>
                 <field name="button_learn_this_word_visible" invisible="1"/>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
@@ -37,6 +38,7 @@
                     <field name="picture" widget='image'/>
                     <field name="word_user" widget="many2many_tags"/>
                     <field name="group_ids" widget="many2many_tags"/>
+                    <field name="hard_to_learn"/>
                     <field name="button_learn_this_word_visible" invisible="1"/>
                 </group>
                 <button name="learn_this_word" type="object" string="Learn this word" class="oe_highlight"
@@ -64,6 +66,10 @@
                 <filter string="No audio"
                         name="no_audio"
                         domain="[('audio', '=', False)]"
+                />
+                <filter string="Hard to learn"
+                        name="hard_to_learn"
+                        domain="[('hard_to_learn', '!=', False)]"
                 />
                 <separator />
                 <filter string="Words I learn"
