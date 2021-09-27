@@ -29145,7 +29145,7 @@
                 <record id="word_2834" model="words">
                     <field name="translation_word">жёсткий диск</field>
                     <field name="pronunciation_word">disk ka'ʃiaχ</field>
-                    <field name="hebrew_word_nikud">דִיסק‬ ַ‫קָשִיחַ‬‬</field>
+                    <field name="hebrew_word_nikud">דִיסק‬ ‫קָשִיחַ‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_2834.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2834.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_146'))]"/>

@@ -60,4 +60,3 @@ class LastExerciseDate(models.Model):
         required=True,
         default='1',
     )
-    

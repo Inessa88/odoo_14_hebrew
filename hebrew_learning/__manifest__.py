@@ -30,8 +30,8 @@
         'wizard/writing_training.xml',
         'wizard/sprint_training.xml',
         'wizard/sentence_writing.xml',
-        'wizard/trainings.xml',
         'wizard/training_finished.xml',
+        'wizard/trainings.xml',
 
         "views/web_notify.xml"
     ],
