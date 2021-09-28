@@ -40,7 +40,10 @@
                                 context="{'given_first_answer': True,}"
                         />
                         <div colspan="4">
-                            <audio controls="1" type="audio/mpeg">
+                            <audio controls="1" type="audio/mpeg"
+                                   autoplay="true"                                                           
+                                   onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 500)"
+                            >
                                 <source src="first_audio"/>
                                 Your browser does not support the audio element.
                             </audio>
@@ -88,7 +91,10 @@
                                 context="{'given_second_answer': True,}"
                         />
                         <div colspan="4">
-                            <audio controls="1" type="audio/mpeg">
+                            <audio controls="1" type="audio/mpeg"
+                                   autoplay="true"                                                           
+                                   onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 500)"
+                            >
                                 <source src="second_audio"/>
                                 Your browser does not support the audio element.
                             </audio>
@@ -136,7 +142,10 @@
                                 context="{'given_third_answer': True,}"
                         />
                         <div colspan="4">
-                            <audio controls="1" type="audio/mpeg">
+                            <audio controls="1" type="audio/mpeg"
+                                   autoplay="true"                                                           
+                                   onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 500)"
+                            >
                                 <source src="third_audio"/>
                                 Your browser does not support the audio element.
                             </audio>
@@ -184,7 +193,10 @@
                                 context="{'given_fourth_answer': True,}"
                         />
                         <div colspan="4">
-                            <audio controls="1" type="audio/mpeg">
+                            <audio controls="1" type="audio/mpeg"
+                                   autoplay="true"                                                           
+                                   onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 500)"
+                            >
                                 <source src="fourth_audio"/>
                                 Your browser does not support the audio element.
                             </audio>
@@ -232,7 +244,10 @@
                                 context="{'given_fifth_answer': True,}"
                         />
                         <div colspan="4">
-                            <audio controls="1" type="audio/mpeg">
+                            <audio controls="1" type="audio/mpeg"
+                                   autoplay="true"                                                           
+                                   onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 500)"
+                            >
                                 <source src="fifth_audio"/>
                                 Your browser does not support the audio element.
                             </audio>
