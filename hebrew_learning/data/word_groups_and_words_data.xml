@@ -34037,8 +34037,8 @@
                 
                 <record id="word_3311" model="words">
                     <field name="translation_word">спокойный</field>
-                    <field name="pronunciation_word">ʃaket</field>
-                    <field name="hebrew_word_nikud">‫שָקֵט‬‬</field>
+                    <field name="pronunciation_word">'ʃeket</field>
+                    <field name="hebrew_word_nikud">‫שֶקֵט‬‬</field>
                     <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3311.png"/> -->
                     <field name="audio">hebrew_learning/static/audio/word_3311.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_163'))]"/>
@@ -34107,8 +34107,8 @@
                 
                 <record id="word_3318" model="words">
                     <field name="translation_word">тихий, тишина</field>
-                    <field name="pronunciation_word">ʃaket</field>
-                    <field name="hebrew_word_nikud">‫שָקֵט‬‬</field>
+                    <field name="pronunciation_word">'ʃeket</field>
+                    <field name="hebrew_word_nikud">‫שֶקֵט‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3318.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3318.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_163'))]"/>
