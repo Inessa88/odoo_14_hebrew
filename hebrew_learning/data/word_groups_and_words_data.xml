@@ -10403,7 +10403,7 @@
                     <field name="translation_word">вкусный</field>
                     <field name="pronunciation_word">taʿim</field>
                     <field name="hebrew_word_nikud">‫טָעִים‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1010.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1010.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1010.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_49'))]"/>
                 </record>
@@ -17674,7 +17674,7 @@
                     <field name="translation_word">известный</field>
                     <field name="pronunciation_word">mefursam</field>
                     <field name="hebrew_word_nikud">‫מְפוּרסָם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1720.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1720.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1720.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_80'))]"/>
                 </record>
@@ -32994,7 +32994,7 @@
                     <field name="translation_word">вкусный</field>
                     <field name="pronunciation_word">taʿim</field>
                     <field name="hebrew_word_nikud">‫טָעִים‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3207.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3207.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3207.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_162'))]"/>
                 </record>
