@@ -8570,8 +8570,8 @@
         
                 
                 <record id="word_831" model="words">
-                    <field name="translation_word">крем для бритья</field>
-                    <field name="pronunciation_word">keʦef gi'luaχ</field>
+                    <field name="translation_word">пена для бритья</field>
+                    <field name="pronunciation_word">'keʦef gi'luaχ</field>
                     <field name="hebrew_word_nikud">קֶצֵף‬ ‫גִילוּחַ‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_831.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_831.mp3</field>
