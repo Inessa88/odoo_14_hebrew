@@ -37653,7 +37653,7 @@
                 <record id="word_3666" model="words">
                     <field name="translation_word">отсутствовать, недостовать</field>
                     <field name="pronunciation_word">lahsor</field>
-                    <field name="hebrew_word_nikud">לַחסוֹר</field>
+                    <field name="hebrew_word_nikud">לַחסוֹר</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3666.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3666.mp3</field>
                     <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3666_present.png"/>
