@@ -8552,7 +8552,7 @@
                 <record id="word_829" model="words">
                     <field name="translation_word">чистить зубы</field>
                     <field name="pronunciation_word">leʦaχ'ʦeaχ ʃi'nayim</field>
-                    <field name="hebrew_word_nikud">‬לְצַחצֵח‬ ‫שִינַיִים‬</field>
+                    <field name="hebrew_word_nikud">‬לְצַחצֵחַ‬ ‫שִינַיִים‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_829.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_829.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_41'))]"/>
@@ -11141,7 +11141,7 @@
                 <record id="word_1081" model="words">
                     <field name="translation_word">профессия</field>
                     <field name="pronunciation_word">mik'ʦoʿa</field>
-                    <field name="hebrew_word_nikud">‫מִקצוֹע‬‬</field>
+                    <field name="hebrew_word_nikud">‫מִקצוֹעַ‬‬</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_1081.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1081.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_54'))]"/>
@@ -37666,7 +37666,7 @@
                 <record id="word_3667" model="words">
                     <field name="translation_word">сила</field>
                     <field name="pronunciation_word">koaχ</field>
-                    <field name="hebrew_word_nikud">כ̇חַ</field>
+                    <field name="hebrew_word_nikud">כֹּחַ</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3667.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3667.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_169'))]"/>
