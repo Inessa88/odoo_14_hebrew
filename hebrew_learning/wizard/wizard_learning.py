@@ -58,25 +58,39 @@ class WizardLearning(models.TransientModel):
             self.env.ref('hebrew_learning.sprint').id,
         )
         for word_id in self.all_words_to_train_ids.ids:
-            # initial learining is never repeated
-            self.env['last_exercise_date'].create({
-                'word_id': word_id,
-                'user_id': uid,
-                'exercise_type_id': initial_learning,
-                'last_exercise_date': today_date,
-                'number_of_times_exercise_is_done': 1,
-                'repetition_interval': '1000000', # 'Never'
-            })
-            # for other types of exercises we create it with yesterday date
-            # (in case initial learing is stopped at some point) - to train it today
-            for exercise_type_id in exercise_type_ids:
+            exercise_date_record_already_exists = self.env['last_exercise_date'].search([
+                ('user_id', '=', uid),
+                ('exercise_type_id', '=', initial_learning),
+                ('word_id', '=', word_id),
+            ])
+            # Prevent duplicates
+            if not exercise_date_record_already_exists:
+                # initial learining is never repeated
                 self.env['last_exercise_date'].create({
                     'word_id': word_id,
                     'user_id': uid,
-                    'exercise_type_id': exercise_type_id,
-                    'last_exercise_date': yesterday_date,
-                    'repetition_interval': '1', # 'In a day'
+                    'exercise_type_id': initial_learning,
+                    'last_exercise_date': today_date,
+                    'number_of_times_exercise_is_done': 1,
+                    'repetition_interval': '1000000', # 'Never'
                 })
+            # for other types of exercises we create it with yesterday date
+            # (in case initial learing is stopped at some point) - to train it today
+            for exercise_type_id in exercise_type_ids:
+                exercise_date_record_already_exists = self.env['last_exercise_date'].search([
+                    ('user_id', '=', uid),
+                    ('exercise_type_id', '=', exercise_type_id),
+                    ('word_id', '=', word_id),
+                ])
+                # Prevent duplicates
+                if not exercise_date_record_already_exists:
+                    self.env['last_exercise_date'].create({
+                        'word_id': word_id,
+                        'user_id': uid,
+                        'exercise_type_id': exercise_type_id,
+                        'last_exercise_date': yesterday_date,
+                        'repetition_interval': '1', # 'In a day'
+                    })
 
     def give_answer(self):
         action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_learning_action')
