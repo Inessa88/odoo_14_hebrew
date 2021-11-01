@@ -37683,7 +37683,7 @@
 
                 <record id="word_3669" model="words">
                     <field name="translation_word">умный</field>
-                    <field name="pronunciation_word">χakam</field>
+                    <field name="pronunciation_word">χaham</field>
                     <field name="hebrew_word_nikud">חַכַם</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3669.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3669.mp3</field>
