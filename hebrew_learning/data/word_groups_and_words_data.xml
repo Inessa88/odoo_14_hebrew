@@ -7208,7 +7208,7 @@
                     <field name="translation_word">сердце</field>
                     <field name="pronunciation_word">lev</field>
                     <field name="hebrew_word_nikud">‬‫לֵב‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_700.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_700.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_700.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_30'))]"/>
                 </record>
@@ -7393,7 +7393,7 @@
                     <field name="translation_word">голова</field>
                     <field name="pronunciation_word">roʃ</field>
                     <field name="hebrew_word_nikud">‫רֹאש‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_718.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_718.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_718.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_31'))]"/>
                 </record>
@@ -7413,7 +7413,7 @@
                     <field name="translation_word">нос</field>
                     <field name="pronunciation_word">af</field>
                     <field name="hebrew_word_nikud">‬‫אַף‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_720.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_720.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_720.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_31'))]"/>
                 </record>
@@ -7473,7 +7473,7 @@
                     <field name="translation_word">зуб</field>
                     <field name="pronunciation_word">ʃen</field>
                     <field name="hebrew_word_nikud">‫שֵן‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_726.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_726.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_726.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_31'))]"/>
                 </record>
@@ -7533,7 +7533,7 @@
                     <field name="translation_word">ухо</field>
                     <field name="pronunciation_word">'ozen</field>
                     <field name="hebrew_word_nikud">‬‫אוֹזֶן‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_732.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_732.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_732.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_31'))]"/>
                 </record>
@@ -7543,7 +7543,7 @@
                     <field name="translation_word">шея</field>
                     <field name="pronunciation_word">ʦavar</field>
                     <field name="hebrew_word_nikud">‫צַווָאר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_733.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_733.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_733.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_31'))]"/>
                 </record>
@@ -7608,7 +7608,7 @@
                     <field name="translation_word">рука (вся)</field>
                     <field name="pronunciation_word">yad</field>
                     <field name="hebrew_word_nikud">‬‫יָד‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_739.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_739.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_739.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_32'))]"/>
                 </record>
@@ -7678,7 +7678,7 @@
                     <field name="translation_word">нога (выше ступни)</field>
                     <field name="pronunciation_word">'regel</field>
                     <field name="hebrew_word_nikud">‬‫רֶגֶל‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_746.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_746.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_746.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_32'))]"/>
                 </record>
@@ -7718,7 +7718,7 @@
                     <field name="translation_word">живот</field>
                     <field name="pronunciation_word">'beten</field>
                     <field name="hebrew_word_nikud">‬‫בֶּטֶן‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_750.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_750.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_750.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_32'))]"/>
                 </record>
@@ -7748,7 +7748,7 @@
                     <field name="translation_word">спина</field>
                     <field name="pronunciation_word">gav</field>
                     <field name="hebrew_word_nikud">‫גַב‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_753.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_753.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_753.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_32'))]"/>
                 </record>
@@ -10183,7 +10183,7 @@
                     <field name="translation_word">рецепт</field>
                     <field name="pronunciation_word">matkon</field>
                     <field name="hebrew_word_nikud">‫מַתכּוֹן‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_988.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_988.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_988.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_49'))]"/>
                 </record>
@@ -12616,7 +12616,7 @@
                     <field name="translation_word">надежда</field>
                     <field name="pronunciation_word">tikva</field>
                     <field name="hebrew_word_nikud">‬‫תִקווָה‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1225.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1225.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1225.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_60'))]"/>
                 </record>
@@ -15461,7 +15461,7 @@
                     <field name="translation_word">боль</field>
                     <field name="pronunciation_word">keʾev</field>
                     <field name="hebrew_word_nikud">‬‫כְּאֵב‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1503.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1503.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1503.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_71'))]"/>
                 </record>
@@ -16036,7 +16036,7 @@
                     <field name="translation_word">рецепт</field>
                     <field name="pronunciation_word">mirʃam</field>
                     <field name="hebrew_word_nikud">‫מִרשָם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1559.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1559.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1559.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_74'))]"/>
                 </record>
@@ -17236,7 +17236,7 @@
                     <field name="translation_word">БЕСПЛАТНО</field>
                     <field name="pronunciation_word">χinam</field>
                     <field name="hebrew_word_nikud">‫חִינָם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1677.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1677.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1677.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_78'))]"/>
                 </record>
@@ -17541,7 +17541,7 @@
                     <field name="translation_word">пробка (на дороге)</field>
                     <field name="pronunciation_word">pkak</field>
                     <field name="hebrew_word_nikud">‬‫פּקָק‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1707.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1707.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1707.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_79'))]"/>
                 </record>
@@ -18565,7 +18565,7 @@
                     <field name="translation_word">конверт</field>
                     <field name="pronunciation_word">maʿatafa</field>
                     <field name="hebrew_word_nikud">‫מַעֲטָפָה‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1807.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1807.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1807.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_83'))]"/>
                 </record>
@@ -18575,7 +18575,7 @@
                     <field name="translation_word">марка</field>
                     <field name="pronunciation_word">bul 'doʾar</field>
                     <field name="hebrew_word_nikud">בּוּל‬ ‬‬‬‬‬‬‫דוֹאַר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1808.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1808.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1808.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_83'))]"/>
                 </record>
@@ -19097,7 +19097,7 @@
                     <field name="translation_word">ключ</field>
                     <field name="pronunciation_word">maf'teaχ</field>
                     <field name="hebrew_word_nikud">‬‫מַפתֵחַ‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1858.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1858.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1858.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_87'))]"/>
                 </record>
@@ -19367,7 +19367,7 @@
                     <field name="translation_word">бассейн</field>
                     <field name="pronunciation_word">breχat sχiya</field>
                     <field name="hebrew_word_nikud">בּרֵיכַת‬‬‬‬‬‬‬ ‫שׂחִייָה‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1884.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1884.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1884.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_89'))]"/>
                 </record>
@@ -22872,7 +22872,7 @@
                     <field name="translation_word">торговая марка</field>
                     <field name="pronunciation_word">'semel misχari</field>
                     <field name="hebrew_word_nikud">סֶמֶל‬ ‫מִסחָרִי‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2225.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2225.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2225.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_108'))]"/>
                 </record>
@@ -23583,7 +23583,7 @@
                     <field name="translation_word">бассейн</field>
                     <field name="pronunciation_word">breχat sχiya</field>
                     <field name="hebrew_word_nikud">בּרֵיכַת‬ ‫שׂחִייָה‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2293.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2293.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2293.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_113'))]"/>
                 </record>
@@ -24017,11 +24017,13 @@
         
                 
                 <record id="word_2336" model="words">
-                    <field name="translation_word">посещать</field>
+                    <field name="translation_word">посещать, навещать</field>
                     <field name="pronunciation_word">levaker</field>
                     <field name="hebrew_word_nikud">‬‫לְבַקֵר‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2336.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2336.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2336.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_2336_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_2336_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_114'))]"/>
                 </record>
         
@@ -25002,7 +25004,7 @@
                     <field name="translation_word">переводчик</field>
                     <field name="pronunciation_word">metargem</field>
                     <field name="hebrew_word_nikud">‫מְתַרגֵם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2431.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2431.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2431.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_120'))]"/>
                 </record>
@@ -25012,7 +25014,7 @@
                     <field name="translation_word">переводчик</field>
                     <field name="pronunciation_word">meturgeman</field>
                     <field name="hebrew_word_nikud">‫מְתוּרגְמָן‬‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2432.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2432.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2432.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_120'))]"/>
                 </record>
@@ -27475,7 +27477,7 @@
                     <field name="translation_word">переводчик</field>
                     <field name="pronunciation_word">metargem</field>
                     <field name="hebrew_word_nikud">‫מְתַרגֵם‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2670.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2670.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2670.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_135'))]"/>
                 </record>
@@ -28430,7 +28432,7 @@
                     <field name="translation_word">ключ</field>
                     <field name="pronunciation_word">maf'teaχ</field>
                     <field name="hebrew_word_nikud">‬‫מַפתֵחַ‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2762.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2762.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2762.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_142'))]"/>
                 </record>
@@ -28977,7 +28979,7 @@
                     <field name="translation_word">бассейн</field>
                     <field name="pronunciation_word">breχa</field>
                     <field name="hebrew_word_nikud">‫בּרֵיכָה‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_2815.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_2815.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_2815.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_145'))]"/>
                 </record>
@@ -31108,7 +31110,7 @@
                     <field name="translation_word">животное</field>
                     <field name="pronunciation_word">'baʿal χayim</field>
                     <field name="hebrew_word_nikud">בַּעַל‬‬‬ ‫חַיִים‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3021.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3021.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3021.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_156'))]"/>
                 </record>
@@ -31208,7 +31210,7 @@
                     <field name="translation_word">домашние животные</field>
                     <field name="pronunciation_word">χayot 'bayit</field>
                     <field name="hebrew_word_nikud">חַיוֹת‬‬‬ ‫בַּיִת‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3031.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3031.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3031.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_156'))]"/>
                 </record>
@@ -32543,7 +32545,7 @@
                     <field name="translation_word">очередь (сейчас моя ~)</field>
                     <field name="pronunciation_word">tor</field>
                     <field name="hebrew_word_nikud">‫תוֹר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3162.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3162.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3162.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_161'))]"/>
                 </record>
@@ -32583,7 +32585,7 @@
                     <field name="translation_word">помощь</field>
                     <field name="pronunciation_word">ezra</field>
                     <field name="hebrew_word_nikud">‫עֶזרָה‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3166.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3166.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3166.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_161'))]"/>
                 </record>
@@ -32908,7 +32910,7 @@
                     <field name="translation_word">бесплатный</field>
                     <field name="pronunciation_word">χinam</field>
                     <field name="hebrew_word_nikud">‫חִינָם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3198.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3198.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3198.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_162'))]"/>
                 </record>
@@ -33873,7 +33875,7 @@
                     <field name="translation_word">разный</field>
                     <field name="pronunciation_word">ʃone</field>
                     <field name="hebrew_word_nikud">‫שוֹנֶה‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3294.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3294.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3294.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_163'))]"/>
                 </record>
@@ -35048,11 +35050,13 @@
         
                 
                 <record id="word_3409" model="words">
-                    <field name="translation_word">запомнить</field>
+                    <field name="translation_word">запомнить, помнить</field>
                     <field name="pronunciation_word">lizkor</field>
                     <field name="hebrew_word_nikud">‫לִזכּוֹר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3409.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3409.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3409.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3409_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_3409_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_165'))]"/>
                 </record>
         
@@ -35539,8 +35543,10 @@
                     <field name="translation_word">мечтать</field>
                     <field name="pronunciation_word">laχalom</field>
                     <field name="hebrew_word_nikud">‫לַחֲלוֹם‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3456.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3456.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3456.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3456_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_3456_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_165'))]"/>
                 </record>
         
@@ -36220,11 +36226,13 @@
         
                 
                 <record id="word_3522" model="words">
-                    <field name="translation_word">помнить</field>
+                    <field name="translation_word">запомнить, помнить</field>
                     <field name="pronunciation_word">lizkor</field>
                     <field name="hebrew_word_nikud">‫לִזכּוֹר‬‬</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3522.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3522.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3522.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3522_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_3522_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_167'))]"/>
                 </record>
         
@@ -37689,6 +37697,180 @@
                     <field name="audio">hebrew_learning/static/audio/word_3669.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_169'))]"/>
                 </record>
+
+                <record id="word_3670" model="words">
+                    <field name="translation_word">старожил, ветеран (напр. в организации)</field>
+                    <field name="pronunciation_word">vatik</field>
+                    <field name="hebrew_word_nikud">ווַתֽיק</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3670.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3670.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3671" model="words">
+                    <field name="translation_word">исключение (из правила)</field>
+                    <field name="pronunciation_word">i'oʦe 'dofin</field>
+                    <field name="hebrew_word_nikud">יוֹצֵא דוֹפֽן</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3671.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3671.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3672" model="words">
+                    <field name="translation_word">напротив (напр. в окне)</field>
+                    <field name="pronunciation_word">mul</field>
+                    <field name="hebrew_word_nikud">מוֻל</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3672.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3672.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3673" model="words">
+                    <field name="translation_word">ждать</field>
+                    <field name="pronunciation_word">leχakot</field>
+                    <field name="hebrew_word_nikud">לְחַכּוֹת</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3673.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3673.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3673_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_3673_present.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_165'))]"/>
+                </record>
+
+                <record id="word_3674" model="words">
+                    <field name="translation_word">группа</field>
+                    <field name="pronunciation_word">kvuʦa</field>
+                    <field name="hebrew_word_nikud">קבוֻצַה</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3674.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3674.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3675" model="words">
+                    <field name="translation_word">Понятия не имею!</field>
+                    <field name="pronunciation_word">ein li musag</field>
+                    <field name="hebrew_word_nikud">אֵין לי מוֻשַג</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3675.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3675.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3676" model="words">
+                    <field name="translation_word">дорога, путь</field>
+                    <field name="pronunciation_word">dereχ</field>
+                    <field name="hebrew_word_nikud">דֶרֶך</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3676.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3676.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3677" model="words">
+                    <field name="translation_word">знак зодиака</field>
+                    <field name="pronunciation_word">mazal</field>
+                    <field name="hebrew_word_nikud">מַזַל</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3677.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3677.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3678" model="words">
+                    <field name="translation_word">терпение</field>
+                    <field name="pronunciation_word">savlanut</field>
+                    <field name="hebrew_word_nikud">סַבלַנוֻת</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3678.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3678.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3679" model="words">
+                    <field name="translation_word">острый (о еде)</field>
+                    <field name="pronunciation_word">χarif</field>
+                    <field name="hebrew_word_nikud">חַריף</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3679.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3679.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3680" model="words">
+                    <field name="translation_word">повторение</field>
+                    <field name="pronunciation_word">χazra</field>
+                    <field name="hebrew_word_nikud">חַזרַה</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3680.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3680.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3681" model="words">
+                    <field name="translation_word">стена</field>
+                    <field name="pronunciation_word">'kotel</field>
+                    <field name="hebrew_word_nikud">כוֹתל</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3681.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3681.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3682" model="words">
+                    <field name="translation_word">очень жаль</field>
+                    <field name="pronunciation_word">χaval</field>
+                    <field name="hebrew_word_nikud">חַבַל</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3682.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3682.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3683" model="words">
+                    <field name="translation_word">размер</field>
+                    <field name="pronunciation_word">mida</field>
+                    <field name="hebrew_word_nikud">מידַה</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3683.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3683.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3684" model="words">
+                    <field name="translation_word">больничный лист</field>
+                    <field name="pronunciation_word">iʃur maχala</field>
+                    <field name="hebrew_word_nikud">אישוֻר מַחַלַה</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3684.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3684.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3685" model="words">
+                    <field name="translation_word">горло</field>
+                    <field name="pronunciation_word">garon</field>
+                    <field name="hebrew_word_nikud">גַרוֹן</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3685.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3685.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3686" model="words">
+                    <field name="translation_word">тест</field>
+                    <field name="pronunciation_word">mivχan</field>
+                    <field name="hebrew_word_nikud">מֽבחַן</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3686.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3686.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3687" model="words">
+                    <field name="translation_word">Выздоравливай!</field>
+                    <field name="pronunciation_word">targiʃ tov</field>
+                    <field name="hebrew_word_nikud">תַרגיש טוֹב</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3687.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3687.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
+                <record id="word_3688" model="words">
+                    <field name="translation_word">авария (на дороге)</field>
+                    <field name="pronunciation_word">taunat draχim</field>
+                    <field name="hebrew_word_nikud">תַאוֻנַת דרַכים</field>
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3688.png"/>
+                    <field name="audio">hebrew_learning/static/audio/word_3688.mp3</field>
+                    <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+                </record>
+
 
     </data>
 </odoo>
