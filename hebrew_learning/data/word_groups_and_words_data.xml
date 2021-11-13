@@ -37967,7 +37967,7 @@
                 <record id="word_3698" model="words">
                     <field name="translation_word">МВД (дают паспорт)</field>
                     <field name="pronunciation_word">misrad hapnim</field>
-                    <field name="hebrew_word_nikud">מִשׂרָד הִפנִים</field>
+                    <field name="hebrew_word_nikud">מִשׂרָד הַפנִים</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3698.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3698.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_169'))]"/>
@@ -37976,7 +37976,7 @@
                 <record id="word_3699" model="words">
                     <field name="translation_word">Стена Плача (стена западная)</field>
                     <field name="pronunciation_word">ha'kotel hamaarvi</field>
-                    <field name="hebrew_word_nikud">הַכוֹתֵל הַמַעַרַבִי</field>
+                    <field name="hebrew_word_nikud">הַכוֹתֵל הַמַעַרבִי</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3699.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3699.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_169'))]"/>
@@ -37993,7 +37993,7 @@
 
                 <record id="word_3701" model="words">
                     <field name="translation_word">министр финансов</field>
-                    <field name="pronunciation_word">sar haozar</field>
+                    <field name="pronunciation_word">sar haoʦar</field>
                     <field name="hebrew_word_nikud">שַׂר הַאוֹצַר</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3701.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3701.mp3</field>
@@ -38019,7 +38019,7 @@
                 </record>
 
                 <record id="word_3704" model="words">
-                    <field name="translation_word">служажий, клерк</field>
+                    <field name="translation_word">служащий, клерк</field>
                     <field name="pronunciation_word">pakid</field>
                     <field name="hebrew_word_nikud">פָּקִיד</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3704.png"/>
@@ -38056,7 +38056,7 @@
 
                 <record id="word_3708" model="words">
                     <field name="translation_word">к сожалению, к несчастью</field>
-                    <field name="pronunciation_word">lezaari</field>
+                    <field name="pronunciation_word">leʦaari</field>
                     <field name="hebrew_word_nikud">לצַעַרִי</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3708.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3708.mp3</field>
@@ -38083,7 +38083,7 @@
 
                 <record id="word_3711" model="words">
                     <field name="translation_word">реально, в самом деле</field>
-                    <field name="pronunciation_word">be'amet</field>
+                    <field name="pronunciation_word">beemet</field>
                     <field name="hebrew_word_nikud">בֵאֵמֵת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3711.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3711.mp3</field>
@@ -38231,7 +38231,7 @@
 
                 <record id="word_3727" model="words">
                     <field name="translation_word">ухаживать, заботиться</field>
-                    <field name="pronunciation_word">lehiʃaer</field>
+                    <field name="pronunciation_word">letapel</field>
                     <field name="hebrew_word_nikud">לְטַפֵּל</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3727.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3727.mp3</field>
@@ -38287,7 +38287,7 @@
 
                 <record id="word_3733" model="words">
                     <field name="translation_word">листопад</field>
-                    <field name="pronunciation_word">ʃaleχet</field>
+                    <field name="pronunciation_word">ʃa'leχet</field>
                     <field name="hebrew_word_nikud">שַלֵכֵת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3733.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3733.mp3</field>
