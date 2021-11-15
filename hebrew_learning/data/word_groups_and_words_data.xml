@@ -38411,7 +38411,7 @@
                 <record id="word_3742" model="words">
                     <field name="translation_word">встретиться</field>
                     <field name="pronunciation_word">lehipageʃ</field>
-                    <field name="hebrew_word_nikud">טיפול</field>
+                    <field name="hebrew_word_nikud">לְהִיפָּגֵשׁ</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3742.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3742.mp3</field>
                     <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3742_present.png"/>
