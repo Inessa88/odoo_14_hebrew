@@ -38420,7 +38420,7 @@
                 <record id="word_3741" model="words">
                     <field name="translation_word">лечение</field>
                     <field name="pronunciation_word">tipul</field>
-                    <field name="hebrew_word_nikud">טיפול</field>
+                    <field name="hebrew_word_nikud">טִיפוֻל</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3741.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3741.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_169'))]"/>
