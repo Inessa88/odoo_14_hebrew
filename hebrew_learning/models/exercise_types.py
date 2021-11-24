@@ -843,6 +843,37 @@ class ExerciseTypes(models.Model):
         })
 
     def start_training(self):
+        # all_in_three_day_repeat_trainings = self.env['last_exercise_date'].search([('repetition_interval','=','3')])
+        # all_in_three_day_repeat_trainings.write({'repetition_interval': '7', 'number_of_times_exercise_is_done': 5})
+        # all_in_two_week_repeat_trainings = self.env['last_exercise_date'].search([('repetition_interval','=','14')])
+        # all_in_two_week_repeat_trainings.write({'repetition_interval': '30'})
+
+
+        # all_in_a_day_repeat_trainings_overdone = self.env['last_exercise_date'].search([
+        #     ('repetition_interval','=','1'),
+        #     ('number_of_times_exercise_is_done','>',4),
+        # ])
+        # all_in_a_day_repeat_trainings_overdone.write({'repetition_interval': '7'})
+
+        # all_in_a_week_repeat_trainings_overdone = self.env['last_exercise_date'].search([
+        #     ('repetition_interval','=','7'),
+        #     ('number_of_times_exercise_is_done','>',5),
+        # ])
+        # all_in_a_week_repeat_trainings_overdone.write({'repetition_interval': '30'})
+
+        # all_in_a_month_repeat_trainings_overdone = self.env['last_exercise_date'].search([
+        #     ('repetition_interval','=','30'),
+        #     ('number_of_times_exercise_is_done','>',8),
+        # ])
+        # all_in_a_month_repeat_trainings_overdone.write({'repetition_interval': '90'})
+
+        # all_in_a_three_month_repeat_trainings_overdone = self.env['last_exercise_date'].search([
+        #     ('repetition_interval','=','90'),
+        #     ('number_of_times_exercise_is_done','>',9),
+        # ])
+        # all_in_a_three_month_repeat_trainings_overdone.write({'repetition_interval': '183'})
+
+
         if self.id == self.env.ref('hebrew_learning.sentences').id:
             sentence_mode=True
         else:

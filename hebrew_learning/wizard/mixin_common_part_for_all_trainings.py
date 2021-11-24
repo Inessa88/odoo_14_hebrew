@@ -274,25 +274,19 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
             'number_of_times_exercise_is_done': current_number_of_repetitions,
         }
         # ('1', 'In a day'), X 5 TIMES => SUM TIMES: 5
-        # ('3', 'In three days'), => SUM TIMES: 6
-        # ('7', 'In a week'), => SUM TIMES: 7
-        # ('14', 'In two weeks'), => SUM TIMES: 8
-        # ('30', 'In a month'), X 3 TIMES => SUM TIMES: 11
-        # ('90', 'In three months'), => SUM TIMES: 12
-        # ('183', 'In half a year'), => SUM TIMES: 13-14-...
+        # ('7', 'In a week'), => SUM TIMES: 6
+        # ('30', 'In a month'), X 3 TIMES => SUM TIMES: 9
+        # ('90', 'In three months'), => SUM TIMES: 10
+        # ('183', 'In half a year'), => SUM TIMES: 11-12-...
         # ('1000000', 'Never (initial learning)'),
-        # Right now we learned 3rd time 3 days in a row, so move to next interval
+        # Right now we learned 5th time 5 days in a row, so move to next interval
         if update_exercise_date_record.repetition_interval == '1' and current_number_of_repetitions == 5:
-            data['repetition_interval'] = '3'
-        elif update_exercise_date_record.repetition_interval == '3' and current_number_of_repetitions == 6:
             data['repetition_interval'] = '7'
-        elif update_exercise_date_record.repetition_interval == '7' and current_number_of_repetitions == 7:
-            data['repetition_interval'] = '14'
-        elif update_exercise_date_record.repetition_interval == '14' and current_number_of_repetitions == 8:
+        elif update_exercise_date_record.repetition_interval == '7' and current_number_of_repetitions == 6:
             data['repetition_interval'] = '30'
-        elif update_exercise_date_record.repetition_interval == '30' and current_number_of_repetitions == 11:
+        elif update_exercise_date_record.repetition_interval == '30' and current_number_of_repetitions == 9:
             data['repetition_interval'] = '90'
-        elif update_exercise_date_record.repetition_interval == '90' and current_number_of_repetitions == 12:
+        elif update_exercise_date_record.repetition_interval == '90' and current_number_of_repetitions == 10:
             data['repetition_interval'] = '183'
         update_exercise_date_record.write(data)
 
