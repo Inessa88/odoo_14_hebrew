@@ -2402,11 +2402,13 @@
         
                 
                 <record id="word_231" model="words">
-                    <field name="translation_word">находить</field>
+                    <field name="translation_word">находить, найти, натолкнуться (на ч.-л.)</field>
                     <field name="pronunciation_word">limʦo</field>
                     <field name="hebrew_word_nikud">לִמצוֹא</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_231.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_231.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_231_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_231_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_11'))]"/>
                 </record>
         
@@ -2884,6 +2886,8 @@
                     <field name="hebrew_word_nikud">לְנַסוֹת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_275.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_275.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_275_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_275_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_12'))]"/>
                 </record>
         
@@ -17791,11 +17795,13 @@
         
                 
                 <record id="word_1725" model="words">
-                    <field name="translation_word">найти</field>
+                    <field name="translation_word">находить, найти, натолкнуться (на ч.-л.)</field>
                     <field name="pronunciation_word">limʦo</field>
                     <field name="hebrew_word_nikud">לִמצוֹא</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1725.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1725.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1725.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_1725_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_1725_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_80'))]"/>
                 </record>
         
@@ -35819,11 +35825,13 @@
         
                 
                 <record id="word_3471" model="words">
-                    <field name="translation_word">находить</field>
+                    <field name="translation_word">находить, найти, натолкнуться (на ч.-л.)</field>
                     <field name="pronunciation_word">limʦo</field>
                     <field name="hebrew_word_nikud">לִמצוֹא</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_3471.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3471.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3471_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_3471_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_166'))]"/>
                 </record>
         
