@@ -2172,8 +2172,8 @@
                     <field name="hebrew_word_nikud">לְשַנוֹת</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_209.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_209.mp3</field>
-                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_209_present.png"/>
-                    <field name="audio">hebrew_learning/static/audio/word_209_present.mp3</field>
+                    <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_209_present.png"/>
+                    <field name="audio_present">hebrew_learning/static/audio/word_209_present.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_10'))]"/>
                 </record>
         
@@ -13020,7 +13020,7 @@
                 <record id="word_1259" model="words">
                     <field name="translation_word">скромный</field>
                     <field name="pronunciation_word">ʦa'nuʿa</field>
-                    <field name="hebrew_word_nikud">צָנוּע</field>
+                    <field name="hebrew_word_nikud">צָנוּעַ</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_1259.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1259.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_61'))]"/>
@@ -17352,7 +17352,7 @@
                     <field name="translation_word">ОПАСНО</field>
                     <field name="pronunciation_word">mesukan</field>
                     <field name="hebrew_word_nikud">מְסוּכָּן</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_1681.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_1681.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_1681.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_78'))]"/>
                 </record>
@@ -21227,7 +21227,7 @@
         
                 
                 <record id="word_2055" model="words">
-                    <field name="translation_word">опасный</field>
+                    <field name="translation_word">опасный, рискованный</field>
                     <field name="pronunciation_word">mesukan</field>
                     <field name="hebrew_word_nikud">מְסוּכָּן</field>
                     <field name="picture" type="base64" file="hebrew_learning/static/img/word_2055.png"/>
@@ -33696,10 +33696,10 @@
         
                 
                 <record id="word_3265" model="words">
-                    <field name="translation_word">опасный</field>
+                    <field name="translation_word">опасный, рискованный</field>
                     <field name="pronunciation_word">mesukan</field>
                     <field name="hebrew_word_nikud">מְסוּכָּן</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3265.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3265.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3265.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_163'))]"/>
                 </record>
@@ -34006,10 +34006,10 @@
         
                 
                 <record id="word_3296" model="words">
-                    <field name="translation_word">рискованный</field>
+                    <field name="translation_word">опасный, рискованный</field>
                     <field name="pronunciation_word">mesukan</field>
                     <field name="hebrew_word_nikud">מְסוּכָּן</field>
-                    <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3296.png"/> -->
+                    <field name="picture" type="base64" file="hebrew_learning/static/img/word_3296.png"/>
                     <field name="audio">hebrew_learning/static/audio/word_3296.mp3</field>
                     <field name="group_ids" eval="[(4, ref('group_163'))]"/>
                 </record>
