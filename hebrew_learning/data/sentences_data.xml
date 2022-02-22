@@ -2940,7 +2940,7 @@
 
         
         <record id="sentence_368" model="sentences">
-            <field name="translation_sentence">Я уезжаю завтра.</field>
+            <field name="translation_sentence">Я уезжаю (возвращаюсь) завтра.</field>
             <field name="hebrew_sentence">אני עוזב מחר</field>
             <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_368.png"/>
             <field name="audio">hebrew_learning/static/audio/sentences/sentence_368.mp3</field>
