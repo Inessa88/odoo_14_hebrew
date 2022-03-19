@@ -38,27 +38,7 @@ class WizardSentenceTraining(models.TransientModel):
     fifth_sentence_typing = fields.Char(
         string='Fifth sentence to type',
     )
-
-    first_sentence_help = fields.Boolean(
-        string='First sentence help to type',
-    )
-
-    second_sentence_help = fields.Boolean(
-        string='Second sentence help to type',
-    )
-
-    third_sentence_help = fields.Boolean(
-        string='Third sentence help to type',
-    )
-
-    fourth_sentence_help = fields.Boolean(
-        string='Fourth sentence help to type',
-    )
-
-    fifth_sentence_help = fields.Boolean(
-        string='Fifth sentence help to type',
-    )
-
+    
     number_of_sentences_to_train = fields.Integer(
         string='Number of sentences to train',
     )

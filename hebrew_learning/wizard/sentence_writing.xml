@@ -23,7 +23,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="first_sentence_to_train_id" invisible="1"/>
-                            <field name="first_hebrew_sentence" attrs="{'invisible': [('first_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="first_hebrew_sentence" readonly="1"/>
                             <field name="first_translation_sentence"/>
                         </group>
                         <group>
@@ -31,7 +31,6 @@
                         </group>
                     </group>
                     <group style="font-size: 150% !important;">
-                        <field name="first_sentence_help" string="HELP!!!"/>
                         <field name="first_sentence_typing" nolabel="1" default_focus="1"/>
                         <button name="give_answer"
                                 string="Test"
@@ -74,7 +73,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="second_sentence_to_train_id" invisible="1"/>
-                            <field name="second_hebrew_sentence" attrs="{'invisible': [('second_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="second_hebrew_sentence" readonly="1"/>
                             <field name="second_translation_sentence"/>
                         </group>
                         <group>
@@ -82,7 +81,6 @@
                         </group>
                     </group>
                     <group style="font-size: 150% !important;">
-                        <field name="second_sentence_help" string="HELP!!!"/>
                         <field name="second_sentence_typing" nolabel="1" default_focus="1"/>
                         <button name="give_answer"
                                 string="Test"
@@ -125,7 +123,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="third_sentence_to_train_id" invisible="1"/>
-                            <field name="third_hebrew_sentence" attrs="{'invisible': [('third_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="third_hebrew_sentence" readonly="1"/>
                             <field name="third_translation_sentence"/>
                         </group>
                         <group>
@@ -133,7 +131,6 @@
                         </group>
                     </group>
                     <group style="font-size: 150% !important;">
-                        <field name="third_sentence_help" string="HELP!!!"/>
                         <field name="third_sentence_typing" nolabel="1" default_focus="1"/>
                         <button name="give_answer"
                                 string="Test"
@@ -176,7 +173,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="fourth_sentence_to_train_id" invisible="1"/>
-                            <field name="fourth_hebrew_sentence" attrs="{'invisible': [('fourth_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="fourth_hebrew_sentence" readonly="1"/>
                             <field name="fourth_translation_sentence"/>
                         </group>
                         <group>
@@ -184,7 +181,6 @@
                         </group>
                     </group>
                     <group style="font-size: 150% !important;">
-                        <field name="fourth_sentence_help" string="HELP!!!"/>
                         <field name="fourth_sentence_typing" nolabel="1" default_focus="1"/>
                         <button name="give_answer"
                                 string="Test"
@@ -227,7 +223,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="fifth_sentence_to_train_id" invisible="1"/>
-                            <field name="fifth_hebrew_sentence" attrs="{'invisible': [('fifth_sentence_help', '=', False)]}" readonly="1"/>
+                            <field name="fifth_hebrew_sentence" readonly="1"/>
                             <field name="fifth_translation_sentence"/>
                         </group>
                         <group>
@@ -235,7 +231,6 @@
                         </group>
                     </group>
                     <group style="font-size: 150% !important;">
-                        <field name="fifth_sentence_help" string="HELP!!!"/>
                         <field name="fifth_sentence_typing" nolabel="1" default_focus="1"/>
                         <button name="give_answer"
                                 string="Test"

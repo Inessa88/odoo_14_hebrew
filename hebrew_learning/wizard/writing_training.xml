@@ -23,7 +23,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="first_word_to_train_id" invisible="1"/>
-                            <field name="first_hebrew_word" attrs="{'invisible': [('first_word_help', '=', False)]}" readonly="1"/>
+                            <field name="first_hebrew_word" readonly="1"/>
                             <field name="first_hebrew_word_nikud" invisible="1"/>
                             <field name="first_pronunciation_word"/>
                             <field name="first_translation_word"/>
@@ -34,7 +34,6 @@
                             <field name="first_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
-                            <field name="first_word_help" string="HELP!!!"/>
                             <field name="first_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
@@ -82,7 +81,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="second_word_to_train_id" invisible="1"/>
-                            <field name="second_hebrew_word" attrs="{'invisible': [('second_word_help', '=', False)]}" readonly="1"/>
+                            <field name="second_hebrew_word" readonly="1"/>
                             <field name="second_hebrew_word_nikud" invisible="1"/>
                             <field name="second_pronunciation_word"/>
                             <field name="second_translation_word"/>
@@ -93,7 +92,6 @@
                             <field name="second_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
-                            <field name="second_word_help" string="HELP!!!"/>
                             <field name="second_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
@@ -141,7 +139,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="third_word_to_train_id" invisible="1"/>
-                            <field name="third_hebrew_word" attrs="{'invisible': [('third_word_help', '=', False)]}" readonly="1"/>
+                            <field name="third_hebrew_word" readonly="1"/>
                             <field name="third_hebrew_word_nikud" invisible="1"/>
                             <field name="third_pronunciation_word"/>
                             <field name="third_translation_word"/>
@@ -152,7 +150,6 @@
                             <field name="third_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
-                            <field name="third_word_help" string="HELP!!!"/>
                             <field name="third_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
@@ -200,7 +197,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="fourth_word_to_train_id" invisible="1"/>
-                            <field name="fourth_hebrew_word" attrs="{'invisible': [('fourth_word_help', '=', False)]}" readonly="1"/>
+                            <field name="fourth_hebrew_word" readonly="1"/>
                             <field name="fourth_hebrew_word_nikud" invisible="1"/>
                             <field name="fourth_pronunciation_word"/>
                             <field name="fourth_translation_word"/>
@@ -211,7 +208,6 @@
                             <field name="fourth_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
-                            <field name="fourth_word_help" string="HELP!!!"/>
                             <field name="fourth_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"
@@ -259,7 +255,7 @@
                     <group style="font-size: 150% !important;">
                         <group>
                             <field name="fifth_word_to_train_id" invisible="1"/>
-                            <field name="fifth_hebrew_word" attrs="{'invisible': [('fifth_word_help', '=', False)]}" readonly="1"/>
+                            <field name="fifth_hebrew_word" readonly="1"/>
                             <field name="fifth_hebrew_word_nikud" invisible="1"/>
                             <field name="fifth_pronunciation_word"/>
                             <field name="fifth_translation_word"/>
@@ -270,7 +266,6 @@
                             <field name="fifth_picture" widget='image' nolabel="1"/>
                         </group>
                         <group>
-                            <field name="fifth_word_help" string="HELP!!!"/>
                             <field name="fifth_word_typing" nolabel="1" default_focus="1"/>
                             <button name="give_answer"
                                     string="Test"

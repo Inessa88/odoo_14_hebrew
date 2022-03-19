@@ -27,26 +27,6 @@ class WizardWritingTraining(models.TransientModel):
         string='Fifth word to type',
     )
 
-    first_word_help = fields.Boolean(
-        string='First word help to type',
-    )
-
-    second_word_help = fields.Boolean(
-        string='Second word help to type',
-    )
-
-    third_word_help = fields.Boolean(
-        string='Third word help to type',
-    )
-
-    fourth_word_help = fields.Boolean(
-        string='Fourth word help to type',
-    )
-
-    fifth_word_help = fields.Boolean(
-        string='Fifth word help to type',
-    )
-
     first_word_hard_to_learn = fields.Boolean(
         string='First word is hard to learn',
         related='first_word_to_train_id.hard_to_learn',
