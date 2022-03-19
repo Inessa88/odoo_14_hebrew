@@ -260,8 +260,30 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         comodel_name='words',
     )
 
+    def _properly_learned_this_word(self, word_id:int):
+        # We allow to declare that word is properly learned for one word at a time!
+        self.ensure_one()
+        uid = self.env.uid
+        # looking for all types of exercises except initial learning
+        exercise_date_records = self.env['last_exercise_date'].search([
+                ('user_id', '=', uid),
+                ('exercise_type_id', '!=', self.env.ref('hebrew_learning.learning').id),
+                ('word_id', '=', word_id),
+            ])
+        for exercise_date_record in exercise_date_records:
+            current_number_of_repetitions = exercise_date_record.number_of_times_exercise_is_done + 1
+            data = {
+                'last_exercise_date': fields.Date.context_today(exercise_date_record),
+                # only after 10 exercises word is supposed to have max repetition_interval of 183 days
+                'number_of_times_exercise_is_done': current_number_of_repetitions if current_number_of_repetitions > 9 else 10,
+                'repetition_interval': '183'
+            }
+
+            exercise_date_record.write(data)
 
     def _update_last_exercise_date(self, word_id:int):
+        if self.env['words'].browse(word_id).properly_learned:
+            return self._properly_learned_this_word(word_id)
         uid = self.env.uid
         update_exercise_date_record = self.env['last_exercise_date'].search([
                 ('user_id', '=', uid),
@@ -351,5 +373,5 @@ class CommonPartForAllTrainingsMixin(models.AbstractModel):
         action = self.env["ir.actions.actions"]._for_xml_id('hebrew_learning.wizard_training_finished_action')
         # Hide edit buttons
         action['flags'] = {'mode': 'readonly'}
-        return action
+        return action       
         

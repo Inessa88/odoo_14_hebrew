@@ -53,6 +53,32 @@ class WizardWritingTraining(models.TransientModel):
         readonly=False,
     )
 
+    first_word_properly_learned = fields.Boolean(
+        string='First word is properly learned',
+        related='first_word_to_train_id.properly_learned',
+        readonly=False,
+    )
+    second_word_properly_learned = fields.Boolean(
+        string='Second word is properly learned',
+        related='second_word_to_train_id.properly_learned',
+        readonly=False,
+    )
+    third_word_properly_learned = fields.Boolean(
+        string='Third word is properly learned',
+        related='third_word_to_train_id.properly_learned',
+        readonly=False,
+    )
+    fourth_word_properly_learned = fields.Boolean(
+        string='Fourth word is properly learned',
+        related='fourth_word_to_train_id.properly_learned',
+        readonly=False,
+    )
+    fifth_word_properly_learned = fields.Boolean(
+        string='Fifth word is properly learned',
+        related='fifth_word_to_train_id.properly_learned',
+        readonly=False,
+    )
+
     number_of_words_to_train = fields.Integer(
         string='Number of words to train',
     )
