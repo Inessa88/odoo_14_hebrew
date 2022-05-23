@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+
+        <record id="sentence_1" model="sentences">
+            <field name="translation_sentence">Привет всем!</field>
+            <field name="hebrew_sentence">שלום לכולם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_1.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_1.mp3</field>
+        </record>
+
+        
+        <record id="sentence_2" model="sentences">
+            <field name="translation_sentence">Давно не виделись!</field>
+            <field name="hebrew_sentence">עבר זמן מאז שהתראינו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_2.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_2.mp3</field>
+        </record>
+
+        
+        <record id="sentence_3" model="sentences">
+            <field name="translation_sentence">Приятно познакомиться!</field>
+            <field name="hebrew_sentence">אני שמח לפגוש אותך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_3.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_3.mp3</field>
+        </record>
+
+        
+        <record id="sentence_4" model="sentences">
+            <field name="translation_sentence">Увидимся завтра.</field>
+            <field name="hebrew_sentence">נתראה מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_4.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_4.mp3</field>
+        </record>
+
+        
+        <record id="sentence_5" model="sentences">
+            <field name="translation_sentence">Ты мне нравишся.</field>
+            <field name="hebrew_sentence">אני מחבב אותך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_5.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_5.mp3</field>
+        </record>
+
+        
+        <record id="sentence_6" model="sentences">
+            <field name="translation_sentence">Ты очень весёлый.</field>
+            <field name="hebrew_sentence">אתה מצחיק יותר מידי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_6.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_6.mp3</field>
+        </record>
+
+        
+        <record id="sentence_7" model="sentences">
+            <field name="translation_sentence">Ты классный.</field>
+            <field name="hebrew_sentence">אתה מדהים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_7.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_7.mp3</field>
+        </record>
+
+        
+        <record id="sentence_8" model="sentences">
+            <field name="translation_sentence">Ты очень красивая.</field>
+            <field name="hebrew_sentence">את יפה מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_8.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_8.mp3</field>
+        </record>
+
+        
+        <record id="sentence_9" model="sentences">
+            <field name="translation_sentence">Ты очень красивый.</field>
+            <field name="hebrew_sentence">אתה נראה טוב מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_9.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_9.mp3</field>
+        </record>
+
+        
+        <record id="sentence_10" model="sentences">
+            <field name="translation_sentence">Ты любишь меня?</field>
+            <field name="hebrew_sentence">אתה אוהב אותי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_10.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_10.mp3</field>
+        </record>
+
+        
+        <record id="sentence_11" model="sentences">
+            <field name="translation_sentence">Я тебя очень люблю.</field>
+            <field name="hebrew_sentence">אני אוהב אותך מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_11.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_11.mp3</field>
+        </record>
+
+        
+        <record id="sentence_12" model="sentences">
+            <field name="translation_sentence">Я тебя не люблю.</field>
+            <field name="hebrew_sentence">אני לא אוהב אותך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_12.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_12.mp3</field>
+        </record>
+
+        
+        <record id="sentence_13" model="sentences">
+            <field name="translation_sentence">Я очень по тебе скучаю.</field>
+            <field name="hebrew_sentence">אני מתגעגע אליך נורא</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_13.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_13.mp3</field>
+        </record>
+
+        
+        <record id="sentence_14" model="sentences">
+            <field name="translation_sentence">Разреши мне тебя обнять.</field>
+            <field name="hebrew_sentence">תן חיבוק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_14.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_14.mp3</field>
+        </record>
+
+        
+        <record id="sentence_15" model="sentences">
+            <field name="translation_sentence">Как тебя зовут?</field>
+            <field name="hebrew_sentence">איך קוראים לך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_15.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_15.mp3</field>
+        </record>
+
+        
+        <record id="sentence_16" model="sentences">
+            <field name="translation_sentence">Меня зовут …</field>
+            <field name="hebrew_sentence">קוראים לי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_16.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_16.mp3</field>
+        </record>
+
+        
+        <record id="sentence_17" model="sentences">
+            <field name="translation_sentence">Из какой ты страны?</field>
+            <field name="hebrew_sentence">מאיזו מדינה אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_17.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_17.mp3</field>
+        </record>
+
+        
+        <record id="sentence_18" model="sentences">
+            <field name="translation_sentence">Сколько тебе лет?</field>
+            <field name="hebrew_sentence">בן כמה אתה בת כמה את</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_18.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_18.mp3</field>
+        </record>
+
+        
+        <record id="sentence_19" model="sentences">
+            <field name="translation_sentence">Сколько времени?</field>
+            <field name="hebrew_sentence">מה השעה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_19.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_19.mp3</field>
+        </record>
+
+        
+        <record id="sentence_20" model="sentences">
+            <field name="translation_sentence">Сегодня у меня нет времени чтобы …</field>
+            <field name="hebrew_sentence">אין לי זמן היום ל</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_20.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_20.mp3</field>
+        </record>
+
+        
+        <record id="sentence_21" model="sentences">
+            <field name="translation_sentence">Завтра мой день рождения.</field>
+            <field name="hebrew_sentence">מחר יום ההולדת שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_21.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_21.mp3</field>
+        </record>
+
+        
+        <record id="sentence_22" model="sentences">
+            <field name="translation_sentence">Этот год я не хочу праздновать мой день рождения.</field>
+            <field name="hebrew_sentence">השנה אני לא רוצה לחגוג את יום ההולדת שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_22.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_22.mp3</field>
+        </record>
+
+        
+        <record id="sentence_23" model="sentences">
+            <field name="translation_sentence">С днём рождения!</field>
+            <field name="hebrew_sentence">יום הולדת שמח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_23.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_23.mp3</field>
+        </record>
+
+        
+        <record id="sentence_24" model="sentences">
+            <field name="translation_sentence">Хороших тебе выходных.</field>
+            <field name="hebrew_sentence">סוף שבוע נעים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_24.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_24.mp3</field>
+        </record>
+
+        
+        <record id="sentence_25" model="sentences">
+            <field name="translation_sentence">Хорошей тебе поездки (желаю хорошо съездить).</field>
+            <field name="hebrew_sentence">טיול נעים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_25.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_25.mp3</field>
+        </record>
+
+        
+        <record id="sentence_26" model="sentences">
+            <field name="translation_sentence">Что сегодня за день? (день недели / число в месяце)</field>
+            <field name="hebrew_sentence">איזה יום היום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_26.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_26.mp3</field>
+        </record>
+
+        
+        <record id="sentence_27" model="sentences">
+            <field name="translation_sentence">Я очень занят сегодня.</field>
+            <field name="hebrew_sentence">היום אני עסוק מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_27.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_27.mp3</field>
+        </record>
+
+        
+        <record id="sentence_28" model="sentences">
+            <field name="translation_sentence">Что ты сегодня делал?</field>
+            <field name="hebrew_sentence">מה עשית היום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_28.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_28.mp3</field>
+        </record>
+
+        
+        <record id="sentence_29" model="sentences">
+            <field name="translation_sentence">Что ты будешь делать завтра?</field>
+            <field name="hebrew_sentence">מה אתה עושה מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_29.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_29.mp3</field>
+        </record>
+
+        
+        <record id="sentence_30" model="sentences">
+            <field name="translation_sentence">Что бы ты хотел делать завтра?</field>
+            <field name="hebrew_sentence">מה אתה רוצה לעשות מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_30.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_30.mp3</field>
+        </record>
+
+        
+        <record id="sentence_31" model="sentences">
+            <field name="translation_sentence">Завтра я хочу увидеться с моим отцом.</field>
+            <field name="hebrew_sentence">מחר אני רוצה להיפגש עם אבא שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_31.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_31.mp3</field>
+        </record>
+
+        
+        <record id="sentence_32" model="sentences">
+            <field name="translation_sentence">Что ты делал вчера?</field>
+            <field name="hebrew_sentence">מה עשית אתמול</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_32.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_32.mp3</field>
+        </record>
+
+        
+        <record id="sentence_33" model="sentences">
+            <field name="translation_sentence">Не мог бы ты говорить немного медленнее?</field>
+            <field name="hebrew_sentence">אתה יכול בבקשה לדבר לאט יותר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_33.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_33.mp3</field>
+        </record>
+
+        
+        <record id="sentence_34" model="sentences">
+            <field name="translation_sentence">Не мог бы ты повторить это предложение?</field>
+            <field name="hebrew_sentence">תוכל בבקשה לחזור על המשפט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_34.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_34.mp3</field>
+        </record>
+
+        
+        <record id="sentence_35" model="sentences">
+            <field name="translation_sentence">Не мог бы ты это повторить?</field>
+            <field name="hebrew_sentence">תוכל לחזור על זה בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_35.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_35.mp3</field>
+        </record>
+
+        
+        <record id="sentence_36" model="sentences">
+            <field name="translation_sentence">Не мог бы ты это записать (написать)?</field>
+            <field name="hebrew_sentence">תוכל לכתוב את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_36.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_36.mp3</field>
+        </record>
+
+        
+        <record id="sentence_37" model="sentences">
+            <field name="translation_sentence">Не мог бы ты произнести это слово по буквам?</field>
+            <field name="hebrew_sentence">תוכל לאיית לי את המילה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_37.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_37.mp3</field>
+        </record>
+
+        
+        <record id="sentence_38" model="sentences">
+            <field name="translation_sentence">Не мог бы ты объяснить что значит это слово?</field>
+            <field name="hebrew_sentence">תוכל להסביר לי מה המילה הזו אומרת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_38.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_38.mp3</field>
+        </record>
+
+        
+        <record id="sentence_39" model="sentences">
+            <field name="translation_sentence">Я не расслышал это.</field>
+            <field name="hebrew_sentence">לא שמעתי את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_39.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_39.mp3</field>
+        </record>
+
+        
+        <record id="sentence_40" model="sentences">
+            <field name="translation_sentence">Что значит это (слово)?</field>
+            <field name="hebrew_sentence">מה המשמעות של</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_40.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_40.mp3</field>
+        </record>
+
+        
+        <record id="sentence_41" model="sentences">
+            <field name="translation_sentence">Я не понимаю.</field>
+            <field name="hebrew_sentence">אני לא מבין</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_41.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_41.mp3</field>
+        </record>
+
+        
+        <record id="sentence_42" model="sentences">
+            <field name="translation_sentence">Я не понимаю это выражение.</field>
+            <field name="hebrew_sentence">אני לא מבין את הביטוי הזה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_42.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_42.mp3</field>
+        </record>
+
+        
+        <record id="sentence_43" model="sentences">
+            <field name="translation_sentence">Я в порядке.</field>
+            <field name="hebrew_sentence">אני בסדר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_43.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_43.mp3</field>
+        </record>
+
+        
+        <record id="sentence_44" model="sentences">
+            <field name="translation_sentence">Я очень рад (счастлив).</field>
+            <field name="hebrew_sentence">אני ממש שמח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_44.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_44.mp3</field>
+        </record>
+
+        
+        <record id="sentence_45" model="sentences">
+            <field name="translation_sentence">Я очень устал.</field>
+            <field name="hebrew_sentence">אני ממש עייף</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_45.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_45.mp3</field>
+        </record>
+
+        
+        <record id="sentence_46" model="sentences">
+            <field name="translation_sentence">Мне очень грустно.</field>
+            <field name="hebrew_sentence">אני ממש עצוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_46.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_46.mp3</field>
+        </record>
+
+        
+        <record id="sentence_47" model="sentences">
+            <field name="translation_sentence">Я очень обеспокоен.</field>
+            <field name="hebrew_sentence">אני מאוד מודאג</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_47.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_47.mp3</field>
+        </record>
+
+        
+        <record id="sentence_48" model="sentences">
+            <field name="translation_sentence">Я простудился.</field>
+            <field name="hebrew_sentence">הצטננתי אני חולה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_48.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_48.mp3</field>
+        </record>
+
+        
+        <record id="sentence_49" model="sentences">
+            <field name="translation_sentence">Я плохо себя чувствую.</field>
+            <field name="hebrew_sentence">אני לא מרגיש טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_49.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_49.mp3</field>
+        </record>
+
+        
+        <record id="sentence_50" model="sentences">
+            <field name="translation_sentence">Меня много чего волнует.</field>
+            <field name="hebrew_sentence">יש לי הרבה דאגות על הראש</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_50.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_50.mp3</field>
+        </record>
+
+        
+        <record id="sentence_51" model="sentences">
+            <field name="translation_sentence">Не волнуйся!</field>
+            <field name="hebrew_sentence">אל תדאג</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_51.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_51.mp3</field>
+        </record>
+
+        
+        <record id="sentence_52" model="sentences">
+            <field name="translation_sentence">Я хочу пить (жажда).</field>
+            <field name="hebrew_sentence">אני צמא</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_52.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_52.mp3</field>
+        </record>
+
+        
+        <record id="sentence_53" model="sentences">
+            <field name="translation_sentence">Что бы ты хотел попить?</field>
+            <field name="hebrew_sentence">מה אתה רוצה לשתות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_53.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_53.mp3</field>
+        </record>
+
+        
+        <record id="sentence_54" model="sentences">
+            <field name="translation_sentence">Я хотел бы чашку кофе.</field>
+            <field name="hebrew_sentence">אני רוצה כוס קפה בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_54.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_54.mp3</field>
+        </record>
+
+        
+        <record id="sentence_55" model="sentences">
+            <field name="translation_sentence">Ты будешь (хочешь) пить чай?</field>
+            <field name="hebrew_sentence">אתה רוצה לשתות תה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_55.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_55.mp3</field>
+        </record>
+
+        
+        <record id="sentence_56" model="sentences">
+            <field name="translation_sentence">Что ты хотел бы поесть этим вечером?</field>
+            <field name="hebrew_sentence">מה אתה רוצה לאכול הערב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_56.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_56.mp3</field>
+        </record>
+
+        
+        <record id="sentence_57" model="sentences">
+            <field name="translation_sentence">Ты наелся (поел достаточно)?</field>
+            <field name="hebrew_sentence">אחלת מספיק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_57.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_57.mp3</field>
+        </record>
+
+        
+        <record id="sentence_58" model="sentences">
+            <field name="translation_sentence">Я сыт (полон), а ты?</field>
+            <field name="hebrew_sentence">אני מלא ואת ואתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_58.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_58.mp3</field>
+        </record>
+
+        
+        <record id="sentence_59" model="sentences">
+            <field name="translation_sentence">Я голоден (очень).</field>
+            <field name="hebrew_sentence">אני גווע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_59.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_59.mp3</field>
+        </record>
+
+        
+        <record id="sentence_60" model="sentences">
+            <field name="translation_sentence">Я хочу есть.</field>
+            <field name="hebrew_sentence">אני רוצה לאכול</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_60.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_60.mp3</field>
+        </record>
+
+        
+        <record id="sentence_61" model="sentences">
+            <field name="translation_sentence">Что бы ты хотел поесть?</field>
+            <field name="hebrew_sentence">מה אתה רוצה לאכול</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_61.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_61.mp3</field>
+        </record>
+
+        
+        <record id="sentence_62" model="sentences">
+            <field name="translation_sentence">Я уже поел.</field>
+            <field name="hebrew_sentence">אכלתי כבר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_62.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_62.mp3</field>
+        </record>
+
+        
+        <record id="sentence_63" model="sentences">
+            <field name="translation_sentence">Я бы хотел поесть макароны.</field>
+            <field name="hebrew_sentence">אני רוצה נודלס</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_63.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_63.mp3</field>
+        </record>
+
+        
+        <record id="sentence_64" model="sentences">
+            <field name="translation_sentence">Я бы хотел поесть супа.</field>
+            <field name="hebrew_sentence">אני רוצה מרק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_64.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_64.mp3</field>
+        </record>
+
+        
+        <record id="sentence_65" model="sentences">
+            <field name="translation_sentence">Я не голоден.</field>
+            <field name="hebrew_sentence">אני לא רעב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_65.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_65.mp3</field>
+        </record>
+
+        
+        <record id="sentence_66" model="sentences">
+            <field name="translation_sentence">У вас есть меню (дайте мне меню).</field>
+            <field name="hebrew_sentence">יש תפריט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_66.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_66.mp3</field>
+        </record>
+
+        
+        <record id="sentence_67" model="sentences">
+            <field name="translation_sentence">Официант, принесите мне меню.</field>
+            <field name="hebrew_sentence">מלצר תוכל להביא לי את התפריט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_67.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_67.mp3</field>
+        </record>
+
+        
+        <record id="sentence_68" model="sentences">
+            <field name="translation_sentence">Официант, счёт, пожалуйста.</field>
+            <field name="hebrew_sentence">אפשר חשבון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_68.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_68.mp3</field>
+        </record>
+
+        
+        <record id="sentence_69" model="sentences">
+            <field name="translation_sentence">Что вы рекомендуете?</field>
+            <field name="hebrew_sentence">מה אתה ממליץ</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_69.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_69.mp3</field>
+        </record>
+
+        
+        <record id="sentence_70" model="sentences">
+            <field name="translation_sentence">Пожалуйста, звоните заранее, чтобы сделать бронь (зарезервировать место и т.д.).</field>
+            <field name="hebrew_sentence">תתקשר מראש לעשות הזמנה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_70.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_70.mp3</field>
+        </record>
+
+        
+        <record id="sentence_71" model="sentences">
+            <field name="translation_sentence">Что за погода сегодня?</field>
+            <field name="hebrew_sentence">מה מזג האוויר היום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_71.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_71.mp3</field>
+        </record>
+
+        
+        <record id="sentence_72" model="sentences">
+            <field name="translation_sentence">Будет сегодня дождь?</field>
+            <field name="hebrew_sentence">יירד היום גשם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_72.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_72.mp3</field>
+        </record>
+
+        
+        <record id="sentence_73" model="sentences">
+            <field name="translation_sentence">Сегодня очень жарко.</field>
+            <field name="hebrew_sentence">היום חם מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_73.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_73.mp3</field>
+        </record>
+
+        
+        <record id="sentence_74" model="sentences">
+            <field name="translation_sentence">Сегодня солнечно (светит солнце).</field>
+            <field name="hebrew_sentence">השמש זורחת היום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_74.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_74.mp3</field>
+        </record>
+
+        
+        <record id="sentence_75" model="sentences">
+            <field name="translation_sentence">Сегодня очень хорошая погода.</field>
+            <field name="hebrew_sentence">מזג האוויר טוב מאוד היום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_75.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_75.mp3</field>
+        </record>
+
+        
+        <record id="sentence_76" model="sentences">
+            <field name="translation_sentence">Что бы ты хотел купить?</field>
+            <field name="hebrew_sentence">מה אתה רוצה לקנות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_76.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_76.mp3</field>
+        </record>
+
+        
+        <record id="sentence_77" model="sentences">
+            <field name="translation_sentence">Я бы хотел купить карту города.</field>
+            <field name="hebrew_sentence">אני רוצה לקנות את מפת העיר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_77.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_77.mp3</field>
+        </record>
+
+        
+        <record id="sentence_78" model="sentences">
+            <field name="translation_sentence">Я бы хотел купить пару обуви.</field>
+            <field name="hebrew_sentence">אני רוצה לקנות זוג נעלים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_78.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_78.mp3</field>
+        </record>
+
+        
+        <record id="sentence_79" model="sentences">
+            <field name="translation_sentence">Пожалуйста, покажите мне эту / этот / эти.</field>
+            <field name="hebrew_sentence">אפשר לראות את זה בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_79.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_79.mp3</field>
+        </record>
+
+        
+        <record id="sentence_80" model="sentences">
+            <field name="translation_sentence">Сколько (денег) за всё это вместе?</field>
+            <field name="hebrew_sentence">כמה יוצא הכל יחד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_80.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_80.mp3</field>
+        </record>
+
+        
+        <record id="sentence_81" model="sentences">
+            <field name="translation_sentence">Вау, это очень дорого!</field>
+            <field name="hebrew_sentence">וואו זה יקר מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_81.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_81.mp3</field>
+        </record>
+
+        
+        <record id="sentence_82" model="sentences">
+            <field name="translation_sentence">У меня нет денег.</field>
+            <field name="hebrew_sentence">אין לי כסף</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_82.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_82.mp3</field>
+        </record>
+
+        
+        <record id="sentence_83" model="sentences">
+            <field name="translation_sentence">Я потерял кошелёк.</field>
+            <field name="hebrew_sentence">איבדתי את הארנק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_83.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_83.mp3</field>
+        </record>
+
+        
+        <record id="sentence_84" model="sentences">
+            <field name="translation_sentence">Я бы хотел поменять доллары на евро.</field>
+            <field name="hebrew_sentence">אני רוצה להמיר דולרים ביורו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_84.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_84.mp3</field>
+        </record>
+
+        
+        <record id="sentence_85" model="sentences">
+            <field name="translation_sentence">Вчера я простудился.</field>
+            <field name="hebrew_sentence">הצטננתי אתמול</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_85.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_85.mp3</field>
+        </record>
+
+        
+        <record id="sentence_86" model="sentences">
+            <field name="translation_sentence">Я простудился и кашлял всё утро.</field>
+            <field name="hebrew_sentence">הצטננתי והשתעלתי כל הבוקר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_86.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_86.mp3</field>
+        </record>
+
+        
+        <record id="sentence_87" model="sentences">
+            <field name="translation_sentence">Я болен, я чувствую себя очень нехорошо.</field>
+            <field name="hebrew_sentence">אני חולה אני מרגיש ממש לא טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_87.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_87.mp3</field>
+        </record>
+
+        
+        <record id="sentence_88" model="sentences">
+            <field name="translation_sentence">Я надеюсь, что скоро тебе станет лучше.</field>
+            <field name="hebrew_sentence">אני מקווה שתרגיש טוב בקרוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_88.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_88.mp3</field>
+        </record>
+
+        
+        <record id="sentence_89" model="sentences">
+            <field name="translation_sentence">У тебя есть алергия на что-либо?</field>
+            <field name="hebrew_sentence">אתה אלרגי למשהו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_89.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_89.mp3</field>
+        </record>
+
+        
+        <record id="sentence_90" model="sentences">
+            <field name="translation_sentence">Что это?</field>
+            <field name="hebrew_sentence">מה זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_90.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_90.mp3</field>
+        </record>
+
+        
+        <record id="sentence_91" model="sentences">
+            <field name="translation_sentence">Кто это?</field>
+            <field name="hebrew_sentence">מי זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_91.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_91.mp3</field>
+        </record>
+
+        
+        <record id="sentence_92" model="sentences">
+            <field name="translation_sentence">Кто хозяин этой собаки?</field>
+            <field name="hebrew_sentence">מי הבעלים של הכלב הזה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_92.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_92.mp3</field>
+        </record>
+
+        
+        <record id="sentence_93" model="sentences">
+            <field name="translation_sentence">Что ты сделал?</field>
+            <field name="hebrew_sentence">מה עשית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_93.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_93.mp3</field>
+        </record>
+
+        
+        <record id="sentence_94" model="sentences">
+            <field name="translation_sentence">Где ты работаешь?</field>
+            <field name="hebrew_sentence">איפה אתה עובד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_94.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_94.mp3</field>
+        </record>
+
+        
+        <record id="sentence_95" model="sentences">
+            <field name="translation_sentence">Ты слишком много работаешь.</field>
+            <field name="hebrew_sentence">אתה עובד יותר מידי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_95.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_95.mp3</field>
+        </record>
+
+        
+        <record id="sentence_96" model="sentences">
+            <field name="translation_sentence">Откуда ты знаешь?</field>
+            <field name="hebrew_sentence">איך אתה יודע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_96.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_96.mp3</field>
+        </record>
+
+        
+        <record id="sentence_97" model="sentences">
+            <field name="translation_sentence">Куда ты ходил вчера вечером?</field>
+            <field name="hebrew_sentence">לאן הלכת אתמול בערב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_97.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_97.mp3</field>
+        </record>
+
+        
+        <record id="sentence_98" model="sentences">
+            <field name="translation_sentence">Пожалуйста, входите.</field>
+            <field name="hebrew_sentence">בבקשה היכנס</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_98.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_98.mp3</field>
+        </record>
+
+        
+        <record id="sentence_99" model="sentences">
+            <field name="translation_sentence">Пожалуйста, закройте дверь.</field>
+            <field name="hebrew_sentence">בבקשה סגור את הדלת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_99.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_99.mp3</field>
+        </record>
+
+        
+        <record id="sentence_100" model="sentences">
+            <field name="translation_sentence">Пожалуйста, садитесь.</field>
+            <field name="hebrew_sentence">שב בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_100.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_100.mp3</field>
+        </record>
+
+        
+        <record id="sentence_101" model="sentences">
+            <field name="translation_sentence">Успокойтесь!</field>
+            <field name="hebrew_sentence">הרגע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_101.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_101.mp3</field>
+        </record>
+
+        
+        <record id="sentence_102" model="sentences">
+            <field name="translation_sentence">Пожалуйста, не шумите!</field>
+            <field name="hebrew_sentence">תהיה בשקט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_102.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_102.mp3</field>
+        </record>
+
+        
+        <record id="sentence_103" model="sentences">
+            <field name="translation_sentence">Не разговаривайте.</field>
+            <field name="hebrew_sentence">אל תדבר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_103.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_103.mp3</field>
+        </record>
+
+        
+        <record id="sentence_104" model="sentences">
+            <field name="translation_sentence">Пожалуйста, слушайте.</field>
+            <field name="hebrew_sentence">הקשב בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_104.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_104.mp3</field>
+        </record>
+
+        
+        <record id="sentence_105" model="sentences">
+            <field name="translation_sentence">Пожалуйста, не делайте так много шума.</field>
+            <field name="hebrew_sentence">אל תעשה רעש בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_105.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_105.mp3</field>
+        </record>
+
+        
+        <record id="sentence_106" model="sentences">
+            <field name="translation_sentence">Не плачь.</field>
+            <field name="hebrew_sentence">תפסיק לבכות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_106.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_106.mp3</field>
+        </record>
+
+        
+        <record id="sentence_107" model="sentences">
+            <field name="translation_sentence">Почему ты смеёшься?</field>
+            <field name="hebrew_sentence">למה אתה צוחק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_107.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_107.mp3</field>
+        </record>
+
+        
+        <record id="sentence_108" model="sentences">
+            <field name="translation_sentence">Пожалуйста, подожди меня немного, я буду через секунду.</field>
+            <field name="hebrew_sentence">חכה לי רגע בבקשה אחזור עוד שניה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_108.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_108.mp3</field>
+        </record>
+
+        
+        <record id="sentence_109" model="sentences">
+            <field name="translation_sentence">Давай отдохнём десять минут.</field>
+            <field name="hebrew_sentence">בואו ניקח 10 דקות הפסקה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_109.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_109.mp3</field>
+        </record>
+
+        
+        <record id="sentence_110" model="sentences">
+            <field name="translation_sentence">Пошли в кино.</field>
+            <field name="hebrew_sentence">בואו נלך לסרט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_110.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_110.mp3</field>
+        </record>
+
+        
+        <record id="sentence_111" model="sentences">
+            <field name="translation_sentence">Курение запрещено!</field>
+            <field name="hebrew_sentence">העישון אסור</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_111.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_111.mp3</field>
+        </record>
+
+        
+        <record id="sentence_112" model="sentences">
+            <field name="translation_sentence">Пошли вместе.</field>
+            <field name="hebrew_sentence">בואו נלך יחד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_112.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_112.mp3</field>
+        </record>
+
+        
+        <record id="sentence_113" model="sentences">
+            <field name="translation_sentence">Пожалуйста, иди немного медленнее.</field>
+            <field name="hebrew_sentence">לך בבקשה לאט יותר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_113.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_113.mp3</field>
+        </record>
+
+        
+        <record id="sentence_114" model="sentences">
+            <field name="translation_sentence">Не трать время!</field>
+            <field name="hebrew_sentence">אל תבזבז זמן</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_114.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_114.mp3</field>
+        </record>
+
+        
+        <record id="sentence_115" model="sentences">
+            <field name="translation_sentence">Когда ты вернёшь мои деньги?</field>
+            <field name="hebrew_sentence">מתי תחזיר לי את הכסף</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_115.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_115.mp3</field>
+        </record>
+
+        
+        <record id="sentence_116" model="sentences">
+            <field name="translation_sentence">У меня есть идея.</field>
+            <field name="hebrew_sentence">יש לי רעיון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_116.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_116.mp3</field>
+        </record>
+
+        
+        <record id="sentence_117" model="sentences">
+            <field name="translation_sentence">Это очень хорошая идея.</field>
+            <field name="hebrew_sentence">זה רעיון טוב מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_117.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_117.mp3</field>
+        </record>
+
+        
+        <record id="sentence_118" model="sentences">
+            <field name="translation_sentence">Это очень интересная тема.</field>
+            <field name="hebrew_sentence">זה נושא מעניין מאוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_118.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_118.mp3</field>
+        </record>
+
+        
+        <record id="sentence_119" model="sentences">
+            <field name="translation_sentence">Какое у тебя мнение (о чём-либо)?</field>
+            <field name="hebrew_sentence">מה דעתך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_119.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_119.mp3</field>
+        </record>
+
+        
+        <record id="sentence_120" model="sentences">
+            <field name="translation_sentence">Я хочу узнать (услышать) твою точку зрения.</field>
+            <field name="hebrew_sentence">אני רוצה לשמוע את דעתך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_120.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_120.mp3</field>
+        </record>
+
+        
+        <record id="sentence_121" model="sentences">
+            <field name="translation_sentence">Я не понимаю что ты имеешь в виду.</field>
+            <field name="hebrew_sentence">אני לא מבין למה אתה מתכוון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_121.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_121.mp3</field>
+        </record>
+
+        
+        <record id="sentence_122" model="sentences">
+            <field name="translation_sentence">Ты согласен?</field>
+            <field name="hebrew_sentence">אתה מסכים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_122.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_122.mp3</field>
+        </record>
+
+        
+        <record id="sentence_123" model="sentences">
+            <field name="translation_sentence">Я не думаю, что я сделал что-либо не так (не правильно).</field>
+            <field name="hebrew_sentence">אני לא חושב שעשיתי משהו רע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_123.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_123.mp3</field>
+        </record>
+
+        
+        <record id="sentence_124" model="sentences">
+            <field name="translation_sentence">Ты прав!</field>
+            <field name="hebrew_sentence">אתה צודק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_124.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_124.mp3</field>
+        </record>
+
+        
+        <record id="sentence_125" model="sentences">
+            <field name="translation_sentence">Это действительно так.</field>
+            <field name="hebrew_sentence">זה באמת כך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_125.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_125.mp3</field>
+        </record>
+
+        
+        <record id="sentence_126" model="sentences">
+            <field name="translation_sentence">Я послал тебе текстовое сообщение.</field>
+            <field name="hebrew_sentence">שלחתי לך הודעה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_126.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_126.mp3</field>
+        </record>
+
+        
+        <record id="sentence_127" model="sentences">
+            <field name="translation_sentence">Какой у тебя номер телефона?</field>
+            <field name="hebrew_sentence">מה מספר הטלפון שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_127.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_127.mp3</field>
+        </record>
+
+        
+        <record id="sentence_128" model="sentences">
+            <field name="translation_sentence">Что случилось?</field>
+            <field name="hebrew_sentence">מה קרה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_128.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_128.mp3</field>
+        </record>
+
+        
+        <record id="sentence_129" model="sentences">
+            <field name="translation_sentence">Завтра я пришлю тебе E-mail.</field>
+            <field name="hebrew_sentence">מחר אשלח לך מייל</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_129.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_129.mp3</field>
+        </record>
+
+        
+        <record id="sentence_130" model="sentences">
+            <field name="translation_sentence">Я забыл мой пароль.</field>
+            <field name="hebrew_sentence">שכחתי את הסיסמה שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_130.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_130.mp3</field>
+        </record>
+
+        
+        <record id="sentence_131" model="sentences">
+            <field name="translation_sentence">Я забыл твоё имя.</field>
+            <field name="hebrew_sentence">שכחתי את שמך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_131.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_131.mp3</field>
+        </record>
+
+        
+        <record id="sentence_132" model="sentences">
+            <field name="translation_sentence">Ты идиот.</field>
+            <field name="hebrew_sentence">אתה מפגר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_132.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_132.mp3</field>
+        </record>
+
+        
+        <record id="sentence_133" model="sentences">
+            <field name="translation_sentence">Как ты смеешь так говорить со мной?</field>
+            <field name="hebrew_sentence">איך אתה מעז לדבר אלי ככה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_133.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_133.mp3</field>
+        </record>
+
+        
+        <record id="sentence_134" model="sentences">
+            <field name="translation_sentence">Тебе нужна помощь?</field>
+            <field name="hebrew_sentence">אתה צריך עזרה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_134.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_134.mp3</field>
+        </record>
+
+        
+        <record id="sentence_135" model="sentences">
+            <field name="translation_sentence">Не мог бы ты мне помочь?</field>
+            <field name="hebrew_sentence">אתה יכול לעזור לי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_135.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_135.mp3</field>
+        </record>
+
+        
+        <record id="sentence_136" model="sentences">
+            <field name="translation_sentence">Пожалуйста, вы можете вызвать скорую? (Не могли бы вызвать скорую?)</field>
+            <field name="hebrew_sentence">אתה יכול להתקשר לאמבולנס בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_136.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_136.mp3</field>
+        </record>
+
+        
+        <record id="sentence_137" model="sentences">
+            <field name="translation_sentence">Извините, я не могу вам помочь.</field>
+            <field name="hebrew_sentence">מצטער אני לא יכול לעזור לך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_137.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_137.mp3</field>
+        </record>
+
+        
+        <record id="sentence_138" model="sentences">
+            <field name="translation_sentence">Где больница?</field>
+            <field name="hebrew_sentence">איפה בית החולים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_138.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_138.mp3</field>
+        </record>
+
+        
+        <record id="sentence_139" model="sentences">
+            <field name="translation_sentence">Куда ты идёшь?</field>
+            <field name="hebrew_sentence">לאן אתה הולך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_139.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_139.mp3</field>
+        </record>
+
+        
+        <record id="sentence_140" model="sentences">
+            <field name="translation_sentence">Мне нужно вернуться домой сейчас.</field>
+            <field name="hebrew_sentence">אני חייב לחזור עכשיו הביתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_140.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_140.mp3</field>
+        </record>
+
+        
+        <record id="sentence_141" model="sentences">
+            <field name="translation_sentence">Как (какой дорогой) пройти к почтовому отделению?</field>
+            <field name="hebrew_sentence">איך אני מגיע לדואר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_141.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_141.mp3</field>
+        </record>
+
+        
+        <record id="sentence_142" model="sentences">
+            <field name="translation_sentence">Где ближайшая аптека?</field>
+            <field name="hebrew_sentence">איפה בית המרקחת הקרוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_142.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_142.mp3</field>
+        </record>
+
+        
+        <record id="sentence_143" model="sentences">
+            <field name="translation_sentence">Это место занято? (Кто-то сидит на этом месте?)</field>
+            <field name="hebrew_sentence">מישהו יושב פה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_143.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_143.mp3</field>
+        </record>
+
+        
+        <record id="sentence_144" model="sentences">
+            <field name="translation_sentence">У меня есть вопрос.</field>
+            <field name="hebrew_sentence">יש לי שאלה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_144.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_144.mp3</field>
+        </record>
+
+        
+        <record id="sentence_145" model="sentences">
+            <field name="translation_sentence">Можно задать вопрос?</field>
+            <field name="hebrew_sentence">אפשר לשאול אותך משהו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_145.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_145.mp3</field>
+        </record>
+
+        
+        <record id="sentence_146" model="sentences">
+            <field name="translation_sentence">Я не знаю.</field>
+            <field name="hebrew_sentence">אני לא יודע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_146.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_146.mp3</field>
+        </record>
+
+        
+        <record id="sentence_147" model="sentences">
+            <field name="translation_sentence">Не важно. Проехали. Не обращай внимания.</field>
+            <field name="hebrew_sentence">לא משנה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_147.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_147.mp3</field>
+        </record>
+
+        
+        <record id="sentence_148" model="sentences">
+            <field name="translation_sentence">Пожалуйста скажите это ещё раз!</field>
+            <field name="hebrew_sentence">תגיד את זה שוב בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_148.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_148.mp3</field>
+        </record>
+
+        
+        <record id="sentence_149" model="sentences">
+            <field name="translation_sentence">Извините, что потревожил / отвлёк вас, продолжайте, пожалуйста.</field>
+            <field name="hebrew_sentence">סליחה שהפרעתי לך בבקשה תמשיך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_149.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_149.mp3</field>
+        </record>
+
+        
+        <record id="sentence_150" model="sentences">
+            <field name="translation_sentence">Что ты только что сказал?</field>
+            <field name="hebrew_sentence">מה אמרת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_150.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_150.mp3</field>
+        </record>
+
+        
+        <record id="sentence_151" model="sentences">
+            <field name="translation_sentence">Ты женат?</field>
+            <field name="hebrew_sentence">אתה נשוי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_151.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_151.mp3</field>
+        </record>
+
+        
+        <record id="sentence_152" model="sentences">
+            <field name="translation_sentence">У тебя есть девушка?</field>
+            <field name="hebrew_sentence">יש לך חברה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_152.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_152.mp3</field>
+        </record>
+
+        
+        <record id="sentence_153" model="sentences">
+            <field name="translation_sentence">У тебя есть парень?</field>
+            <field name="hebrew_sentence">יש לך חבר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_153.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_153.mp3</field>
+        </record>
+
+        
+        <record id="sentence_154" model="sentences">
+            <field name="translation_sentence">Ты где?</field>
+            <field name="hebrew_sentence">איפה אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_154.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_154.mp3</field>
+        </record>
+
+        
+        <record id="sentence_155" model="sentences">
+            <field name="translation_sentence">Мне нужно идти (мне пора).</field>
+            <field name="hebrew_sentence">אני צריך ללכת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_155.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_155.mp3</field>
+        </record>
+
+        
+        <record id="sentence_156" model="sentences">
+            <field name="translation_sentence">Не обращай внимание на то, что говорят другие.</field>
+            <field name="hebrew_sentence">לא אכפת לי מה אחרים אומרים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_156.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_156.mp3</field>
+        </record>
+
+        
+        <record id="sentence_157" model="sentences">
+            <field name="translation_sentence">Действительно, я ничего не могу сделать с этим.</field>
+            <field name="hebrew_sentence">איני יכול לעשות דבר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_157.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_157.mp3</field>
+        </record>
+
+        
+        <record id="sentence_158" model="sentences">
+            <field name="translation_sentence">В твоём предложении ошибка (оно не правильное).</field>
+            <field name="hebrew_sentence">המשפט שלך לא נכון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_158.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_158.mp3</field>
+        </record>
+
+        
+        <record id="sentence_159" model="sentences">
+            <field name="translation_sentence">Мне очень жаль.</field>
+            <field name="hebrew_sentence">אני מאוד מצטער על כך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_159.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_159.mp3</field>
+        </record>
+
+        
+        <record id="sentence_160" model="sentences">
+            <field name="translation_sentence">Во сколько ты встаёшь?</field>
+            <field name="hebrew_sentence">מתי אתה מתעורר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_160.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_160.mp3</field>
+        </record>
+
+        
+        <record id="sentence_161" model="sentences">
+            <field name="translation_sentence">Я просыпаюсь в восемь утра.</field>
+            <field name="hebrew_sentence">אני מתעורר ב8בבוקר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_161.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_161.mp3</field>
+        </record>
+
+        
+        <record id="sentence_162" model="sentences">
+            <field name="translation_sentence">Я встаю с кровати.</field>
+            <field name="hebrew_sentence">אני קם מהמיטה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_162.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_162.mp3</field>
+        </record>
+
+        
+        <record id="sentence_163" model="sentences">
+            <field name="translation_sentence">Ты завтракаешь?</field>
+            <field name="hebrew_sentence">אתה אוכל ארוחת בוקר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_163.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_163.mp3</field>
+        </record>
+
+        
+        <record id="sentence_164" model="sentences">
+            <field name="translation_sentence">Я чищу зубы.</field>
+            <field name="hebrew_sentence">אני מצחצח שיניים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_164.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_164.mp3</field>
+        </record>
+
+        
+        <record id="sentence_165" model="sentences">
+            <field name="translation_sentence">Я принимаю душ.</field>
+            <field name="hebrew_sentence">אני מתקלח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_165.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_165.mp3</field>
+        </record>
+
+        
+        <record id="sentence_166" model="sentences">
+            <field name="translation_sentence">Ты смотришь телевизор по утрам?</field>
+            <field name="hebrew_sentence">אתה צופה בטלוויזיה בבוקר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_166.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_166.mp3</field>
+        </record>
+
+        
+        <record id="sentence_167" model="sentences">
+            <field name="translation_sentence">Я проверяю (смотрю: что нового) телефон.</field>
+            <field name="hebrew_sentence">אני בודק את הטלפון שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_167.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_167.mp3</field>
+        </record>
+
+        
+        <record id="sentence_168" model="sentences">
+            <field name="translation_sentence">Я звоню моему начальнику.</field>
+            <field name="hebrew_sentence">אני מתקשר לבוס שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_168.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_168.mp3</field>
+        </record>
+
+        
+        <record id="sentence_169" model="sentences">
+            <field name="translation_sentence">Я проверяю электронную почту.</field>
+            <field name="hebrew_sentence">אני בודק את האימיילים שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_169.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_169.mp3</field>
+        </record>
+
+        
+        <record id="sentence_170" model="sentences">
+            <field name="translation_sentence">Ты водишь машину на работу?</field>
+            <field name="hebrew_sentence">אתה נוהג לעבודה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_170.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_170.mp3</field>
+        </record>
+
+        
+        <record id="sentence_171" model="sentences">
+            <field name="translation_sentence">Я еду на автобусе на работу.</field>
+            <field name="hebrew_sentence">אני נוסע באוטובוס לעבודה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_171.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_171.mp3</field>
+        </record>
+
+        
+        <record id="sentence_172" model="sentences">
+            <field name="translation_sentence">Мне нужно поставить будильник.</field>
+            <field name="hebrew_sentence">אני צריך לכוון את השעון המעורר שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_172.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_172.mp3</field>
+        </record>
+
+        
+        <record id="sentence_173" model="sentences">
+            <field name="translation_sentence">Я включаю свет.</field>
+            <field name="hebrew_sentence">אני מדליק את האורות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_173.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_173.mp3</field>
+        </record>
+
+        
+        <record id="sentence_174" model="sentences">
+            <field name="translation_sentence">Я выключаю свет.</field>
+            <field name="hebrew_sentence">אני מכבה את האורות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_174.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_174.mp3</field>
+        </record>
+
+        
+        <record id="sentence_175" model="sentences">
+            <field name="translation_sentence">Я делаю кофе утром.</field>
+            <field name="hebrew_sentence">אני מכין קפה בבוקר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_175.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_175.mp3</field>
+        </record>
+
+        
+        <record id="sentence_176" model="sentences">
+            <field name="translation_sentence">Ты выгуливаешь собаку?</field>
+            <field name="hebrew_sentence">אתה לוקח את הכלב שלך לטיול</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_176.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_176.mp3</field>
+        </record>
+
+        
+        <record id="sentence_177" model="sentences">
+            <field name="translation_sentence">Я не смотрю новости.</field>
+            <field name="hebrew_sentence">אני לא צופה בחדשות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_177.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_177.mp3</field>
+        </record>
+
+        
+        <record id="sentence_178" model="sentences">
+            <field name="translation_sentence">Я мою лицо.</field>
+            <field name="hebrew_sentence">אני שוטף את הפנים שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_178.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_178.mp3</field>
+        </record>
+
+        
+        <record id="sentence_179" model="sentences">
+            <field name="translation_sentence">Мне нужно помыть руки.</field>
+            <field name="hebrew_sentence">אני צריך לשטוף את הידיים שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_179.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_179.mp3</field>
+        </record>
+
+        
+        <record id="sentence_180" model="sentences">
+            <field name="translation_sentence">Ты хочешь взять (купить) что-нибудь поесть?</field>
+            <field name="hebrew_sentence">האם אתה רוצה ללכת לאכול משהו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_180.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_180.mp3</field>
+        </record>
+
+        
+        <record id="sentence_181" model="sentences">
+            <field name="translation_sentence">Я застилаю кровать.</field>
+            <field name="hebrew_sentence">אני מציע את מיטתי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_181.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_181.mp3</field>
+        </record>
+
+        
+        <record id="sentence_182" model="sentences">
+            <field name="translation_sentence">Я надеваю обувь.</field>
+            <field name="hebrew_sentence">אני מועל את נעליי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_182.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_182.mp3</field>
+        </record>
+
+        
+        <record id="sentence_183" model="sentences">
+            <field name="translation_sentence">Ты выносишь мусор?</field>
+            <field name="hebrew_sentence">האם אתה מוציא את הזבל</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_183.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_183.mp3</field>
+        </record>
+
+        
+        <record id="sentence_184" model="sentences">
+            <field name="translation_sentence">Ты моешь посуду?</field>
+            <field name="hebrew_sentence">האם אתה שוטף את הכלים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_184.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_184.mp3</field>
+        </record>
+
+        
+        <record id="sentence_185" model="sentences">
+            <field name="translation_sentence">Можешь открыть окно?</field>
+            <field name="hebrew_sentence">אתה יכול לפתוח את החלון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_185.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_185.mp3</field>
+        </record>
+
+        
+        <record id="sentence_186" model="sentences">
+            <field name="translation_sentence">Можешь закрыть дверь?</field>
+            <field name="hebrew_sentence">אתה יכול לסגור את הדלת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_186.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_186.mp3</field>
+        </record>
+
+        
+        <record id="sentence_187" model="sentences">
+            <field name="translation_sentence">Во сколько открывается магазин?</field>
+            <field name="hebrew_sentence">באיזו שעה נפתחת החנות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_187.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_187.mp3</field>
+        </record>
+
+        
+        <record id="sentence_188" model="sentences">
+            <field name="translation_sentence">Во сколько закрывается ресторан?</field>
+            <field name="hebrew_sentence">באיזו שעה נסגרת המסעדה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_188.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_188.mp3</field>
+        </record>
+
+        
+        <record id="sentence_189" model="sentences">
+            <field name="translation_sentence">Ты смотришь видео в Ютубе?</field>
+            <field name="hebrew_sentence">אתה צופה בסרטוני יוטיוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_189.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_189.mp3</field>
+        </record>
+
+        
+        <record id="sentence_190" model="sentences">
+            <field name="translation_sentence">Я расчёсываю волосы.</field>
+            <field name="hebrew_sentence">אני מסתרק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_190.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_190.mp3</field>
+        </record>
+
+        
+        <record id="sentence_191" model="sentences">
+            <field name="translation_sentence">Я иду на работу.</field>
+            <field name="hebrew_sentence">אני הולך לעבודה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_191.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_191.mp3</field>
+        </record>
+
+        
+        <record id="sentence_192" model="sentences">
+            <field name="translation_sentence">Я иду домой.</field>
+            <field name="hebrew_sentence">אני הולך הביתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_192.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_192.mp3</field>
+        </record>
+
+        
+        <record id="sentence_193" model="sentences">
+            <field name="translation_sentence">Я иду в спортзал.</field>
+            <field name="hebrew_sentence">אני הולך לחדר כושר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_193.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_193.mp3</field>
+        </record>
+
+        
+        <record id="sentence_194" model="sentences">
+            <field name="translation_sentence">Я занимаюсь в спортзале.</field>
+            <field name="hebrew_sentence">אני מתאמן בחדר הכושר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_194.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_194.mp3</field>
+        </record>
+
+        
+        <record id="sentence_195" model="sentences">
+            <field name="translation_sentence">Мне нравится откладывать (копить) деньги.</field>
+            <field name="hebrew_sentence">אני אוהב לחסוך כסף</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_195.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_195.mp3</field>
+        </record>
+
+        
+        <record id="sentence_196" model="sentences">
+            <field name="translation_sentence">Мне нужно идти наверх.</field>
+            <field name="hebrew_sentence">אני צריך לעלות למעלה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_196.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_196.mp3</field>
+        </record>
+
+        
+        <record id="sentence_197" model="sentences">
+            <field name="translation_sentence">Тебе нужно идти вниз.</field>
+            <field name="hebrew_sentence">אתה צריך לרדת לקומה התחתונה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_197.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_197.mp3</field>
+        </record>
+
+        
+        <record id="sentence_198" model="sentences">
+            <field name="translation_sentence">Мне нужно загрузить этот файл.</field>
+            <field name="hebrew_sentence">אני צריך להוריד את הקובץ הזה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_198.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_198.mp3</field>
+        </record>
+
+        
+        <record id="sentence_199" model="sentences">
+            <field name="translation_sentence">Скорость интернета низкая.</field>
+            <field name="hebrew_sentence">מהירות האינטרנט איטית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_199.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_199.mp3</field>
+        </record>
+
+        
+        <record id="sentence_200" model="sentences">
+            <field name="translation_sentence">Ты знаешь сколько времени?</field>
+            <field name="hebrew_sentence">אתה יודע מה השעה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_200.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_200.mp3</field>
+        </record>
+
+        
+        <record id="sentence_201" model="sentences">
+            <field name="translation_sentence">Я опаздываю.</field>
+            <field name="hebrew_sentence">אני הולך לאחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_201.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_201.mp3</field>
+        </record>
+
+        
+        <record id="sentence_202" model="sentences">
+            <field name="translation_sentence">Я опаздал.</field>
+            <field name="hebrew_sentence">אני מאחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_202.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_202.mp3</field>
+        </record>
+
+        
+        <record id="sentence_203" model="sentences">
+            <field name="translation_sentence">Мне нужно ждать в очереди.</field>
+            <field name="hebrew_sentence">אני צריך לחכות בתור</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_203.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_203.mp3</field>
+        </record>
+
+        
+        <record id="sentence_204" model="sentences">
+            <field name="translation_sentence">Ты любишь слушать музыку?</field>
+            <field name="hebrew_sentence">אתה אוהב להאזין למוזיקה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_204.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_204.mp3</field>
+        </record>
+
+        
+        <record id="sentence_205" model="sentences">
+            <field name="translation_sentence">Пора идти.</field>
+            <field name="hebrew_sentence">זה הזמן ללכת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_205.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_205.mp3</field>
+        </record>
+
+        
+        <record id="sentence_206" model="sentences">
+            <field name="translation_sentence">Я делаю фотографии на телефоне.</field>
+            <field name="hebrew_sentence">אני מצלם תמונות עם הנייד שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_206.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_206.mp3</field>
+        </record>
+
+        
+        <record id="sentence_207" model="sentences">
+            <field name="translation_sentence">Я разбил чашку.</field>
+            <field name="hebrew_sentence">שברתי את הכוס שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_207.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_207.mp3</field>
+        </record>
+
+        
+        <record id="sentence_208" model="sentences">
+            <field name="translation_sentence">Я разлил кофе.</field>
+            <field name="hebrew_sentence">שפכתי את הקפה שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_208.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_208.mp3</field>
+        </record>
+
+        
+        <record id="sentence_209" model="sentences">
+            <field name="translation_sentence">Я люблю расплачиваться наличными.</field>
+            <field name="hebrew_sentence">אני אוהב לשלם במזומן</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_209.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_209.mp3</field>
+        </record>
+
+        
+        <record id="sentence_210" model="sentences">
+            <field name="translation_sentence">Мне нравится платить кредитной карточкой.</field>
+            <field name="hebrew_sentence">אני אוהב להשתמש בכרטיס האשראי שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_210.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_210.mp3</field>
+        </record>
+
+        
+        <record id="sentence_211" model="sentences">
+            <field name="translation_sentence">Что ты заказал?</field>
+            <field name="hebrew_sentence">מה הזמנת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_211.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_211.mp3</field>
+        </record>
+
+        
+        <record id="sentence_212" model="sentences">
+            <field name="translation_sentence">Я заказал напиток.</field>
+            <field name="hebrew_sentence">הזמנתי שתייה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_212.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_212.mp3</field>
+        </record>
+
+        
+        <record id="sentence_213" model="sentences">
+            <field name="translation_sentence">Я ничего не заказывал.</field>
+            <field name="hebrew_sentence">לא הזמנתי שום דבר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_213.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_213.mp3</field>
+        </record>
+
+        
+        <record id="sentence_214" model="sentences">
+            <field name="translation_sentence">Можете принести мне стакан воды?</field>
+            <field name="hebrew_sentence">אוכל לקבל כוס מים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_214.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_214.mp3</field>
+        </record>
+
+        
+        <record id="sentence_215" model="sentences">
+            <field name="translation_sentence">Что ты делаешь?</field>
+            <field name="hebrew_sentence">מה אתה עושה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_215.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_215.mp3</field>
+        </record>
+
+        
+        <record id="sentence_216" model="sentences">
+            <field name="translation_sentence">Что ты планируешь делать завтра?</field>
+            <field name="hebrew_sentence">מה אתה הולך לעשות מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_216.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_216.mp3</field>
+        </record>
+
+        
+        <record id="sentence_217" model="sentences">
+            <field name="translation_sentence">У тебя есть планы на завтра?</field>
+            <field name="hebrew_sentence">יש לך תוכניות למחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_217.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_217.mp3</field>
+        </record>
+
+        
+        <record id="sentence_218" model="sentences">
+            <field name="translation_sentence">Я открываю бутылку.</field>
+            <field name="hebrew_sentence">אני פותח את הבקבוק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_218.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_218.mp3</field>
+        </record>
+
+        
+        <record id="sentence_219" model="sentences">
+            <field name="translation_sentence">Мне нужно распечатать документ.</field>
+            <field name="hebrew_sentence">אני צריך להדפיס מסמך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_219.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_219.mp3</field>
+        </record>
+
+        
+        <record id="sentence_220" model="sentences">
+            <field name="translation_sentence">Мне нужно написать письмо.</field>
+            <field name="hebrew_sentence">אני צריך לכתוב מכתב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_220.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_220.mp3</field>
+        </record>
+
+        
+        <record id="sentence_221" model="sentences">
+            <field name="translation_sentence">Что на обед?</field>
+            <field name="hebrew_sentence">מה יש לארוחת צהריים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_221.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_221.mp3</field>
+        </record>
+
+        
+        <record id="sentence_222" model="sentences">
+            <field name="translation_sentence">Что на ужин?</field>
+            <field name="hebrew_sentence">מה יש לארוחת ערב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_222.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_222.mp3</field>
+        </record>
+
+        
+        <record id="sentence_223" model="sentences">
+            <field name="translation_sentence">Во сколько ты готовишь ужин?</field>
+            <field name="hebrew_sentence">באיזו שעה אתה מכין ארוחת ערב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_223.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_223.mp3</field>
+        </record>
+
+        
+        <record id="sentence_224" model="sentences">
+            <field name="translation_sentence">Я оплачиваю счета.</field>
+            <field name="hebrew_sentence">אני משלם את החשבונות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_224.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_224.mp3</field>
+        </record>
+
+        
+        <record id="sentence_225" model="sentences">
+            <field name="translation_sentence">Я усаживаюсь (сажусь).</field>
+            <field name="hebrew_sentence">אני מתיישב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_225.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_225.mp3</field>
+        </record>
+
+        
+        <record id="sentence_226" model="sentences">
+            <field name="translation_sentence">Я встаю.</field>
+            <field name="hebrew_sentence">אני קם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_226.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_226.mp3</field>
+        </record>
+
+        
+        <record id="sentence_227" model="sentences">
+            <field name="translation_sentence">Я иду (хожу) в школу.</field>
+            <field name="hebrew_sentence">אני הולך לבית הספר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_227.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_227.mp3</field>
+        </record>
+
+        
+        <record id="sentence_228" model="sentences">
+            <field name="translation_sentence">Я поднимаю руку.</field>
+            <field name="hebrew_sentence">אני מרים את ידי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_228.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_228.mp3</field>
+        </record>
+
+        
+        <record id="sentence_229" model="sentences">
+            <field name="translation_sentence">Я читаю книгу.</field>
+            <field name="hebrew_sentence">אני קורא ספר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_229.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_229.mp3</field>
+        </record>
+
+        
+        <record id="sentence_230" model="sentences">
+            <field name="translation_sentence">Я смотрю кино.</field>
+            <field name="hebrew_sentence">אני צופה בסרט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_230.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_230.mp3</field>
+        </record>
+
+        
+        <record id="sentence_231" model="sentences">
+            <field name="translation_sentence">Я иду в кинотеатр.</field>
+            <field name="hebrew_sentence">אני הולך לקולנוע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_231.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_231.mp3</field>
+        </record>
+
+        
+        <record id="sentence_232" model="sentences">
+            <field name="translation_sentence">Я бросил школу.</field>
+            <field name="hebrew_sentence">עזבתי את בית הספר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_232.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_232.mp3</field>
+        </record>
+
+        
+        <record id="sentence_233" model="sentences">
+            <field name="translation_sentence">Я принимаю ванну.</field>
+            <field name="hebrew_sentence">אני עושה אמבטיה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_233.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_233.mp3</field>
+        </record>
+
+        
+        <record id="sentence_234" model="sentences">
+            <field name="translation_sentence">Я умею кататься на велосипеде.</field>
+            <field name="hebrew_sentence">אני יודע לרכב על אופניים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_234.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_234.mp3</field>
+        </record>
+
+        
+        <record id="sentence_235" model="sentences">
+            <field name="translation_sentence">Я отдыхаю дома.</field>
+            <field name="hebrew_sentence">אני נח בבית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_235.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_235.mp3</field>
+        </record>
+
+        
+        <record id="sentence_236" model="sentences">
+            <field name="translation_sentence">Я отвечаю на комментарий.</field>
+            <field name="hebrew_sentence">אני עונה לתגובה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_236.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_236.mp3</field>
+        </record>
+
+        
+        <record id="sentence_237" model="sentences">
+            <field name="translation_sentence">Я арендую машину.</field>
+            <field name="hebrew_sentence">אני שוכר מכונית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_237.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_237.mp3</field>
+        </record>
+
+        
+        <record id="sentence_238" model="sentences">
+            <field name="translation_sentence">Я стираю.</field>
+            <field name="hebrew_sentence">אני עושה כביסה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_238.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_238.mp3</field>
+        </record>
+
+        
+        <record id="sentence_239" model="sentences">
+            <field name="translation_sentence">Я складываю одежду.</field>
+            <field name="hebrew_sentence">אני מקפל את הבגדים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_239.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_239.mp3</field>
+        </record>
+
+        
+        <record id="sentence_240" model="sentences">
+            <field name="translation_sentence">Я стираю одежду.</field>
+            <field name="hebrew_sentence">אני שוטף את הבגדים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_240.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_240.mp3</field>
+        </record>
+
+        
+        <record id="sentence_241" model="sentences">
+            <field name="translation_sentence">Я победил.</field>
+            <field name="hebrew_sentence">ניצחתי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_241.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_241.mp3</field>
+        </record>
+
+        
+        <record id="sentence_242" model="sentences">
+            <field name="translation_sentence">Я проиграл.</field>
+            <field name="hebrew_sentence">הפסדתי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_242.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_242.mp3</field>
+        </record>
+
+        
+        <record id="sentence_243" model="sentences">
+            <field name="translation_sentence">Я беру отпуск.</field>
+            <field name="hebrew_sentence">אני יוצא לחופשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_243.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_243.mp3</field>
+        </record>
+
+        
+        <record id="sentence_244" model="sentences">
+            <field name="translation_sentence">Сколько ты зарабатываешь?</field>
+            <field name="hebrew_sentence">כמה כסף אתה מרוויח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_244.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_244.mp3</field>
+        </record>
+
+        
+        <record id="sentence_245" model="sentences">
+            <field name="translation_sentence">Я навожу порядок (убираюсь) в моей комнате.</field>
+            <field name="hebrew_sentence">אני מסדר את החדר שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_245.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_245.mp3</field>
+        </record>
+
+        
+        <record id="sentence_246" model="sentences">
+            <field name="translation_sentence">Я еду в лифте.</field>
+            <field name="hebrew_sentence">אני משתמש במעלית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_246.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_246.mp3</field>
+        </record>
+
+        
+        <record id="sentence_247" model="sentences">
+            <field name="translation_sentence">Я захожу (поднимаюсь) в автобус.</field>
+            <field name="hebrew_sentence">אני עולה על האוטובוס</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_247.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_247.mp3</field>
+        </record>
+
+        
+        <record id="sentence_248" model="sentences">
+            <field name="translation_sentence">Я выхожу (спускаюсь) с поезда.</field>
+            <field name="hebrew_sentence">אני יורד מהרכבת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_248.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_248.mp3</field>
+        </record>
+
+        
+        <record id="sentence_249" model="sentences">
+            <field name="translation_sentence">Я пылесошу пол.</field>
+            <field name="hebrew_sentence">אני שואב את הרצפה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_249.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_249.mp3</field>
+        </record>
+
+        
+        <record id="sentence_250" model="sentences">
+            <field name="translation_sentence">Мне нравится отдыхать дома.</field>
+            <field name="hebrew_sentence">אני אוהב להירגע בבית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_250.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_250.mp3</field>
+        </record>
+
+        
+        <record id="sentence_251" model="sentences">
+            <field name="translation_sentence">Я хочу посмотреть кино.</field>
+            <field name="hebrew_sentence">אני רוצה לצפות בסרט</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_251.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_251.mp3</field>
+        </record>
+
+        
+        <record id="sentence_252" model="sentences">
+            <field name="translation_sentence">Я внимателен в школе (в учёбе).</field>
+            <field name="hebrew_sentence">אני מקשיב בלימודים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_252.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_252.mp3</field>
+        </record>
+
+        
+        <record id="sentence_253" model="sentences">
+            <field name="translation_sentence">Какие у тебя хобби?</field>
+            <field name="hebrew_sentence">מה התחביבים שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_253.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_253.mp3</field>
+        </record>
+
+        
+        <record id="sentence_254" model="sentences">
+            <field name="translation_sentence">Я люблю бегать (спорт).</field>
+            <field name="hebrew_sentence">אני אוהב לרוץ</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_254.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_254.mp3</field>
+        </record>
+
+        
+        <record id="sentence_255" model="sentences">
+            <field name="translation_sentence">Я люблю плавать.</field>
+            <field name="hebrew_sentence">אני אוהב לשחות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_255.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_255.mp3</field>
+        </record>
+
+        
+        <record id="sentence_256" model="sentences">
+            <field name="translation_sentence">Как тебя зовут?</field>
+            <field name="hebrew_sentence">מה שמך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_256.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_256.mp3</field>
+        </record>
+
+        
+        <record id="sentence_257" model="sentences">
+            <field name="translation_sentence">Меня зовут Джон (клавиша W для этого символа: ׳).</field>
+            <field name="hebrew_sentence">שמי ג׳ון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_257.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_257.mp3</field>
+        </record>
+
+        
+        <record id="sentence_258" model="sentences">
+            <field name="translation_sentence">Откуда ты?</field>
+            <field name="hebrew_sentence">מאיפה אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_258.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_258.mp3</field>
+        </record>
+
+        
+        <record id="sentence_259" model="sentences">
+            <field name="translation_sentence">Я из Колумбии.</field>
+            <field name="hebrew_sentence">אני מקולומביה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_259.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_259.mp3</field>
+        </record>
+
+        
+        <record id="sentence_260" model="sentences">
+            <field name="translation_sentence">Где ты это нашёл?</field>
+            <field name="hebrew_sentence">איפה מצאת את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_260.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_260.mp3</field>
+        </record>
+
+        
+        <record id="sentence_261" model="sentences">
+            <field name="translation_sentence">Я нашёл это в машине.</field>
+            <field name="hebrew_sentence">מצאתי את זה במכונית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_261.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_261.mp3</field>
+        </record>
+
+        
+        <record id="sentence_262" model="sentences">
+            <field name="translation_sentence">Ты где был?</field>
+            <field name="hebrew_sentence">איפה היית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_262.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_262.mp3</field>
+        </record>
+
+        
+        <record id="sentence_263" model="sentences">
+            <field name="translation_sentence">Я был дома.</field>
+            <field name="hebrew_sentence">הייתי בבית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_263.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_263.mp3</field>
+        </record>
+
+        
+        <record id="sentence_264" model="sentences">
+            <field name="translation_sentence">Куда ты идёшь?</field>
+            <field name="hebrew_sentence">לאן אתה הולך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_264.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_264.mp3</field>
+        </record>
+
+        
+        <record id="sentence_265" model="sentences">
+            <field name="translation_sentence">Я иду в отель.</field>
+            <field name="hebrew_sentence">אני הולך למלון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_265.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_265.mp3</field>
+        </record>
+
+        
+        <record id="sentence_266" model="sentences">
+            <field name="translation_sentence">Я иду домой.</field>
+            <field name="hebrew_sentence">אני הולך הביתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_266.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_266.mp3</field>
+        </record>
+
+        
+        <record id="sentence_267" model="sentences">
+            <field name="translation_sentence">Где туалет?</field>
+            <field name="hebrew_sentence">איפה השירותים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_267.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_267.mp3</field>
+        </record>
+
+        
+        <record id="sentence_268" model="sentences">
+            <field name="translation_sentence">Это там.</field>
+            <field name="hebrew_sentence">זה שם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_268.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_268.mp3</field>
+        </record>
+
+        
+        <record id="sentence_269" model="sentences">
+            <field name="translation_sentence">Ты знаешь где банк?</field>
+            <field name="hebrew_sentence">אתה יודע איפה נמצא הבנק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_269.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_269.mp3</field>
+        </record>
+
+        
+        <record id="sentence_270" model="sentences">
+            <field name="translation_sentence">Где машина?</field>
+            <field name="hebrew_sentence">איפה המכונית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_270.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_270.mp3</field>
+        </record>
+
+        
+        <record id="sentence_271" model="sentences">
+            <field name="translation_sentence">Машина в гараже.</field>
+            <field name="hebrew_sentence">המכונית נמצאת במוסך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_271.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_271.mp3</field>
+        </record>
+
+        
+        <record id="sentence_272" model="sentences">
+            <field name="translation_sentence">Это моя кредитная карта.</field>
+            <field name="hebrew_sentence">זה כרטיס האשראי שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_272.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_272.mp3</field>
+        </record>
+
+        
+        <record id="sentence_273" model="sentences">
+            <field name="translation_sentence">Это мой кошелёк.</field>
+            <field name="hebrew_sentence">זה הארנק שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_273.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_273.mp3</field>
+        </record>
+
+        
+        <record id="sentence_274" model="sentences">
+            <field name="translation_sentence">Что ты делал вчера?</field>
+            <field name="hebrew_sentence">מה עשית אתמול</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_274.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_274.mp3</field>
+        </record>
+
+        
+        <record id="sentence_275" model="sentences">
+            <field name="translation_sentence">Вчера я ходил в школу.</field>
+            <field name="hebrew_sentence">אתמול הלכתי לבית ספר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_275.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_275.mp3</field>
+        </record>
+
+        
+        <record id="sentence_276" model="sentences">
+            <field name="translation_sentence">Что ты будешь делать завтра?</field>
+            <field name="hebrew_sentence">מה אתה הולך לעשות מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_276.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_276.mp3</field>
+        </record>
+
+        
+        <record id="sentence_277" model="sentences">
+            <field name="translation_sentence">Завтра мне нужно рано на работу.</field>
+            <field name="hebrew_sentence">מחר אני צריך לעבוד מוקדם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_277.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_277.mp3</field>
+        </record>
+
+        
+        <record id="sentence_278" model="sentences">
+            <field name="translation_sentence">Как ты себя чувствуешь?</field>
+            <field name="hebrew_sentence">איך אתה מרגיש</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_278.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_278.mp3</field>
+        </record>
+
+        
+        <record id="sentence_279" model="sentences">
+            <field name="translation_sentence">Я хорошо себя чувствую.</field>
+            <field name="hebrew_sentence">אני מרגיש טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_279.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_279.mp3</field>
+        </record>
+
+        
+        <record id="sentence_280" model="sentences">
+            <field name="translation_sentence">Как оно идёт (как дела)? </field>
+            <field name="hebrew_sentence">איך הולך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_280.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_280.mp3</field>
+        </record>
+
+        
+        <record id="sentence_281" model="sentences">
+            <field name="translation_sentence">У меня всё хорошо. Спасибо.</field>
+            <field name="hebrew_sentence">אני בסדר תודה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_281.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_281.mp3</field>
+        </record>
+
+        
+        <record id="sentence_282" model="sentences">
+            <field name="translation_sentence">Не плохо.</field>
+            <field name="hebrew_sentence">לא רע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_282.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_282.mp3</field>
+        </record>
+
+        
+        <record id="sentence_283" model="sentences">
+            <field name="translation_sentence">У меня всё очень хорошо.</field>
+            <field name="hebrew_sentence">אני בסדר גמור</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_283.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_283.mp3</field>
+        </record>
+
+        
+        <record id="sentence_284" model="sentences">
+            <field name="translation_sentence">Не хорошо (плохо).</field>
+            <field name="hebrew_sentence">לא טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_284.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_284.mp3</field>
+        </record>
+
+        
+        <record id="sentence_285" model="sentences">
+            <field name="translation_sentence">Увидимся позже.</field>
+            <field name="hebrew_sentence">נתראה אחר כך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_285.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_285.mp3</field>
+        </record>
+
+        
+        <record id="sentence_286" model="sentences">
+            <field name="translation_sentence">До скорой встречи.</field>
+            <field name="hebrew_sentence">נתראה מאוחר יותר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_286.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_286.mp3</field>
+        </record>
+
+        
+        <record id="sentence_287" model="sentences">
+            <field name="translation_sentence">И вы?</field>
+            <field name="hebrew_sentence">ואתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_287.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_287.mp3</field>
+        </record>
+
+        
+        <record id="sentence_288" model="sentences">
+            <field name="translation_sentence">Чем был занят (что нового)?</field>
+            <field name="hebrew_sentence">מה עשית לאחרונה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_288.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_288.mp3</field>
+        </record>
+
+        
+        <record id="sentence_289" model="sentences">
+            <field name="translation_sentence">Мало чего (не много).</field>
+            <field name="hebrew_sentence">לא הרבה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_289.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_289.mp3</field>
+        </record>
+
+        
+        <record id="sentence_290" model="sentences">
+            <field name="translation_sentence">Я был очень занят.</field>
+            <field name="hebrew_sentence">הייתי מאוד עסוק</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_290.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_290.mp3</field>
+        </record>
+
+        
+        <record id="sentence_291" model="sentences">
+            <field name="translation_sentence">Рад нашей встрече.</field>
+            <field name="hebrew_sentence">נעים להכיר אותך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_291.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_291.mp3</field>
+        </record>
+
+        
+        <record id="sentence_292" model="sentences">
+            <field name="translation_sentence">Увидимся завтра.</field>
+            <field name="hebrew_sentence">נתראה מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_292.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_292.mp3</field>
+        </record>
+
+        
+        <record id="sentence_293" model="sentences">
+            <field name="translation_sentence">Смотри там аккуратно! (Будь осторожен.)</field>
+            <field name="hebrew_sentence">שמור על עצמך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_293.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_293.mp3</field>
+        </record>
+
+        
+        <record id="sentence_294" model="sentences">
+            <field name="translation_sentence">Нет.</field>
+            <field name="hebrew_sentence">לא</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_294.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_294.mp3</field>
+        </record>
+
+        
+        <record id="sentence_295" model="sentences">
+            <field name="translation_sentence">Хорошо (согласен).</field>
+            <field name="hebrew_sentence">טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_295.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_295.mp3</field>
+        </record>
+
+        
+        <record id="sentence_296" model="sentences">
+            <field name="translation_sentence">Возможно (может быть).</field>
+            <field name="hebrew_sentence">אולי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_296.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_296.mp3</field>
+        </record>
+
+        
+        <record id="sentence_297" model="sentences">
+            <field name="translation_sentence">Извините меня.</field>
+            <field name="hebrew_sentence">סלח לי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_297.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_297.mp3</field>
+        </record>
+
+        
+        <record id="sentence_298" model="sentences">
+            <field name="translation_sentence">Не проблема.</field>
+            <field name="hebrew_sentence">אין בעיה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_298.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_298.mp3</field>
+        </record>
+
+        
+        <record id="sentence_299" model="sentences">
+            <field name="translation_sentence">Всё нормально (всё в прядке).</field>
+            <field name="hebrew_sentence">הכל בסדר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_299.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_299.mp3</field>
+        </record>
+
+        
+        <record id="sentence_300" model="sentences">
+            <field name="translation_sentence">Ты говоришь по-английски?</field>
+            <field name="hebrew_sentence">האם אתה דובר אנגלית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_300.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_300.mp3</field>
+        </record>
+
+        
+        <record id="sentence_301" model="sentences">
+            <field name="translation_sentence">Немножко.</field>
+            <field name="hebrew_sentence">קצת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_301.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_301.mp3</field>
+        </record>
+
+        
+        <record id="sentence_302" model="sentences">
+            <field name="translation_sentence">Я говорю по-английски.</field>
+            <field name="hebrew_sentence">אני מדבר אנגלית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_302.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_302.mp3</field>
+        </record>
+
+        
+        <record id="sentence_303" model="sentences">
+            <field name="translation_sentence">Мой английский не очень хороший.</field>
+            <field name="hebrew_sentence">האנגלית שלי לא כל כך טובה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_303.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_303.mp3</field>
+        </record>
+
+        
+        <record id="sentence_304" model="sentences">
+            <field name="translation_sentence">Я не знаю.</field>
+            <field name="hebrew_sentence">אני לא יודע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_304.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_304.mp3</field>
+        </record>
+
+        
+        <record id="sentence_305" model="sentences">
+            <field name="translation_sentence">Ты понимаешь?</field>
+            <field name="hebrew_sentence">האם אתה מבין</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_305.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_305.mp3</field>
+        </record>
+
+        
+        <record id="sentence_306" model="sentences">
+            <field name="translation_sentence">Я понимаю.</field>
+            <field name="hebrew_sentence">אני מבין</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_306.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_306.mp3</field>
+        </record>
+
+        
+        <record id="sentence_307" model="sentences">
+            <field name="translation_sentence">Я не понимаю.</field>
+            <field name="hebrew_sentence">אני לא מבין</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_307.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_307.mp3</field>
+        </record>
+
+        
+        <record id="sentence_308" model="sentences">
+            <field name="translation_sentence">Ты можешь это повторить?</field>
+            <field name="hebrew_sentence">תוכל לחזור על כך בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_308.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_308.mp3</field>
+        </record>
+
+        
+        <record id="sentence_309" model="sentences">
+            <field name="translation_sentence">Не мог бы ты говорить помедленнее, пожалуйста.</field>
+            <field name="hebrew_sentence">האם אתה יכול לדבר יותר לאט בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_309.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_309.mp3</field>
+        </record>
+
+        
+        <record id="sentence_310" model="sentences">
+            <field name="translation_sentence">Пожалуйста, запишите это!</field>
+            <field name="hebrew_sentence">בבקשה כתוב את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_310.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_310.mp3</field>
+        </record>
+
+        
+        <record id="sentence_311" model="sentences">
+            <field name="translation_sentence">Как сказать “привет” на немецком?</field>
+            <field name="hebrew_sentence">איך אתה אומר שלום בגרמנית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_311.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_311.mp3</field>
+        </record>
+
+        
+        <record id="sentence_312" model="sentences">
+            <field name="translation_sentence">Ты где?</field>
+            <field name="hebrew_sentence">היכן אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_312.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_312.mp3</field>
+        </record>
+
+        
+        <record id="sentence_313" model="sentences">
+            <field name="translation_sentence">Я дома.</field>
+            <field name="hebrew_sentence">אני בבית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_313.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_313.mp3</field>
+        </record>
+
+        
+        <record id="sentence_314" model="sentences">
+            <field name="translation_sentence">Я на работе.</field>
+            <field name="hebrew_sentence">אני בעבודה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_314.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_314.mp3</field>
+        </record>
+
+        
+        <record id="sentence_315" model="sentences">
+            <field name="translation_sentence">Кем ты работаешь (как зарабатываешь на жизнь)?</field>
+            <field name="hebrew_sentence">מה אתה עושה לפרנסתך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_315.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_315.mp3</field>
+        </record>
+
+        
+        <record id="sentence_316" model="sentences">
+            <field name="translation_sentence">Я хочу учить английский.</field>
+            <field name="hebrew_sentence">אני רוצה ללמוד אנגלית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_316.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_316.mp3</field>
+        </record>
+
+        
+        <record id="sentence_317" model="sentences">
+            <field name="translation_sentence">Ты мог бы мне помочь?</field>
+            <field name="hebrew_sentence">תוכל לעזור לי בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_317.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_317.mp3</field>
+        </record>
+
+        
+        <record id="sentence_318" model="sentences">
+            <field name="translation_sentence">Я могу тебе помочь?</field>
+            <field name="hebrew_sentence">אוכל לעזור לך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_318.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_318.mp3</field>
+        </record>
+
+        
+        <record id="sentence_319" model="sentences">
+            <field name="translation_sentence">Я потерялся.</field>
+            <field name="hebrew_sentence">הלכתי לאיבוד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_319.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_319.mp3</field>
+        </record>
+
+        
+        <record id="sentence_320" model="sentences">
+            <field name="translation_sentence">Секундочку, пожалуйста.</field>
+            <field name="hebrew_sentence">רגע אחד בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_320.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_320.mp3</field>
+        </record>
+
+        
+        <record id="sentence_321" model="sentences">
+            <field name="translation_sentence">Сколько это стоит?</field>
+            <field name="hebrew_sentence">כמה זה עולה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_321.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_321.mp3</field>
+        </record>
+
+        
+        <record id="sentence_322" model="sentences">
+            <field name="translation_sentence">Как вас зовут?</field>
+            <field name="hebrew_sentence">מה השם שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_322.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_322.mp3</field>
+        </record>
+
+        
+        <record id="sentence_323" model="sentences">
+            <field name="translation_sentence">Как тебя зовут?</field>
+            <field name="hebrew_sentence">איך קוראים לך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_323.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_323.mp3</field>
+        </record>
+
+        
+        <record id="sentence_324" model="sentences">
+            <field name="translation_sentence">Откуда вы (страна)?</field>
+            <field name="hebrew_sentence">מהיכן אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_324.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_324.mp3</field>
+        </record>
+
+        
+        <record id="sentence_325" model="sentences">
+            <field name="translation_sentence">Откуда ты (страна)?</field>
+            <field name="hebrew_sentence">מאיפה אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_325.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_325.mp3</field>
+        </record>
+
+        
+        <record id="sentence_326" model="sentences">
+            <field name="translation_sentence">Кто ты по национальности?</field>
+            <field name="hebrew_sentence">מה המוצא שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_326.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_326.mp3</field>
+        </record>
+
+        
+        <record id="sentence_327" model="sentences">
+            <field name="translation_sentence">Где вы проживаете?</field>
+            <field name="hebrew_sentence">היכן אתה מתגורר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_327.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_327.mp3</field>
+        </record>
+
+        
+        <record id="sentence_328" model="sentences">
+            <field name="translation_sentence">Где ты живёшь?</field>
+            <field name="hebrew_sentence">היכן אתה גר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_328.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_328.mp3</field>
+        </record>
+
+        
+        <record id="sentence_329" model="sentences">
+            <field name="translation_sentence">Родился в Берлине.</field>
+            <field name="hebrew_sentence">נולדתי בברלין</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_329.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_329.mp3</field>
+        </record>
+
+        
+        <record id="sentence_330" model="sentences">
+            <field name="translation_sentence">Я вырос в Германии.</field>
+            <field name="hebrew_sentence">גדלתי בגרמניה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_330.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_330.mp3</field>
+        </record>
+
+        
+        <record id="sentence_331" model="sentences">
+            <field name="translation_sentence">Какая сегодня погода?</field>
+            <field name="hebrew_sentence">איך מזג האוויר היום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_331.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_331.mp3</field>
+        </record>
+
+        
+        <record id="sentence_332" model="sentences">
+            <field name="translation_sentence">У тебя есть деньги?</field>
+            <field name="hebrew_sentence">האם יש לך כסף</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_332.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_332.mp3</field>
+        </record>
+
+        
+        <record id="sentence_333" model="sentences">
+            <field name="translation_sentence">Сколько тебе лет?</field>
+            <field name="hebrew_sentence">בן כמה אתה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_333.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_333.mp3</field>
+        </record>
+
+        
+        <record id="sentence_334" model="sentences">
+            <field name="translation_sentence">Мне 30.</field>
+            <field name="hebrew_sentence">אני בן 30</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_334.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_334.mp3</field>
+        </record>
+
+        
+        <record id="sentence_335" model="sentences">
+            <field name="translation_sentence">Какой у тебя адрес?</field>
+            <field name="hebrew_sentence">מה הכתובת שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_335.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_335.mp3</field>
+        </record>
+
+        
+        <record id="sentence_336" model="sentences">
+            <field name="translation_sentence">Какой у тебя номер телефона?</field>
+            <field name="hebrew_sentence">מה מספר הטלפון שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_336.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_336.mp3</field>
+        </record>
+
+        
+        <record id="sentence_337" model="sentences">
+            <field name="translation_sentence">Куда ты идёшь?</field>
+            <field name="hebrew_sentence">לאן אתה הולך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_337.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_337.mp3</field>
+        </record>
+
+        
+        <record id="sentence_338" model="sentences">
+            <field name="translation_sentence">Какой у тебя адрес электронной почты?</field>
+            <field name="hebrew_sentence">מה כתובת הדואר האלקטרוני שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_338.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_338.mp3</field>
+        </record>
+
+        
+        <record id="sentence_339" model="sentences">
+            <field name="translation_sentence">Удачи!</field>
+            <field name="hebrew_sentence">בהצלחה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_339.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_339.mp3</field>
+        </record>
+
+        
+        <record id="sentence_340" model="sentences">
+            <field name="translation_sentence">Хорошо сделано!</field>
+            <field name="hebrew_sentence">עבודה טובה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_340.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_340.mp3</field>
+        </record>
+
+        
+        <record id="sentence_341" model="sentences">
+            <field name="translation_sentence">Счастливого Рождества!</field>
+            <field name="hebrew_sentence">חג מולד שמח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_341.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_341.mp3</field>
+        </record>
+
+        
+        <record id="sentence_342" model="sentences">
+            <field name="translation_sentence">Счастливого дня рождения!</field>
+            <field name="hebrew_sentence">יום הולדת שמח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_342.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_342.mp3</field>
+        </record>
+
+        
+        <record id="sentence_343" model="sentences">
+            <field name="translation_sentence">За жизнь! (На здоровье!)</field>
+            <field name="hebrew_sentence">לחיים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_343.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_343.mp3</field>
+        </record>
+
+        
+        <record id="sentence_344" model="sentences">
+            <field name="translation_sentence">Поздравляю!</field>
+            <field name="hebrew_sentence">ברכות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_344.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_344.mp3</field>
+        </record>
+
+        
+        <record id="sentence_345" model="sentences">
+            <field name="translation_sentence">Будь здоров! (после чиха)</field>
+            <field name="hebrew_sentence">לבריאות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_345.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_345.mp3</field>
+        </record>
+
+        
+        <record id="sentence_346" model="sentences">
+            <field name="translation_sentence">Хорошей дороги!</field>
+            <field name="hebrew_sentence">שתהיה לך נסיעה נעימה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_346.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_346.mp3</field>
+        </record>
+
+        
+        <record id="sentence_347" model="sentences">
+            <field name="translation_sentence">Приятного аппетита.</field>
+            <field name="hebrew_sentence">תהנה מהארוחה שלך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_347.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_347.mp3</field>
+        </record>
+
+        
+        <record id="sentence_348" model="sentences">
+            <field name="translation_sentence">Я люблю тебя.</field>
+            <field name="hebrew_sentence">אני אוהב אותך</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_348.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_348.mp3</field>
+        </record>
+
+        
+        <record id="sentence_349" model="sentences">
+            <field name="translation_sentence">Я тоже тебя люблю.</field>
+            <field name="hebrew_sentence">אני אוהב אותך גם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_349.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_349.mp3</field>
+        </record>
+
+        
+        <record id="sentence_350" model="sentences">
+            <field name="translation_sentence">Мне нужно идти (уйти) сейчас.</field>
+            <field name="hebrew_sentence">אני חייב ללכת עכשיו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_350.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_350.mp3</field>
+        </record>
+
+        
+        <record id="sentence_351" model="sentences">
+            <field name="translation_sentence">Это звучит хорошо! (Мне нравится!)</field>
+            <field name="hebrew_sentence">זה נשמע טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_351.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_351.mp3</field>
+        </record>
+
+        
+        <record id="sentence_352" model="sentences">
+            <field name="translation_sentence">Ты уверен?</field>
+            <field name="hebrew_sentence">אתה בטוח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_352.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_352.mp3</field>
+        </record>
+
+        
+        <record id="sentence_353" model="sentences">
+            <field name="translation_sentence">Я не уверен.</field>
+            <field name="hebrew_sentence">אני לא בטוח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_353.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_353.mp3</field>
+        </record>
+
+        
+        <record id="sentence_354" model="sentences">
+            <field name="translation_sentence">Не волнуйся об этом.</field>
+            <field name="hebrew_sentence">אל תדאג בנוגע לזה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_354.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_354.mp3</field>
+        </record>
+
+        
+        <record id="sentence_355" model="sentences">
+            <field name="translation_sentence">Можешь это объяснить?</field>
+            <field name="hebrew_sentence">תוכל להסביר את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_355.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_355.mp3</field>
+        </record>
+
+        
+        <record id="sentence_356" model="sentences">
+            <field name="translation_sentence">Я не знаю как это объяснить.</field>
+            <field name="hebrew_sentence">אני לא יודע כיצד להסביר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_356.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_356.mp3</field>
+        </record>
+
+        
+        <record id="sentence_357" model="sentences">
+            <field name="translation_sentence">Я не знаю как сказать это на английском.</field>
+            <field name="hebrew_sentence">אני לא יודע איך להגיד את זה באנגלית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_357.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_357.mp3</field>
+        </record>
+
+        
+        <record id="sentence_358" model="sentences">
+            <field name="translation_sentence">Например, …</field>
+            <field name="hebrew_sentence">לדוגמא</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_358.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_358.mp3</field>
+        </record>
+
+        
+        <record id="sentence_359" model="sentences">
+            <field name="translation_sentence">Это вид животного.</field>
+            <field name="hebrew_sentence">זה סוג של חיה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_359.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_359.mp3</field>
+        </record>
+
+        
+        <record id="sentence_360" model="sentences">
+            <field name="translation_sentence">Можешь прочитать этот абзац?</field>
+            <field name="hebrew_sentence">אתה יכול לקרוא את הפסקה הזאת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_360.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_360.mp3</field>
+        </record>
+
+        
+        <record id="sentence_361" model="sentences">
+            <field name="translation_sentence">Можешь прочитать это слово?</field>
+            <field name="hebrew_sentence">אתה יכול לקרוא את המילה הזאת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_361.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_361.mp3</field>
+        </record>
+
+        
+        <record id="sentence_362" model="sentences">
+            <field name="translation_sentence">Я не знаю как использовать это слово.</field>
+            <field name="hebrew_sentence">אני לא יודע כיצד להשתמש במילה הזאת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_362.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_362.mp3</field>
+        </record>
+
+        
+        <record id="sentence_363" model="sentences">
+            <field name="translation_sentence">Как это (слово) произносится?</field>
+            <field name="hebrew_sentence">כיצד אתה מבטא את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_363.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_363.mp3</field>
+        </record>
+
+        
+        <record id="sentence_364" model="sentences">
+            <field name="translation_sentence">На сколько времени ты здесь?</field>
+            <field name="hebrew_sentence">כמה זמן אתה נשאר כאן</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_364.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_364.mp3</field>
+        </record>
+
+        
+        <record id="sentence_365" model="sentences">
+            <field name="translation_sentence">Я буду здесь неделю.</field>
+            <field name="hebrew_sentence">אני אהיה כאן במשך שבוע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_365.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_365.mp3</field>
+        </record>
+
+        
+        <record id="sentence_366" model="sentences">
+            <field name="translation_sentence">Я здесь только один день.</field>
+            <field name="hebrew_sentence">אני כאן רק ליום אחד</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_366.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_366.mp3</field>
+        </record>
+
+        
+        <record id="sentence_367" model="sentences">
+            <field name="translation_sentence">Когда ты уезжаешь?</field>
+            <field name="hebrew_sentence">מתי אתה עוזב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_367.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_367.mp3</field>
+        </record>
+
+        
+        <record id="sentence_368" model="sentences">
+            <field name="translation_sentence">Я уезжаю (возвращаюсь) завтра.</field>
+            <field name="hebrew_sentence">אני עוזב מחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_368.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_368.mp3</field>
+        </record>
+
+        
+        <record id="sentence_369" model="sentences">
+            <field name="translation_sentence">Почему ты здесь (цель нахождения здесь)?</field>
+            <field name="hebrew_sentence">למה אתה כאן</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_369.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_369.mp3</field>
+        </record>
+
+        
+        <record id="sentence_370" model="sentences">
+            <field name="translation_sentence">Я здесь в отпуске.</field>
+            <field name="hebrew_sentence">אני כאן לחופשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_370.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_370.mp3</field>
+        </record>
+
+        
+        <record id="sentence_371" model="sentences">
+            <field name="translation_sentence">Вот моя визитка.</field>
+            <field name="hebrew_sentence">הנה הכרטיס הביקור שלי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_371.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_371.mp3</field>
+        </record>
+
+        
+        <record id="sentence_372" model="sentences">
+            <field name="translation_sentence">Мне здесь нравится.</field>
+            <field name="hebrew_sentence">אני אוהב להיות כאן</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_372.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_372.mp3</field>
+        </record>
+
+        
+        <record id="sentence_373" model="sentences">
+            <field name="translation_sentence">Что тебе здесь нравится?</field>
+            <field name="hebrew_sentence">מה אתה אוהב כאן</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_373.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_373.mp3</field>
+        </record>
+
+        
+        <record id="sentence_374" model="sentences">
+            <field name="translation_sentence">Мне нравится погода (здешняя).</field>
+            <field name="hebrew_sentence">אני אוהב את מזג האוויר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_374.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_374.mp3</field>
+        </record>
+
+        
+        <record id="sentence_375" model="sentences">
+            <field name="translation_sentence">Мне нравятся люди (здесь).</field>
+            <field name="hebrew_sentence">אני אוהב את האנשים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_375.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_375.mp3</field>
+        </record>
+
+        
+        <record id="sentence_376" model="sentences">
+            <field name="translation_sentence">Мне нравится еда (здешняя).</field>
+            <field name="hebrew_sentence">אני אוהב את האוכל</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_376.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_376.mp3</field>
+        </record>
+
+        
+        <record id="sentence_377" model="sentences">
+            <field name="translation_sentence">Будет дождь.</field>
+            <field name="hebrew_sentence">הולך לרדת גשם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_377.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_377.mp3</field>
+        </record>
+
+        
+        <record id="sentence_378" model="sentences">
+            <field name="translation_sentence">Как ты себя чувствуешь?</field>
+            <field name="hebrew_sentence">איך אתה מרגיש</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_378.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_378.mp3</field>
+        </record>
+
+        
+        <record id="sentence_379" model="sentences">
+            <field name="translation_sentence">Я не здоров (болен).</field>
+            <field name="hebrew_sentence">אני מרגיש חולה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_379.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_379.mp3</field>
+        </record>
+
+        
+        <record id="sentence_380" model="sentences">
+            <field name="translation_sentence">Я хорошо себя чувствую (не болен).</field>
+            <field name="hebrew_sentence">אני מרגיש טוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_380.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_380.mp3</field>
+        </record>
+
+        
+        <record id="sentence_381" model="sentences">
+            <field name="translation_sentence">Я устал.</field>
+            <field name="hebrew_sentence">אני עייף</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_381.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_381.mp3</field>
+        </record>
+
+        
+        <record id="sentence_382" model="sentences">
+            <field name="translation_sentence">Мне грустно.</field>
+            <field name="hebrew_sentence">אני עצוב</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_382.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_382.mp3</field>
+        </record>
+
+        
+        <record id="sentence_383" model="sentences">
+            <field name="translation_sentence">Я счастлив.</field>
+            <field name="hebrew_sentence">אני שמח</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_383.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_383.mp3</field>
+        </record>
+
+        
+        <record id="sentence_384" model="sentences">
+            <field name="translation_sentence">Хочешь чего-нибудь поесть?</field>
+            <field name="hebrew_sentence">האם אתה רוצה לאכול משהו</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_384.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_384.mp3</field>
+        </record>
+
+        
+        <record id="sentence_385" model="sentences">
+            <field name="translation_sentence">Что ты хочешь попить?</field>
+            <field name="hebrew_sentence">מה אתה רוצה לשתות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_385.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_385.mp3</field>
+        </record>
+
+        
+        <record id="sentence_386" model="sentences">
+            <field name="translation_sentence">Что-нибудь ещё?</field>
+            <field name="hebrew_sentence">כל דבר אחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_386.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_386.mp3</field>
+        </record>
+
+        
+        <record id="sentence_387" model="sentences">
+            <field name="translation_sentence">Это всё (больше ничего).</field>
+            <field name="hebrew_sentence">זה הכל</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_387.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_387.mp3</field>
+        </record>
+
+        
+        <record id="sentence_388" model="sentences">
+            <field name="translation_sentence">Можно это примерить?</field>
+            <field name="hebrew_sentence">אפשר למדוד את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_388.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_388.mp3</field>
+        </record>
+
+        
+        <record id="sentence_389" model="sentences">
+            <field name="translation_sentence">Можно мне карту (города)?</field>
+            <field name="hebrew_sentence">אפשר לקבל מפה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_389.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_389.mp3</field>
+        </record>
+
+        
+        <record id="sentence_390" model="sentences">
+            <field name="translation_sentence">Можно мне чек?</field>
+            <field name="hebrew_sentence">אפשר לקבל את החשבון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_390.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_390.mp3</field>
+        </record>
+
+        
+        <record id="sentence_391" model="sentences">
+            <field name="translation_sentence">Я бы хотел переехать в другую комнату.</field>
+            <field name="hebrew_sentence">אני יכול לעבור לחדר אחר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_391.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_391.mp3</field>
+        </record>
+
+        
+        <record id="sentence_392" model="sentences">
+            <field name="translation_sentence">Не мог бы я получить меню, пожалуйста.</field>
+            <field name="hebrew_sentence">אפשר לקבל תפריט בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_392.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_392.mp3</field>
+        </record>
+
+        
+        <record id="sentence_393" model="sentences">
+            <field name="translation_sentence">Не могли бы вы найми мне комнату для некурящих?</field>
+            <field name="hebrew_sentence">אתה יכול למצוא לי חדר ללא עישון</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_393.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_393.mp3</field>
+        </record>
+
+        
+        <record id="sentence_394" model="sentences">
+            <field name="translation_sentence">Можете дать мне скидку?</field>
+            <field name="hebrew_sentence">אתה יכול לתת לי הנחה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_394.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_394.mp3</field>
+        </record>
+
+        
+        <record id="sentence_395" model="sentences">
+            <field name="translation_sentence">Не могли бы вы сфотографировать меня?</field>
+            <field name="hebrew_sentence">אתה יכול לצלם אותי בבקשה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_395.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_395.mp3</field>
+        </record>
+
+        
+        <record id="sentence_396" model="sentences">
+            <field name="translation_sentence">У вас есть рекомендации (можете что-то порекомендовать)?</field>
+            <field name="hebrew_sentence">יש לך המלצות</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_396.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_396.mp3</field>
+        </record>
+
+        
+        <record id="sentence_397" model="sentences">
+            <field name="translation_sentence">Вы разговариваете по-английски.</field>
+            <field name="hebrew_sentence">אתה מדבר אנגלית</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_397.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_397.mp3</field>
+        </record>
+
+        
+        <record id="sentence_398" model="sentences">
+            <field name="translation_sentence">Вы принимаете кредитные карты.</field>
+            <field name="hebrew_sentence">אתם מקבלים כרטיסי אשראי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_398.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_398.mp3</field>
+        </record>
+
+        
+        <record id="sentence_399" model="sentences">
+            <field name="translation_sentence">Извините, сколько стоит (какая плата, напр., за проезд)?</field>
+            <field name="hebrew_sentence">סליחה כמה עולה נסיעה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_399.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_399.mp3</field>
+        </record>
+
+        
+        <record id="sentence_400" model="sentences">
+            <field name="translation_sentence">Сколько это стоит?</field>
+            <field name="hebrew_sentence">כמה זה עולה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_400.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_400.mp3</field>
+        </record>
+
+        
+        <record id="sentence_401" model="sentences">
+            <field name="translation_sentence">У меня забронировано (номер в гостинице, стол в ресторане).</field>
+            <field name="hebrew_sentence">הזמנתי מקום</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_401.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_401.mp3</field>
+        </record>
+
+        
+        <record id="sentence_402" model="sentences">
+            <field name="translation_sentence">Я бы хотел десять этих / таких.</field>
+            <field name="hebrew_sentence">אני רוצה עשרה כאלה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_402.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_402.mp3</field>
+        </record>
+
+        
+        <record id="sentence_403" model="sentences">
+            <field name="translation_sentence">Я бы хотел вот это.</field>
+            <field name="hebrew_sentence">אני רוצה את זה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_403.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_403.mp3</field>
+        </record>
+
+        
+        <record id="sentence_404" model="sentences">
+            <field name="translation_sentence">У меня алергия на арахис.</field>
+            <field name="hebrew_sentence">אני אלרגי לבוטנים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_404.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_404.mp3</field>
+        </record>
+
+        
+        <record id="sentence_405" model="sentences">
+            <field name="translation_sentence">Wi-Fi бесплатный?</field>
+            <field name="hebrew_sentence">יש אינטרנט אלחוטי בחינם</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_405.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_405.mp3</field>
+        </record>
+
+        
+        <record id="sentence_406" model="sentences">
+            <field name="translation_sentence">Здесь есть автобус с аэропорта в город?</field>
+            <field name="hebrew_sentence">יש אוטובוס משדה התעופה לעיר</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_406.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_406.mp3</field>
+        </record>
+
+        
+        <record id="sentence_407" model="sentences">
+            <field name="translation_sentence">Это правильный автобус в аэропорт?</field>
+            <field name="hebrew_sentence">זה האוטובוס הנכון לשדה התעופה</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_407.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_407.mp3</field>
+        </record>
+
+        
+        <record id="sentence_408" model="sentences">
+            <field name="translation_sentence">Не подходит (не сидит по размеру).</field>
+            <field name="hebrew_sentence">זה לא מתאים</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_408.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_408.mp3</field>
+        </record>
+
+        
+        <record id="sentence_409" model="sentences">
+            <field name="translation_sentence">Нашу еду ещё не принесли.</field>
+            <field name="hebrew_sentence">האוכל שלנו עדיין לא הגיע</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_409.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_409.mp3</field>
+        </record>
+
+        
+        <record id="sentence_410" model="sentences">
+            <field name="translation_sentence">Это не то, что я заказал.</field>
+            <field name="hebrew_sentence">זה לא מה שהזמנתי</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_410.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_410.mp3</field>
+        </record>
+
+        
+        <record id="sentence_411" model="sentences">
+            <field name="translation_sentence">Где вокзал (железнодорожная станция)?</field>
+            <field name="hebrew_sentence">איפה תחנת הרכבת</field>
+            <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_411.png"/>
+            <field name="audio">hebrew_learning/static/audio/sentences/sentence_411.mp3</field>
+        </record>
+
+
+    </data>
+</odoo>
