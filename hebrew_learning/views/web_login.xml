@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="login" inherit_id="web.login" name="Custom Login" >
+        <xpath expr="//div[hasclass('field-login')]/input" position="attributes">
+            <attribute name="placeholder">test</attribute> 
+        </xpath>
+        <xpath expr="//div[hasclass('field-login')]/label" position="replace">
+            <label for="login">Email: test</label>
+        </xpath>
+        <xpath expr="//div[hasclass('field-password')]/input" position="attributes">
+            <attribute name="placeholder">test</attribute> 
+        </xpath>
+        <xpath expr="//div[hasclass('field-password')]/label" position="replace">
+            <attribute name="string"></attribute> 
+            <label for="password">Password: test</label>
+        </xpath>
+    </template>
+</odoo>
+

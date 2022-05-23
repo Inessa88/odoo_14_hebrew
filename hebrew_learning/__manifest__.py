@@ -38,7 +38,8 @@
         'wizard/training_finished.xml',
         'wizard/trainings.xml',
 
-        "views/web_notify.xml"
+        "views/web_notify.xml",
+        "views/web_login.xml",
     ],
     'installable': True,
     'application': True,
