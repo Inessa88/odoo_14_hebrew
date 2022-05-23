@@ -25,7 +25,7 @@
         'data/word_groups_and_words_data_2.xml',
         'data/word_groups_and_words_data_3.xml',
         'data/word_groups_and_words_data_4.xml',
-        # 'data/word_groups_and_words_data_5.xml',
+        'data/word_groups_and_words_data_5.xml',
         # 'data/sentences_data_1.xml',
         # 'data/sentences_data_2.xml',
 
