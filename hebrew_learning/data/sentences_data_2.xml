@@ -803,7 +803,7 @@
         </record>
 
         
-        <record id="sentence_300" model="sentences">
+        <!-- <record id="sentence_300" model="sentences">
             <field name="translation_sentence">Ты говоришь по-английски?</field>
             <field name="hebrew_sentence">האם אתה דובר אנגלית</field>
             <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_300.png"/>
@@ -1696,7 +1696,7 @@
             <field name="hebrew_sentence">איפה תחנת הרכבת</field>
             <field name="picture" type="base64" file="hebrew_learning/static/img/sentences/sentence_411.png"/>
             <field name="audio">hebrew_learning/static/audio/sentences/sentence_411.mp3</field>
-        </record>
+        </record> -->
 
 
     </data>
