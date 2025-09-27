@@ -11,11 +11,11 @@ docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=pos
 
 docker image build -t hebrew_learning_odoo_14:latest . 
 
-# Start without debug: 
+# Start without debug (Linux): 
 
 docker run -d --mount type=bind,source="$(pwd)"/hebrew_learning,target=/mnt/extra-addons/hebrew_learning -p 8069:8069 --link hebrew_db_14:db --name hebrew_odoo_14 -t pythongeek88/hebrew_learning_odoo_14:latest /usr/bin/python3 /usr/bin/odoo --db_user=odoo --db_host=db --db_password=odoo --limit-time-real=100000
 
-# Start with debug: 
+# Start with debug (Linux): 
 
 docker run --mount type=bind,source="$(pwd)"/hebrew_learning,target=/mnt/extra-addons/hebrew_learning -p 8888:3001 -p 8879:8069 --link hebrew_db_14:db --name hebrew_odoo_14_debug -t pythongeek88/hebrew_learning_odoo_14:latest /usr/bin/python3 -m debugpy --listen 0.0.0.0:3001 /usr/bin/odoo --db_user=odoo --db_host=db --db_password=odoo --limit-time-real=100000
 
