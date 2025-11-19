@@ -203,21 +203,17 @@ class WizardSentenceTraining(models.TransientModel):
                 'last_exercise_date': fields.Date.context_today(update_exercise_date_record),
                 'number_of_times_exercise_is_done': current_number_of_repetitions,
             }
-            # ('1', 'In a day'), X 5 TIMES => SUM TIMES: 5
-            # ('7', 'In a week'), => SUM TIMES: 6
-            # ('30', 'In a month'), X 3 TIMES => SUM TIMES: 9
-            # ('90', 'In three months'), => SUM TIMES: 10
-            # ('183', 'In half a year'), => SUM TIMES: 11-12-...
+            # ('1', 'In a day'), X 2 TIMES => SUM TIMES: 2
+            # ('7', 'In a week'), X 2 TIMES  => SUM TIMES: 4
+            # ('30', 'In a month'), X 3 TIMES => SUM TIMES: 7
             # ('1000000', 'Never (initial learning)'),
-            # Right now we learned 5th time 5 days in a row, so move to next interval
-            if update_exercise_date_record.repetition_interval == '1' and current_number_of_repetitions == 5:
+            # Right now we learned 2nd time in a day, so move to next interval
+            if update_exercise_date_record.repetition_interval == '1' and current_number_of_repetitions == 2:
                 data['repetition_interval'] = '7'
-            elif update_exercise_date_record.repetition_interval == '7' and current_number_of_repetitions == 6:
+            elif update_exercise_date_record.repetition_interval == '7' and current_number_of_repetitions == 4:
                 data['repetition_interval'] = '30'
-            elif update_exercise_date_record.repetition_interval == '30' and current_number_of_repetitions == 9:
-                data['repetition_interval'] = '90'
-            elif update_exercise_date_record.repetition_interval == '90' and current_number_of_repetitions == 10:
-                data['repetition_interval'] = '183'
+            elif update_exercise_date_record.repetition_interval == '30' and current_number_of_repetitions == 7:
+                data['repetition_interval'] = '1000000'
             update_exercise_date_record.write(data)
 
     @api.model

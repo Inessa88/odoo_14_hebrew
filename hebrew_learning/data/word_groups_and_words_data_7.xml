@@ -1,0 +1,3996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="word_3897" model="words">
+            <field name="translation_word">интервью, собеседование</field>
+            <field name="pronunciation_word">ra'ayon</field>
+            <field name="hebrew_word_nikud">רֵאָיוֹן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3897.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3897.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3898" model="words">
+            <field name="translation_word">сторона, направление</field>
+            <field name="pronunciation_word">kivun</field>
+            <field name="hebrew_word_nikud">כִּיווּן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3898.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3898.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3899" model="words">
+            <field name="translation_word">намерение</field>
+            <field name="pronunciation_word">kavanah</field>
+            <field name="hebrew_word_nikud">כַּווָנָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3899.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3899.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3900" model="words">
+            <field name="translation_word">испытание,экзамен</field>
+            <field name="pronunciation_word">bkhina</field>
+            <field name="hebrew_word_nikud">בְּחִינָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3900.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3900.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3901" model="words">
+            <field name="translation_word">состояние</field>
+            <field name="pronunciation_word">maʦav</field>
+            <field name="hebrew_word_nikud">מַצָב</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3901.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3901.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3902" model="words">
+            <field name="translation_word">вокруг</field>
+            <field name="pronunciation_word">saviv</field>
+            <field name="hebrew_word_nikud">סָבִיב</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3902.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3902.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3903" model="words">
+            <field name="translation_word">окружение, обстановка</field>
+            <field name="pronunciation_word">savivah</field>
+            <field name="hebrew_word_nikud">סָבִיבָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3903.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3903.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3904" model="words">
+            <field name="translation_word">причина</field>
+            <field name="pronunciation_word">siba</field>
+            <field name="hebrew_word_nikud">סִיבָּה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3904.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3904.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3905" model="words">
+            <field name="translation_word">трус</field>
+            <field name="pronunciation_word">pahdan</field>
+            <field name="hebrew_word_nikud">פַחדָן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3905.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3905.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        
+        <record id="word_3906" model="words">
+            <field name="translation_word">плохо,плохой</field>
+            <field name="pronunciation_word">ra'a</field>
+            <field name="hebrew_word_nikud">רָע</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3906.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3906.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        <record id="word_3907" model="words">
+            <field name="translation_word">клиент</field>
+            <field name="pronunciation_word">lako'akh</field>
+            <field name="hebrew_word_nikud">לָקוֹחַ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3907.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3907.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        
+        <record id="word_3908" model="words">
+            <field name="translation_word">способ, метод</field>
+            <field name="pronunciation_word">ʃita</field>
+            <field name="hebrew_word_nikud">שִיטָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3908.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3908.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3909" model="words">
+            <field name="translation_word">горький</field>
+            <field name="pronunciation_word">marir</field>
+            <field name="hebrew_word_nikud">מָרִיר</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3909.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3909.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3910" model="words">
+            <field name="translation_word">к сожалению</field>
+            <field name="pronunciation_word">leza'ari</field>
+            <field name="hebrew_word_nikud">לְצַעֲרִי</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3910.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3910.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3911" model="words">
+            <field name="translation_word">сюжет</field>
+            <field name="pronunciation_word">alilah</field>
+            <field name="hebrew_word_nikud">עֲלִילָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3911.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3911.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3912" model="words">
+            <field name="translation_word">смысл, значение</field>
+            <field name="pronunciation_word">masma'ut</field>
+            <field name="hebrew_word_nikud">מַשמָעוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3912.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3912.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3913" model="words">
+            <field name="translation_word">код</field>
+            <field name="pronunciation_word">kod</field>
+            <field name="hebrew_word_nikud">קוֹד</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3913.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3913.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3914" model="words">
+            <field name="translation_word">конечно</field>
+            <field name="pronunciation_word">beva'day</field>
+            <field name="hebrew_word_nikud">בְּווַדַאי</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3914.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3914.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3915" model="words">
+            <field name="translation_word">понятно</field>
+            <field name="pronunciation_word">kamuvan</field>
+            <field name="hebrew_word_nikud">כַּמוּבָן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3915.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3915.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+
+        <record id="word_3916" model="words">
+            <field name="translation_word">чем</field>
+            <field name="pronunciation_word">ma'aʃer</field>
+            <field name="hebrew_word_nikud">מֵאֲשֶר</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3916.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3916.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3917" model="words">
+            <field name="translation_word">темнота, тьма</field>
+            <field name="pronunciation_word">hoʃeh</field>
+            <field name="hebrew_word_nikud">חוֹשֶך</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3917.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3917.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3918" model="words">
+            <field name="translation_word">кислород</field>
+            <field name="pronunciation_word">hamazan</field>
+            <field name="hebrew_word_nikud">חַמצָן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3918.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3918.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3919" model="words">
+            <field name="translation_word">сонный</field>
+            <field name="pronunciation_word">ra'udum</field>
+            <field name="hebrew_word_nikud">רָדוּם</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3919.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3919.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3920" model="words">
+            <field name="translation_word">поведение</field>
+            <field name="pronunciation_word">hitanahagut</field>
+            <field name="hebrew_word_nikud">הִתנַהֲגוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3920.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3920.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3921" model="words">
+            <field name="translation_word">прописка</field>
+            <field name="pronunciation_word">rishum bemakom megurim</field>
+            <field name="hebrew_word_nikud">רִישוּם בִּמקוֹם מְגוּרִים</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3921.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3921.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3922" model="words">
+            <field name="translation_word">знакомство</field>
+            <field name="pronunciation_word">hikarut</field>
+            <field name="hebrew_word_nikud">הֶיכֵּרוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3922.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3922.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3923" model="words">
+            <field name="translation_word">непристойный, грубый</field>
+            <field name="pronunciation_word">megune</field>
+            <field name="hebrew_word_nikud">מְגוּנֶה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3923.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3923.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3924" model="words">
+            <field name="translation_word">агент</field>
+            <field name="pronunciation_word">soχan</field>
+            <field name="hebrew_word_nikud">סוֹכֵן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3924.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3924.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3925" model="words">
+            <field name="translation_word">агент по недвижимости</field>
+            <field name="pronunciation_word">soχan nadlim</field>
+            <field name="hebrew_word_nikud">סוֹכֵן נְדָלִם</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3925.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3925.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3926" model="words">
+            <field name="translation_word">престиж</field>
+            <field name="pronunciation_word">yuqarah</field>
+            <field name="hebrew_word_nikud">יוּקרָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3926.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3926.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3927" model="words">
+            <field name="translation_word">обманутый</field>
+            <field name="pronunciation_word">merume</field>
+            <field name="hebrew_word_nikud">מְרוּמֶה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3927.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3927.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3928" model="words">
+            <field name="translation_word">внимательно</field>
+            <field name="pronunciation_word">be'i'un</field>
+            <field name="hebrew_word_nikud">בְּעִיוּן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3928.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3928.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3929" model="words">
+            <field name="translation_word">коллега</field>
+            <field name="pronunciation_word">amit</field>
+            <field name="hebrew_word_nikud">עָמִית</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3929.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3929.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3930" model="words">
+            <field name="translation_word">мысль</field>
+            <field name="pronunciation_word">maχʃava</field>
+            <field name="hebrew_word_nikud">מַחשָבָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3930.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3930.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3931" model="words">
+            <field name="translation_word">компьютер</field>
+            <field name="pronunciation_word">maχʃev</field>
+            <field name="hebrew_word_nikud">מַחשֵב</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3931.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3931.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3932" model="words">
+            <field name="translation_word">ведьма</field>
+            <field name="pronunciation_word">maχaʃefa</field>
+            <field name="hebrew_word_nikud">מְכַשֵפָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3932.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3932.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3933" model="words">
+            <field name="translation_word">сытый</field>
+            <field name="pronunciation_word">sabEa</field>
+            <field name="hebrew_word_nikud">שָׂבֵעַ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3933.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3933.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3934" model="words">
+            <field name="translation_word">голодный</field>
+            <field name="pronunciation_word">ra'ev</field>
+            <field name="hebrew_word_nikud">רָעֵב</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3934.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3934.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+        
+        <record id="word_3935" model="words">
+            <field name="translation_word">часть</field>
+            <field name="pronunciation_word">helek</field>
+            <field name="hebrew_word_nikud">חֵלֶק</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3935.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3935.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3936" model="words">
+            <field name="translation_word">убийство</field>
+            <field name="pronunciation_word">hEreg</field>
+            <field name="hebrew_word_nikud">הֶרֶג</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3936.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3936.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3937" model="words">
+            <field name="translation_word">последний</field>
+            <field name="pronunciation_word">aharon</field>
+            <field name="hebrew_word_nikud">אַחֲרוֹן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3937.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3937.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3938" model="words">
+            <field name="translation_word">последствие</field>
+            <field name="pronunciation_word">toz'a'a</field>
+            <field name="hebrew_word_nikud">תוֹצָאָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3938.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3938.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3939" model="words">
+            <field name="translation_word">способность,умение,навык</field>
+            <field name="pronunciation_word">yehOlet</field>
+            <field name="hebrew_word_nikud">יְכוֹלֶת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3939.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3939.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3940" model="words">
+            <field name="translation_word">хаос</field>
+            <field name="pronunciation_word">kAos</field>
+            <field name="hebrew_word_nikud">כָּאוֹס</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3940.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3940.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3941" model="words">
+            <field name="translation_word">чувство</field>
+            <field name="pronunciation_word">rEgeʃ</field>
+            <field name="hebrew_word_nikud">רֶגֶש</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3941.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3941.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3942" model="words">
+            <field name="translation_word">скучно</field>
+            <field name="pronunciation_word">maʃaamem</field>
+            <field name="hebrew_word_nikud">מְשַׂעֲמֵם</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3942.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3942.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3943" model="words">
+            <field name="translation_word">опасно</field>
+            <field name="pronunciation_word">mesukan</field>
+            <field name="hebrew_word_nikud">מְסוּכָּן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3943.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3943.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3944" model="words">
+            <field name="translation_word">творчество</field>
+            <field name="pronunciation_word">yezira</field>
+            <field name="hebrew_word_nikud">יְצִירָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3944.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3944.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3945" model="words">
+            <field name="translation_word">алкоголь</field>
+            <field name="pronunciation_word">Alkohol</field>
+            <field name="hebrew_word_nikud">אַלכּוֹהוֹל</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3945.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3945.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3946" model="words">
+            <field name="translation_word">клетка</field>
+            <field name="pronunciation_word">kluv</field>
+            <field name="hebrew_word_nikud">כּלוּב</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3946.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3946.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3947" model="words">
+            <field name="translation_word">вывеска</field>
+            <field name="pronunciation_word">ʃElet</field>
+            <field name="hebrew_word_nikud">שֶלֶט</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3947.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3947.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3948" model="words">
+            <field name="translation_word">дисплей</field>
+            <field name="pronunciation_word">ʦag</field>
+            <field name="hebrew_word_nikud">צָג</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3948.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3948.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3949" model="words">
+            <field name="translation_word">дискриминация</field>
+            <field name="pronunciation_word">kipUah</field>
+            <field name="hebrew_word_nikud">קִיפּוּחַ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3949.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3949.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3950" model="words">
+            <field name="translation_word">презентация</field>
+            <field name="pronunciation_word">maʦEget</field>
+            <field name="hebrew_word_nikud">מַצֶּגֶת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3950.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3950.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3951" model="words">
+            <field name="translation_word">спектакль, представление</field>
+            <field name="pronunciation_word">aʦaga</field>
+            <field name="hebrew_word_nikud">הַצָּגָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3951.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3951.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3952" model="words">
+            <field name="translation_word">равный</field>
+            <field name="pronunciation_word">ʃavE</field>
+            <field name="hebrew_word_nikud">שָוֶה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3952.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3952.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3953" model="words">
+            <field name="translation_word">правило</field>
+            <field name="pronunciation_word">klal</field>
+            <field name="hebrew_word_nikud">כּלָל</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3953.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3953.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3954" model="words">
+            <field name="translation_word">главный</field>
+            <field name="pronunciation_word">rashi</field>
+            <field name="hebrew_word_nikud">רָאשִי</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3954.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3954.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3955" model="words">
+            <field name="translation_word">голова</field>
+            <field name="pronunciation_word">roʃ</field>
+            <field name="hebrew_word_nikud">רֹאש</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3955.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3955.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3956" model="words">
+            <field name="translation_word">вампир</field>
+            <field name="pronunciation_word">arpad</field>
+            <field name="hebrew_word_nikud">עַרפָּד</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3956.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3956.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3957" model="words">
+            <field name="translation_word">пылесос</field>
+            <field name="pronunciation_word">ʃo'ev avak</field>
+            <field name="hebrew_word_nikud">שֹאֵב אָבָק</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3957.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3957.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3958" model="words">
+            <field name="translation_word">пыль</field>
+            <field name="pronunciation_word">avak</field>
+            <field name="hebrew_word_nikud">אָבָק</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3958.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3958.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3959" model="words">
+            <field name="translation_word">событие</field>
+            <field name="pronunciation_word">irUa</field>
+            <field name="hebrew_word_nikud">אֵירוּעַ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3959.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3959.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3960" model="words">
+            <field name="translation_word">целостный, цельный</field>
+            <field name="pronunciation_word">ʃalem</field>
+            <field name="hebrew_word_nikud">שָלֵם</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3960.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3960.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3961" model="words">
+            <field name="translation_word">случай</field>
+            <field name="pronunciation_word">mikre</field>
+            <field name="hebrew_word_nikud">מִקרֶה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3961.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3961.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3962" model="words">
+            <field name="translation_word">цирк</field>
+            <field name="pronunciation_word">qIrkas</field>
+            <field name="hebrew_word_nikud">קִירָקָס</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3962.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3962.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3963" model="words">
+            <field name="translation_word">празднование, торжество</field>
+            <field name="pronunciation_word">hagigah</field>
+            <field name="hebrew_word_nikud">חֲגִיגָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3963.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3963.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3964" model="words">
+            <field name="translation_word">организация, учреждение</field>
+            <field name="pronunciation_word">irgun</field>
+            <field name="hebrew_word_nikud">אִרגוּן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3964.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3964.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3965" model="words">
+            <field name="translation_word">президент</field>
+            <field name="pronunciation_word">nasi</field>
+            <field name="hebrew_word_nikud">נָשִׂיא</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3965.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3965.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3966" model="words">
+            <field name="translation_word">ведущий</field>
+            <field name="pronunciation_word">manχe</field>
+            <field name="hebrew_word_nikud">מַנחֶה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3966.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3966.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3967" model="words">
+            <field name="translation_word">упражнение</field>
+            <field name="pronunciation_word">targil</field>
+            <field name="hebrew_word_nikud">תַרגִיל</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3967.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3967.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3968" model="words">
+            <field name="translation_word">обезьяна</field>
+            <field name="pronunciation_word">kof</field>
+            <field name="hebrew_word_nikud">קוֹף</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3968.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3968.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3969" model="words">
+            <field name="translation_word">Индия</field>
+            <field name="pronunciation_word">hOdu</field>
+            <field name="hebrew_word_nikud">הוֹדוּ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3969.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3969.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3970" model="words">
+            <field name="translation_word">белок</field>
+            <field name="pronunciation_word">helbon</field>
+            <field name="hebrew_word_nikud">חֶלבּוֹן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3970.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3970.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3971" model="words">
+            <field name="translation_word">лицемерие</field>
+            <field name="pronunciation_word">ʦvibiyut</field>
+            <field name="hebrew_word_nikud">צְבִיעוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3971.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3971.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3972" model="words">
+            <field name="translation_word">принцип</field>
+            <field name="pronunciation_word">ikaron</field>
+            <field name="hebrew_word_nikud">עִיקָרוֹן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3972.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3972.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>   
+
+        <record id="word_3973" model="words">
+            <field name="translation_word">поведение</field>
+            <field name="pronunciation_word">ithanagut</field>
+            <field name="hebrew_word_nikud">הִתְנַהֲגוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3973.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3973.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+
+        <record id="word_3974" model="words">
+            <field name="translation_word">обычай</field>
+            <field name="pronunciation_word">mighag</field>
+            <field name="hebrew_word_nikud">מִנְהָג</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3974.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3974.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3975" model="words">
+            <field name="translation_word">участок</field>
+            <field name="pronunciation_word">helka</field>
+            <field name="hebrew_word_nikud">חֶלְקָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3975.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3975.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3976" model="words">
+            <field name="translation_word">международный</field>
+            <field name="pronunciation_word">benleumi</field>
+            <field name="hebrew_word_nikud">בֵּינלְאוּמִי</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3976.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3976.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3977" model="words">
+            <field name="translation_word">транспорт</field>
+            <field name="pronunciation_word">tahbura</field>
+            <field name="hebrew_word_nikud">תַחבּוּרָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3977.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3977.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3978" model="words">
+            <field name="translation_word">местный</field>
+            <field name="pronunciation_word">mikomi</field>
+            <field name="hebrew_word_nikud">מִקוֹמִי</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3978.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3978.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3979" model="words">
+            <field name="translation_word">беременность</field>
+            <field name="pronunciation_word">herayon</field>
+            <field name="hebrew_word_nikud">הֵירָיוֹן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3979.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3979.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3980" model="words">
+            <field name="translation_word">герой</field>
+            <field name="pronunciation_word">gibor</field>
+            <field name="hebrew_word_nikud">גִיבּוֹר</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3980.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3980.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3981" model="words">
+            <field name="translation_word">ощущение</field>
+            <field name="pronunciation_word">argasha</field>
+            <field name="hebrew_word_nikud">הַרגָשָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3981.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3981.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3982" model="words">
+            <field name="translation_word">операционная система</field>
+            <field name="pronunciation_word">maarEhet afalah</field>
+            <field name="hebrew_word_nikud">מַעֲרֶכֶת הַפעָלָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3982.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3982.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3983" model="words">
+            <field name="translation_word">муравей</field>
+            <field name="pronunciation_word">nemala</field>
+            <field name="hebrew_word_nikud">נְמָלָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3983.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3983.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3984" model="words">
+            <field name="translation_word">насекомые</field>
+            <field name="pronunciation_word">harakim</field>
+            <field name="hebrew_word_nikud">חֲרָקִים</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3984.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3984.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3985" model="words">
+            <field name="translation_word">ящерица</field>
+            <field name="pronunciation_word">letaa</field>
+            <field name="hebrew_word_nikud">לְטָאָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3985.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3985.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3986" model="words">
+            <field name="translation_word">семена</field>
+            <field name="pronunciation_word">zaraim</field>
+            <field name="hebrew_word_nikud">זָרָעִים</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3986.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3986.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3987" model="words">
+            <field name="translation_word">чем</field>
+            <field name="pronunciation_word">measher</field>
+            <field name="hebrew_word_nikud">מֵאֲשֶר</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3987.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3987.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3988" model="words">
+            <field name="translation_word">сфера</field>
+            <field name="pronunciation_word">tχum</field>
+            <field name="hebrew_word_nikud">תחוּם</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3988.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3988.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3989" model="words">
+            <field name="translation_word">корова</field>
+            <field name="pronunciation_word">para</field>
+            <field name="hebrew_word_nikud">פָּרָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3989.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3989.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3990" model="words">
+            <field name="translation_word">градус</field>
+            <field name="pronunciation_word">maala</field>
+            <field name="hebrew_word_nikud">מַעֲלָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3990.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3990.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3991" model="words">
+            <field name="translation_word">задача</field>
+            <field name="pronunciation_word">misima</field>
+            <field name="hebrew_word_nikud">מִשִׂימָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3991.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3991.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3992" model="words">
+            <field name="translation_word">наоборот</field>
+            <field name="pronunciation_word">lehefekh</field>
+            <field name="hebrew_word_nikud">לְהֵפֵך</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3992.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3992.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3993" model="words">
+            <field name="translation_word">кипяченый</field>
+            <field name="pronunciation_word">ratUach</field>
+            <field name="hebrew_word_nikud">רָתוּחַ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3993.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3993.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3994" model="words">
+            <field name="translation_word">копилка</field>
+            <field name="pronunciation_word">kupat hisakhon</field>
+            <field name="hebrew_word_nikud">קוּפַּת חִיסָכוֹן</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3994.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3994.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3995" model="words">
+            <field name="translation_word">колючка</field>
+            <field name="pronunciation_word">koʦ</field>
+            <field name="hebrew_word_nikud">קוֹץ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3995.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3995.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3996" model="words">
+            <field name="translation_word">дружба</field>
+            <field name="pronunciation_word">kaverut</field>
+            <field name="hebrew_word_nikud">חֲבֵרוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3996.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3996.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3997" model="words">
+            <field name="translation_word">реакция</field>
+            <field name="pronunciation_word">reAktsiya</field>
+            <field name="hebrew_word_nikud">רֵיאַקציָה</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3997.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3997.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3998" model="words">
+            <field name="translation_word">право</field>
+            <field name="pronunciation_word">zehut/zhuyot</field>
+            <field name="hebrew_word_nikud">זכוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3998.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3998.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_3999" model="words">
+            <field name="translation_word">файл</field>
+            <field name="pronunciation_word">kOvetz</field>
+            <field name="hebrew_word_nikud">קוֹבֶץ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_3999.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_3999.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_4000" model="words">
+            <field name="translation_word">террористический акт</field>
+            <field name="pronunciation_word">pigUa</field>
+            <field name="hebrew_word_nikud">פִּיגּוּעַ</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_4000.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_4000.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_4001" model="words">
+            <field name="translation_word">собственность (имущество)</field>
+            <field name="pronunciation_word">rehush</field>
+            <field name="hebrew_word_nikud">רְכוּש</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_4001.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_4001.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_4002" model="words">
+            <field name="translation_word">собственность (право на владение)</field>
+            <field name="pronunciation_word">baalut</field>
+            <field name="hebrew_word_nikud">בַּעֲלוּת</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_4002.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_4002.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_4003" model="words">
+            <field name="translation_word">запятая</field>
+            <field name="pronunciation_word">psik</field>
+            <field name="hebrew_word_nikud">פִּסִיק</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_4003.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_4003.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+        <record id="word_4004" model="words">
+            <field name="translation_word">осёл</field>
+            <field name="pronunciation_word">hamor</field>
+            <field name="hebrew_word_nikud">חֲמוֹר</field>
+            <!-- <field name="picture" type="base64" file="hebrew_learning/static/img/word_4004.png"/> -->
+            <!-- <field name="audio">hebrew_learning/static/audio/word_4004.mp3</field> -->
+            <field name="group_ids" eval="[(4, ref('group_169'))]"/>
+        </record>
+
+
+
+
+
+
+                <!-- Special characters:
+                    ʦ
+                    ʃ
+                    ʿ
+                    χ
+                    '
+                    וֹ 
+                    כּ
+                    בּ
+                    פּ
+                    שׁ
+
+                -->
+
+
+
+
+
+
+
+
+עִנייָן
+дело, интерес
+
+מְנָיָה
+акция
+
+מַאֲמָץ
+усилие
+
+
+מִתקַדֵם
+продвинутый
+
+חֵירוּת
+свобода
+
+עוֹקצָנוּת \\סַרקַזם
+сарказм
+
+
+מְרִיבָה
+ссора
+
+
+חַד וְחָלָק
+однозначно
+
+בִּמפוֹרָש
+ясно, определенно,однозначно
+
+דמוּת
+образ
+
+חַברוּתִי
+дружелюбный
+
+רְאִייָה
+зрение
+
+חִישוּב
+расчет
+
+מַפחִיד\\ נוֹרָא
+страшно, страшный
+
+מַמלַכתִי
+государственный
+
+
+
+
+הַחרָפָה
+обострение
+
+עֶליוֹנוּת
+преимущество
+
+בּרִיאוּת
+здоровье
+
+אַגַב\\ דֶרֶך אַגַב
+кстати
+
+נָבִיא
+пророк
+
+בּחִירָה
+выбор
+
+
+
+עֵצָה
+совет
+
+
+
+נֵיטרָלִיוּת
+нейтралитет
+
+זָר
+иностранец ("чужой")
+
+
+אֲגַם \\ יַמָה
+озеро
+
+שָווא
+пустой,напрасный
+
+אוּחַד \\מְאוּחָד
+быть единым,объединенным
+
+מוֹעֳדָף
+любимый,предпочтительный
+
+נִמאַס
+надоесть
+
+נוֹשֵׂא רְווָחִים\\ מַכנִיס
+выгодный,выгодно
+
+מוֹעִיל\\ שִימוּשִי\\בָּרִיא
+полезный
+
+הֶפֶך
+противоположность
+
+מוֹחַ \\ מוֹחוֹת
+мозг
+
+
+הַחלָטָה
+решение
+
+
+מְרַבִּי\\ מַקסִימָלִי
+максимальный
+
+להקת
+стая,группа
+
+תַייָרוּת
+туризм
+
+
+חָשוּד
+подозрительно
+
+מִבטָא
+акцент
+
+בִּיטוּי
+выражение
+
+
+יוֹמָן
+дневник
+
+הֲגִייָה
+произношение
+
+קוֹסֵם
+волшебник
+
+מְכַשֵף
+колдун
+
+
+אַלכּוֹהוֹלִי\\ כּוֹהֳלִי
+алкогольный
+
+אַלכּוֹהוֹלִיסט \\ שַתייָן
+алкоголик
+
+חִינוּך
+образование
+
+גבירותיי ורבותיי
+дамы и господа
+
+בְּזֶה אַחַר זֶה \\
+подряд, один за другим
+
+בִּרצִיפוּת, בְּרֶצֶף 
+подряд (не пропуская)
+
+הֶרגֵל
+привычка
+
+חֲסִינוּת
+ж.р.\\ חִיסוּן м.р.  иммунитет
+
+צוֹרֶך \\צרָכִים
+потребность м.р
+
+אַף-עַל-פִּי\\ לַמרוֹת\\ בְּנִיגוּד ל-\\כְּנֶגֶד
+вопреки
+
+כַּרטִיס
+билет
+
+סִיכֵּם \\לְסַכֵּם
+суммировать
+
+
+
+הַווַעַד הַפּוֹעֵל
+исполком
+
+בּדִיחָה
+шутка
+
+מוּמחֶה
+специалист
+
+
+מִשוּם-מָה
+почему-то
+
+מְאוּחָר
+поздно
+
+מִיקרוֹפוֹן
+микрофон
+
+בְּיִיחוּד
+особенно
+
+
+מַטחֵנָה
+мясорубка
+
+מַר \\ מָרִיר
+горький
+
+נִיסָיוֹן \\ נִיסוּי
+опыт
+
+כִּבשָׂה שחוֹרָה
+белая ворона"
+
+
+נָא
+сырой (недостаточно обработанный термический)
+
+בְּנִפרָד
+отдельно
+
+שִגרָה \\שִגרַת יוֹם-יוֹם
+рутина
+
+אוֹפִי
+характер
+
+תוֹשָב
+житель
+
+הַשוֹאָה
+холокост
+
+אֶמצָעֵי לְחִימָה \\אַמלָ"ח
+вооружение
+
+נֶשֶק
+оружие
+
+הַמַמלָכָה הַמְאוּחֶדֶת
+Великобритания
+
+שווֵה-זכוּיוֹת
+равноправный
+
+חִילָזוֹן
+улитка
+
+זָהִיר
+осторожный
+
+פִּתגָם
+пословица,поговорка
+
+מְפַקֵד
+командир
+
+
+זְאֵב
+волк
+
+חֲזַרזִיר
+поросенок
+
+עַכבְּרוֹש
+крыса
+
+אֶתיוֹפּיָה
+Эфиопия
+
+
+חוֹרֶף
+зима
+
+
+יְדוּעָן
+знаменитость
+
+מְתוּלתָל
+кудрявый  ,вьющийся
+
+
+הִסתַפֵּר \\לְהסתַפֵּר
+стричься
+
+
+קַשוּב ל
+внимательный,чуткий
+
+גָווֶן
+оттенок, тембр
+
+מִקצוֹעַ
+профессия
+
+תוֹכנָה
+програмн.обеспечение
+
+מָתַח בִּיקוֹרֶת עַל
+критиковать
+
+יִישוּב
+населенный пункт
+
+בְּטִיחוּתִי
+безопасно
+
+תַחֲרוּת \\ הִתחָרוּת
+соревнование
+
+ספּוֹרט
+спорт
+
+
+
+דַפדְפָן
+браузер
+
+הַשקָעָה
+вклад ,инвестиция
+
+תִיקשֵר\\לְתַקשֵר
+общаться
+
+חָרָק\\ חֲרָקִים
+насекомые
+
+יַתוּש
+комар
+
+רְטִיבוּת
+влажность
+
+נוּרָה\\נוּרִית
+лампочка
+
+קוֹבֶץ \\קבָצִים\\ קוֹבצֵי
+файл, файлы
+
+בַּלָש
+детектив
+
+בִּינָה מְלָאכוּתִית
+искусственный интеллект
+
+צוֹדֵק
+прав
+
+בַּעַל בּרִית \\ בֶּן בּרִית
+союзник
+
+רְפוּאָה
+медицина
+
+
+בּרִית
+союз
+
+לְפָחוֹת
+по крайней мере
+
+סַבָּל
+грузчик
+
+צִלצוּל\\ צִילצוּל
+звонок
+
+
+כֵּנֶה
+искренний
+
+בְּכֵנוּת
+искренне
+
+
+הֶקשֵר \\ קוֹנטֶקסט
+контекст
+
+בֶּרֶך \\ בִּרכַּיִים
+колено(ж.р.) колени
+
+קטָטָה
+драка
+
+רִיב \\ מְרִיבָה
+ссора
+
+רְשוּת
+разрешение
+
+לַהַט
+азарт
+
+מַלכּוֹדֶת
+ловушка
+
+מַדָע
+наука
+
+הוֹדָעָה
+сообщение
+
+מִקצוֹעַ \\ דִיסצִיפּלִינָה
+прдмет,дисциплина
+
+לִטווָח קָצָר
+краткосрочный
+
+טווח ארוך\\ אֲרוֹך טווָח
+долгосрочный
+
+אוצר המילים
+словарный запас
+
+
+
+רִשמִי
+официальный
+
+
+
+כַּמוּת
+количество
+
+לְפָנַי
+передо мной
+
+מַצָעִים
+постельное белье
+
+
+מֶשִי
+шелк
+
+
+
+
+בְּהַשווָאָה ל
+по сравнению
+
+סִיסמָה
+пароль
+
+שוּק
+рынок
+
+
+
+חָרָא
+какашка
+
+
+שִטחִי
+поверхностный
+
+פִּיצוּץ \\ מַפָּץ
+взрыв
+
+דלִי \\ דלָיִים
+ведро
+
+
+
+וִידוּי
+исповедь
+
+חַייזָר
+инопланетянин
+
+מוּצלָח
+успешный
+
+שָׂם \\לָשִׂים עַיִן (עַל
+присмотреть за кем то
+
+גָדֵר
+забор
+
+חָצֵר
+двор
+
+
+בודק תוכנה
+тестировщик
+
+מַפלִיא
+удивительно
+
+פֶּלֶא
+чудо
+
+
+עוֹלֶה חָדָש
+нов.репатриант
+
+צַיִד
+охота
+
+
+
+
+מֶחקָר
+исследование
+
+טַפֶּטִים
+обои
+
+שַמֶנֶת
+сливки
+
+שַמֶנֶת חֲמוּצָה
+сметана
+
+מְשוּבָּש
+испорченный
+
+חֲצוֹת
+полночь
+
+בְּצֶדֶק
+справедливо
+
+מֶרחָק
+расстояние
+
+תַנִין
+крокодил
+
+חֲדַר- כּוֹשֶר
+тренажерный зал
+
+חֲסַר בַּיִת
+бездомный
+
+הָאִיחוּד הָאֵירוֹפִּי
+евросоюз
+
+
+שִיפּוּץ \\ תִיקוּן
+ремонт
+
+לֵיצָן
+клоун
+
+
+הַטעָנָה
+зарядка
+
+אוֹזנִיוֹת
+наушники
+
+שִׂיחַ
+куст (м.р)
+
+
+טַרדָנִי
+навязчивый,назойливый
+
+
+
+בּוּשָה
+стыд
+
+
+זכוּכִית
+стекло
+
+
+נֶכֶד \\ נְכָדִים
+внук,внуки
+
+אַלִימוּת
+насилие
+
+עֲמִימוּת
+неоднозначность
+
+אָרִיחַ
+плитка
+
+צפִירָה
+сирена
+
+
+אוֹרֵחַ
+гость
+
+בּוֹשֶׂם
+духи
+
+אִיגֶרֶת חוֹב -- אָגָ"ח
+облигация
+
+גִידוּף גַס
+нецензурные слова,мат
+
+גִינוּי
+осуждение
+
+חֲלוֹם בַּלָהוֹת
+кошмарный сон
+
+בַּלָהָה
+испуг,паника
+
+הֶחזִיר \\לְהַחזִיר
+вернуть
+
+מְבוּקָש
+востребованный
+
+קנָס \\קנָסוֹת
+штраф
+
+קֵיבָה
+желудок
+
+הִדבִּיק \\לְהַדבִּיק
+клеить,приклеить
+
+דֶבֶק
+клей
+
+חַווָה
+хутор
+
+חַווַאי
+фермер
+
+רוֹתחִין \\ מַיִם רוֹתחִים
+кипяток
+
+תַרנְגוֹלֶת
+курица
+
+נוֹצָה
+перо
+
+פִּיתָיוֹן
+наживка
+
+חֲשִיבָה
+мышление как процесс
+
+
+
+תַנוּר חִימוּם
+обогреватель
+
+
+שמָרִים
+дрожжи
+
+מַחלָקָה
+отдел
+
+נזיל
+жидкий
+
+
+תַחֲזִית
+прогноз, предсказание
+
+הַלווָאָה
+займ,кредит
+
+עִיר בִּירָה \\ בִּירָה
+столица
+
+אַספָּקָה
+доставка
+
+מִשטָר
+режим чего-то
+
+
+שָתוּי
+пьяный
+
+צלָב
+крест
+
+
+הליכון
+беговая дорожка
+
+תַהֲלִיך
+процесс
+
+
+עֲטַלֵף
+летучая мышь
+
+מְבַשֵׂר רַע
+зловещий
+
+עָנָף \\עֲנָפִים
+ветка,ветки
+
+פּצָצָה
+бомба
+
+נִפלָא
+чудесный
+
+גִזעָנוּת
+расизм
+
+גֶזַע
+порода, раса
+
+רַמַאי
+мошенник
+
+
+מַפרִיד\\ קַו מַפרִיד
+тире
+
+
+שלוּלִית
+лужа
+
+מַטאֲטֵא
+швабра
+
+סמַרטוּט
+тряпка
+
+בדיקת קורונה
+текст на коронавирус
+
+משפחה חד הורית
+неполная семья (один родитель)
+
+צֵירוּף לָשוֹן
+словосочетание (образное), фигура речи
+
+צֵירוּף מִילִים
+словосочетание (грамматическое)
+
+
+אֵד \\ אֵדִים
+пар
+
+
+מַתכּוֹן
+рецепт
+
+סִיר
+кастрюля
+
+אָרוּר
+проклятый
+
+אֶחֶז \\ אֲחָזִים
+ручка
+
+
+
+
+עֲמִילָן
+крахмал
+
+תֵבֵל יְקוּם
+вселенная
+
+יקום
+вселенная
+
+קַסדָה \\ קַסדוֹת
+шлем, каска
+
+מַדחוֹם
+термометр
+
+
+דָבִיק
+липкий, клейкий
+
+בִּלתִי-מְרוּסָן\\ בִּלתִי-מְמוּשמָע
+расхлябанный, не дисциплинированный
+
+מוּעֲמָד
+в единственном
+
+גבינה מעובדת
+сыр плавленый
+
+מַרכִּיב
+ингредиент
+
+הֶרכֵּב
+состав
+
+עֶצֶם 
+Слово "עֶצֶם - Эцэм" имеет два значения:
+
+
+
+מָעוֹף
+птичий полет
+
+
+
+
+מְטוּגָן
+жареный
+
+מְבוּשָל
+отварной
+
+כּוּסֶמֶת
+гречка
+
+מַטבֵּעַ
+валюта
+
+אֶפרוֹחַ
+птенец
+
+
+תַשתִית
+инфраструктура
+
+שלִיטָה
+власть
+
+מָשִיש
+осязаемый
+
+
+מַזִיק
+вредный  , не здоровый
+
+בֵּית מַחֲסֶה
+приют
+
+
+כִּיבּוּש
+оккупация
+
+כָּבוּש
+завоеванный \\ квашенный
+
+גֵירֵד \\לְגָרֵד
+на терке  тереть
+
+פּוּמפִּייָה \\ מִגרֶרֶת
+тёрка
+
+דגם עורב
+макет  вороны
+
+אַשוּחַ
+ель, ёлка
+
+עץ אשוח
+новогодняя елка
+
+מִתגָרֶה
+вызывающе,провокационно
+
+תַפאוּרָה
+декорация
+
+תא מקלחת
+душевая кабина
+
+
+תנוּבָה
+урожай
+
+גַרגִיר
+ягода
+
+הוֹנָאָה
+обман, мошенничество
+
+הוֹנָאָה עַצמִית
+самообман
+
+
+פִּסלוֹן
+статуэтка
+
+אֵם חוֹרֶגֶת
+мачеха
+
+
+נוּרָה \\ נוּרִית
+лампочка
+
+
+צלִיל
+звук (музыкальный)
+
+אָח
+брат
+
+אָחוֹת
+сестра
+
+שׂפַמנוּן
+сом
+
+
+
+קוּמקוּם
+чайник
+
+מִצרַיִם
+Египет
+
+
+
+
+עַמוּד
+страница
+
+אֶזרָח
+гражданин
+
+הֶיקֵף
+масштаб
+
+נִידוֹן ל
+обречен на
+
+דִמיוֹן
+воображение
+
+
+תִקווָה
+Ти‌ква - תִקווָה
+
+
+
+מַשאֵבָה
+насос
+
+הַחמָרָה
+обострение
+
+קָרוֹן \\קרוֹן
+вагон
+
+סַרגֵל
+линейка
+
+
+צָב
+черепаха
+
+שִיריוֹן
+панцирь
+
+יָדִית \\ אֶחֶז
+ручка
+
+
+מִינוּי \\מָנוּי
+подписка
+
+
+
+עוֹקֵב
+Оке‌в] עוֹקֵב
+
+מִטעָן
+кладь, багаж
+
+מְטוֹרָף
+сумасшедший,ненормальный,ужасный
+
+פֶּשַע
+криминал,преступность
+
+סַפָּר
+парикмахер
+
+לוֹחֵם
+воин,военный
+
+פּצִירַת צִפָּרנַיִים
+пилочка
+
+תִלבּוֹשֶת (אֲחִידָה
+униформа
+
+
+
+התנגדות ללחץ
+стрессоустойчивость
+
+חֲמָמָה
+теплица
+
+רָטוֹב /רָטוּב
+мокрый
+
+
+שַרשֶרֶת
+цепочка,цепь
+
+שרשרת אורות
+гирлянда новогодняя
+
+עדשות מגע
+линзы контактные
+
+עֲדָשות
+линзы
+
+
+תִדלוּק
+заправка
+
+חֲגוֹרַת בְּטִיחוּת
+ремень безопасности
+
+אַסלָה
+унитаз
+
+ספוֹג
+губка
+
+צִיפָּה
+пододеяльник
+
+בִּלתִי-נִשכָּח
+незабываемый
+
+סִימוּן\\תווִייָה
+разметка
+
+פֶּחָם
+уголь
+
+פַּחמֵימָה
+углевод
+
+תַת-הַכָּרָתִי
+подсознательно
+
+איחוד האמירויות הערביות
+ОАЭ
+
+עֵירוֹם
+голый
+
+צלִילָה
+ныряние
+
+עוֹגֶן
+якорь
+
+תִקרָה
+потолок
+
+רָפוּי
+расслабленный
+
+קַפרִיסִין
+Кипр
+
+אנטי מתח
+антистресс
+
+
+כִּיסֵא גַלגַלִים
+инвалидное кресло
+
+צוֹעֲנִי
+цыган
+
+בֶּרֶז
+кран
+
+דִימוּי עַצמִי
+самооценка
+
+דלִי
+ведро
+
+
+
+מוּתָג
+марка )машины)
+
+
+סִיכּוּן
+риск
+
+סִיכּוּי
+шанс
+
+קֶרֶס
+крючок
+
+מִשקָל עוֹדֵף \\ מִשקָל-יֶתֶר
+лишний вес
+
+שָרָת\\ שָרָתִים
+сервер
+
+
+שַחַת
+сено
+
+רָקוּב
+гнилой,испорченный
+
+פירות בשלים
+спелые фрукты
+
+בָּשֵל
+спелый
+
+מְחִיאוֹת כַּפַּיִים
+аплодисменты
+
+צִרעָה \\צרָעוֹת
+оса, осы
+
+סִרפָּד
+крапива
+
+חָח
+крючок рыболовный
+
+סוּליָה
+подошва
+
+עִיצוּב
+дизайн
+
+דִיזַיינֶר \\מְעַצֵב
+дизайнер
+
+גליל אוויר
+баллон с воздухом
+
+מֶלֶט
+цемент
+
+אַצָה
+водоросль
+
+סְעָרָה נ\\ סוּפָה
+буря
+
+
+מִדרָס
+стелька
+
+תנוּחָה
+поза
+
+צוֹפָר
+гудок
+
+לייק
+лайк
+
+צָפוּף
+плотно,тесно,насыщенно
+
+
+
+צִיוּן
+оценка
+
+דלַעַת
+тыква
+
+צִיר
+бульон
+
+
+מַעֲקֶה\\ מַעֲקוֹת
+перила
+
+מוּזָר
+Странно
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+קֶשֶר
+связь
+
+יְחָסִים
+отношения
+
+בּדִידוּת
+одиночество
+
+כָּבֵד
+печеень
+
+מַעֲמָד
+статус
+
+
+מַטָרָה
+цель
+
+מִסכֵּן
+несчастный
+
+
+מְפוּתָח
+развитый
+
+הִתפַּתחוּת
+развитие (как процесс)
+
+אֶמצַע
+середина
+
+חֶברָה
+общество
+
+
+
+וִיכּוּחַ
+спор
+
+תפִישָׂה
+восприятие
+
+
+הַשרָאָה
+вдохновение
+
+אִישִיוּת
+личность
+
+אוֹפנָה
+мода
+
+גִיבּוֹר 
+герой, персонаж
+
+שגִיאָה \\ טָעוּת
+ошибка
+
+
+צוֹרֶך
+потребность
+
+
+
+בָּהִיר
+яркий
+
+
+רוֹשֶם
+впечтление
+
+תָלוּי בְּ
+зависит от...
+
+מְקוּבָּל
+принято, принятый
+
+בָּסִיס
+база
+
+בְּסִיסִי
+базовый
+
+הַעֲתָקָה
+переезд (на новое место)
+
+
+
+מִסגֶרֶת
+рамка
+
+מַראֶה \\ חָזוּת
+внешность
+
+תַבשִיל
+блюдо (приготовленное)
+
+רָזֶה
+худой
+
+
+
+חָשוּך
+темно
+
+תחוּם \\ זִירָה
+область,сфера
+
+
+
+אוֹיֵב
+враг
+
+
+רוֹשֶם \\אִימפַּקט
+впечатление
+
+אַטרַקטִיבִי
+привлекательный
+
+
+רְכִילוּת
+сплетня
+
+הוֹצָאָה
+вывод
+
+
+תָדִיר \\ לְעִיתִים קרוֹבוֹת
+часто
+
+מוֹחַ
+мозг
+
+מוֹחוֹת
+м.р.
+
+עָצֵל
+ленивый
+
+
+יִתרוֹן . יִתָרוֹן \\יִתרוֹנוֹת
+польза  м.р.
+
+גרִיסִים שֶל שִיבּוֹלֶת -שוּעָל\\\קווָקֶר
+овсянка
+
+אֲרִיזָה
+упаковка
+
+מִיכשוּר
+оборудование
+
+סַכָּנָה
+опасность\\ סִיכּוּן   риск
+
+נִיצֵחַ\\ נִיצַח \\לְנַצֵחַ
+побеждать
+
+סֵבֶל
+страдание
+
+קַו
+линия
+
+נִרחָב
+объемный
+
+מַצפּוּן
+совесть
+
+
+אַכזָר\\ אַכזָרִי
+суровый, жестокий
+
+בְּעִנייַן
+по вопросу,по делу
+
+מָה הָעִנייָנִים
+как дела?
+
+עָשָׂה עִנייָנִים
+делать проблему
+
+הֶרְגֵּל
+ерге́ль] הֶרְגֵּל
+
+רָגִיל\\פָּשוּט
+просто,простой
+
+אִיבֵּד\\לְאַבֵּד
+терять
+
+מִידָה
+мера, граница
+
+וכולה
+и так далее
+
+רַגשָנִי\\ סֶנטִימֶנטָלִי
+сентиментальный
+
+הִתאַהֲבוּת
+влюбленность
+
+רֶגֶש\\רְגָשוֹת
+чувство, чувства
+
+בּלִי כַּווָנָה
+случайно
+
+
+רִיבּוּעַ
+квадрат
+
+מְשוּלָש
+треугольник
+
+אֵמוּן
+доверие
+
+לְעוֹלָם\\לָנֶצַח\\ לְתָמִיד
+навсегда,навечно
+
+תִיקשֵר \\לְתַקשֵר
+общаться
+
+
+בְּעַל פֶּה \\בּע"פ
+наизусть
+
+כָּרִית
+подушка
+
+מִלגָה \\ סטִיפֶּנדיָה
+стипендия
+
+
+גִבעָה
+горка
+
+בּוֹגֵר\\ מְבוּגָר
+взрослый,зрелый
+
+תגוּבָה
+отклик, отзыв
+
+פִּיגוּעַ
+теракт
+
+טֶרוֹרִיזם
+терроризм
+
+בִּיטָחוֹן
+безопасность
+
+הָפוּך
+противоположный
+
+נוּסחָה
+вариант
+
+כַּעַס
+злость
+
+עֶלבּוֹן
+обида
+
+עַצמָאִי
+самостоятельный
+
+בַּמַאי
+режиссер
+
+מַדהִים
+поразительный
+
+
+
+
+עַצלָן
+лентяй
+
+סמַיילִי
+смайлик
+
+
+
+חַלָש
+слабый,хилый
+
+
+
+עוֹנֶג
+наслаждение
+
+
+
+גִיל
+возраст
+
+חֲפִיסָה
+плитка шоколада
+
+תוֹחֶלֶת
+ожидание возложенное
+
+
+
+מְסוּיָם
+некий, определенный
+
+
+אַחרָיוּת
+ответственность
+
+צַעַד
+шаг
+
+חֲזָרָה\\בַּחֲזָרָה
+назад (к месту)
+
+אָחוֹרָה
+назад (как направление)
+
+הוֹדָה\\לְהוֹדוֹת, מוֹדֶה ל
+благодарить кого то
+
+מְצִיאוּת
+реальность
+
+אֲסִיר תוֹדָה
+благодарный
+
+לְעִיתִים רְחוֹקוֹת
+редко
+
+חֲשָד \\ חֲשָדוֹת
+подозрение
+
+פִּיקפּוּק
+сомнение как затруднение
+
+הִתלַבּטוּת
+сомнение как неуверенность,колебания
+
+חֲשָש
+сомнение как опасение
+
+שחִיקָה
+обесценивание
+
+חֲסַר-תוֹעֶלֶת
+бесполезный
+
+תוֹעֶלֶת
+польза,значимость
+
+תחוּשָה
+восприятие как взгляд на что то
+
+קְהִילָה
+община
+
+אִרגוּן
+организация
+
+דוֹר
+поколение
+
+פּרָטִיוּת
+личное пространство
+
+
+תכוּנָה
+черта (характера)
+
+
+מוּכרָח
+вынужден
+
+בִּיטוּחַ
+страховка
+
+בִּיטוּחַ בּרִיאוּת\\בִּיטוּחַ רְפוּאִי
+мед.страховка
+
+מְחָאָה
+протест
+
+
+
+
+דִיסצִיפּלִינָה
+предмет учебный
+
+מחלקת משאבי אנוש
+отдел кадров
+
+חִיווֵר\\ חִיווֶרֶת
+бледный
+
+מְאַהֵב
+любовник
+
+בֶּן שִׂיחַ
+собеседник
+
+
+קִנאָה
+ревность
+
+פֶיר
+честно, на самом деле
+
+לְעוֹלָם לֹא
+никогда (с  буд.вр)
+
+מֵעוֹלָם
+никогда не)   с прош.вр
+
+מְשוּתָף
+общий (совместный)
+
+מֶמשָלָה
+правительство
+
+
+אוֹמָן
+художник как деятель искусства
+
+קִישוּר
+ссылка на сайт
+
+הִזדַמנוּת
+возможность
+
+עִיקָרוֹן
+принцип
+
+רְגָשוֹת מְעוֹרָבִים
+смешанные чувства
+
+הִיזָכרוּת
+воспоминание
+
+אוּמָה
+нация
+
+קוֹנקרֶטִי
+конкретный
+
+
+
+נִצָחוֹן
+победа (в спорте, в войне,в соревновании  и т.д)
+
+הַצלָחָה
+победа как достижение
+
+מְלָאכוּתִי
+искусственный
+
+אִינטֶלֶקט מלאכותי
+искусственный интеллект
+
+מְחוּסָן
+закаленнный
+
+מָקוֹר
+источник, оригинал
+
+הֶכרֵחִי
+обязательный
+
+
+רוֹקֵחַ
+фармацевт
+
+שחִיתוּת
+коррупция
+
+אָסוֹציַאציָה
+ассоциация
+
+
+שֶטַח
+территория
+
+פְּעוּלָה
+действие
+
+
+גִיוּס
+мобилизация
+
+חִימוּש
+вооружение
+
+צפִירָה \\סִירֶנָה
+сирена
+
+
+כּתוּבִית \\ כּתוּבִיוֹת
+субтитры
+
+
+
+בַּעַל בּרִית \\בֶּן בּרִית
+союзник
+
+
+לְהֶפֶך
+наоборот
+
+ערכים מוסריים
+моральные ценности
+
+
+מִלגָה
+стипендия
+
+גִינָה \\לְגַנוֹת
+кого-то осуждать что-то
+
+מַדבֵּקָה
+наклейка
+
+קוֹמִיקַאי
+комик
+
+גַל
+волна
+
+רַב-עֵרֶך
+ценно, ценный
+
+פּוֹפּוּלָרִי
+популярный
+
+בְּעוֹד
+через (о времени)
+
+מִינִימָלִי
+минимальный
+
+תַחבִּיב \\ הוֹבִּי
+хобби
+
+
+מַס
+налог
+
+
+כַּלכָּלָה
+экономика
+
+בֵּית סוֹהַר
+тюрьма
+
+
+הִתמַחוּת
+стажировка
+
+
+אִיוּם
+угроза
+
+שִׂנאָה
+ненависть
+
+מִפגָן
+парад
+
+פִּילֶגֶש
+наложница
+
+שֵירוּת
+услуга
+
+מְשָרֶתֶת
+служанка
+
+צבִיעָה
+окраска
+
+תִספּוֹרֶת
+стрижка
+
+מוּאָץ
+ускоренный
+
+רַכֶּבֶת קַלָה \\חַשמַלִית
+трамвай
+
+מַשבֵּר
+кризис
+
+הוֹצָאָה לְהוֹרֵג
+казнь
+
+אָשֵם \\אֲשֵמָה
+виновен,виновна
+
+קָשוּחַ
+жестокий
+
+כֶּלֶא \\ בֵּית סוֹהַר
+тюрьма
+
+אוֹיֵב \\ אוֹיֶבֶת
+враг
+
+בָּמָה
+сцена
+
+
+
+מְעוֹנוֹת
+общежитие
+
+מָעוֹן \\ מְעוֹנוֹת
+жилище \ жилища
+
+הַפתָעָה
+сюрприз
+
+סֵירוּב
+отказ
+
+
+
+מַחֲזֶה \\ מַחֲזוֹת
+м.р.)
+
+כּוֹרֵיאוֹגרַפיָה
+хореография
+
+אַפרוֹ-אֲמֶרִיקָנִי
+афроамериканец
+
+כְּהֵה עוֹר\\ כּוּשִי
+темнокожий
+
+
+
+מָסָך
+экран
+
+צוֹפִים
+зрители(публика)
+
+
+
+
+רַעַם
+гром
+
+חוֹל
+песок
+
+חָלוּץ
+первопроходец,первые репатрианты
+
+נִיתוּחַ
+операция
+
+חוֹמָרִים סִינתֵטִיִים
+синтетика
+
+דֶגֶם
+модель
+
+אֵיכוּתִי
+качественный
+
+שָקוּף 
+прозрачный
+
+טַייץ
+леггинсы
+
+פּלוֹנִי-אַלמוֹנִי
+безымянный
+
+צִיוּרִי
+живописный
+
+מְשִיבוֹן
+автоответчик
+
+
+
+רַכֶּבֶת \\ רַכָּבוֹת
+поезд
+
+שְעַת (הַ)שִׂיא
+час пик
+
+גוֹרָל
+судьба
+
+חֲפִיפָה
+совпадение
+
+מִסָבִיב (ל
+вокруг
+
+חִיסָרוֹן
+недостаток
+
+
+סוֹרֵק
+сканер
+
+
+
+
+תַחפּוֹשֶׂת
+костюм маскарадный
+
+מָבוֹי סָתוּם
+тупик
+
+בַּצֶקֶת
+отек
+
+צִילוּם
+фотография
+
+
+דִיכָּאוֹן
+депрессия
+
+עִיסוּק
+дело,как занятость
+
+שַדכָן
+сшиватель
+
+מִשׂרָה פּנוּיָה
+вакансия
+
+
+
+צַר-מוֹחַ
+однобокий,ограниченный
+
+קוֹסמֶטִיקָה
+косметика
+
+עִידוּד
+поддержка
+
+קוֹרקִינֶט
+самокат
+
+
+
+הַמלָצָה
+рекомендация
+
+מִרפָּאָה
+поликлиника
+
+שוֹק\\ הֶלֶם
+шок
+
+
+נְדִירוּת
+редкость
+
+טרָאוּמָה
+травма
+
+רָגִיש ל
+уязвленный, чувствительный  к
+
+תלוּתִיוּת
+зависимость
+
+פִּטרִייָה
+гриб
+
+נִמשַך\\לְהִימָשֵך
+про
+
+אִי-ספִיקָה
+недостаточность (мед.)
+
+חָטָט\\ חַצ'קוּן
+прыщик
+
+עוֹנֶג\\הֲנָאָה
+удовольствие
+
+בְּמִקרֶה
+случайно
+
+
+
+גַן יָרָק
+огород
+
+בּחִירוֹת
+выборы
+
+מומחה רכש
+по закупкам специалист
+
+
+
+הִימָשכוּת
+продолжительность
+
+עוֹמֶס
+нагрузка
+
+
+
+הַכרָזָה
+провозглашение
+
+מִצעַד גַאֲווָה
+лгбт парад
+
+
+
+שָפוּי\\ בַּר דַעַת
+здравомыслящий
+
+הַשווָאָה
+сравнение, сопоставление
+
+
+זְהִירוּת
+осторожно,осторожность
+
+מְבוּסָס
+обоснованно
+
+כּתָב
+шрифт
+
+קוֹבֶץ \\ קבָצִים
+файл
+
+כֵּן\\ כֵּנֶה
+искренний
+
+מִדרָכָה
+тротуар
+
+
+
+מַשָׂאִית
+грузовик
+
+
+ווּלגָרִי
+вульгарно
+
+צַלָם
+фотограф
+
+זֵהֶה \\זֵהָה\\ זֵהִים\\ זֵהוֹת
+одинаковый, идентичный
+
+
+קפִיצָה
+прыжок
+
+דיוֹקָן
+портрет
+
+תִיחקוּר
+допрос
+
+
+מְדוּיָק
+точный
+
+עֵירוֹם \\עֵירוּמָה
+голый
+
+
+חַצ'קוּן
+прыщик
+
+צַלֶקֶת
+шрам
+
+קֵפֶל \\ קפָלִים
+складка,складки
+
+קֶמֶט \\ קמָטִים
+морщина
+
+שִינוּי עֵרֶך מַטבֵּעַ
+деноминация
+
+
+זריחַת הַשֶמֶש
+восход
+
+עמיד בפני שחיקה
+износостойкий
+
+אַקלִים
+климат
+
+
+
+כַּדוּרֵי הַרגָעָה
+успокоительное
+
+
+
+עַייְפוּת-יֶתֶר
+переутомление
+
+קוֹר רוּחַ
+самообладание
+
+תָפַס עֲצַבִּים
+словить нервы", психовать
+
+אֲגַם
+озеро
+
+
+גֶשֶר
+мост
+
+
+הִזדַקנוּת
+старение
+
+זִקנָה\\ זִיקנָה
+старость
+
+שֵׂיבָה
+седина
+
+מַראֶה
+внешность
+
+דַלֶקֶת הַקֵיבָה
+гастрит
+
+דַלֶקֶת
+воспаление
+
+תְזוּנָתִי
+питательный, диетический
+
+מִגבָּלָה
+ограничение
+
+
+
+אוּמָנוּת
+мастерство
+
+רַמקוֹל
+колонка для звука
+
+וֶרבָּלִי
+вербальный
+
+מִשתַמֵעַ לִשתֵי פָּנִים
+неоднозначно
+
+פִּיצוּץ
+взрыв
+
+מוֹעֲדוֹן \\קלוּבּ
+клуб
+
+תִיוּר
+путешествие
+
+
+בְּמַהֲלַך
+в процессе
+
+הִתעַמלוּת
+гимнастика
+
+מגני ברכיים
+наколенник
+
+מִגרַש-ספּוֹרט
+стадион
+
+סִגנוֹן
+стиль
+
+אָרִיחַ\\ אֲרִיחִים
+плитка
+
+גָמִיש
+гибкий
+
+
+
+
+יוֹתֶרֶת הַמוֹחַ
+гипофиз
+
+אי סבילות ללקטוז
+непереносимость лактозы
+
+עָנִי
+бедный
+
+
+מְהַגֵר
+эмигрант
+
+
+טִיגרִיס
+тигр
+
+נוֹטֶה
+склонный к чему-то
+
+
+תִקשוֹרֶת
+общение
+
+חַלוֹן רַאֲווָה
+витрина
+
+
+בָּצֵק
+тесто
+
+נְייַר כֶּסֶף
+фольга
+
+לַעֲשׂוֹת שׁוֹטֶה 
+то делать дурачка" из кого"
+
+
+מִיחזוּר
+переработка
+
+פּסוֹלֶת
+мусор,отходы
+
+מְעוּדָן
+изысканный,утонченный
+
+נוֹסָף
+дополнительный
+
+
+רָמַת חַיִים
+уровень жизни
+
+לְזַהוֹת
+идентифицировать
+
+לְסַמֵן
+обозначить
+
+קלִישָאָה
+клише
+
+תָקֵף
+годный,действительный
+
+
+הַרצָאָה
+лекция
+
+
+✅ רֶשֶׁת חֶבְרָתִית 
+рЭшет хэвратИт
+
+
+מְנוּמָס
+корректный
+לַעֲשׂוֹת סווִיץ
+переключиться
+
+הוֹכָחָה
+доказатель
+
+תחוּשַת בֶּטֶן
+внутреннее ощущение
+
+בִּיוּץ
+овуляция
+
+חֲסַר טַעַם\\ חֲסַר מַשמָעוּת
+бессмысленный
+
+הַשגָחָה
+наблюдение
+
+
+בְּקוֹל רָם\\ חָזָק
+громко
+
+כָּבוּש\\ חָמוּץ
+квашеный
+
+לִכלוֹל\\ כּוֹלֵל
+включает в себя
+
+מַנגְנוֹן הֲגָנָה
+защитный механизм
+
+סִיב
+волокно, клетчатка
+
+שָטוּחַ
+плоский
+
+
+חִיזוּק
+подкрепление
+
+צָנוּע
+скромный
+
+
+אֲבִיזָר
+аксессуар
+
+הִתאַכזְבוּת\\ בָּאסָה
+разочарование
+
+
+
+עוֹלֶש \ צִיקוֹריָה
+цикорий
+
+מַגרֶדֶת
+скребок
+
+טִיפּוּחַ
+уход
+
+לְחָיַיִם
+щеки
+
+קַלֶטֶת
+кассета (видео,аудио)
+
+עָרוּץ
+канал
+
+
+סטֶרִילִיזַציָה \\ סֵירוּס
+стерилизация, кастрация
+
+הֶעֱבִיר\\לְהַעֲבִיר
+проводить время
+
+חִיבּוּר
+разъем
+
+טרִיק
+прием,уловка
+
+גֵיהִנוֹם
+ад
+
+
+
+סַפָּר \\ ית
+парикмахерская
+
+מִספָּרָה
+парикмахерская
+
+אֶפִּילַציָה
+лазерн.эпиляция
+
+חוֹטֵב עֵצִים
+дровосек
+
+דורבן בעקב
+пяточная шпора
+
+דָרבָן\\ דוֹרבָן
+шпора
+
+עָקֵב
+пятка
+
+לַעֲצוֹר אֶת עַצמוֹ
+сдерживаться
+
+כּוֹתֶרֶת \\ כּוֹתָרוֹת
+заголовок, подпись\надпись
+
+
+סַפרָן
+библиотекарь
+
+מְקוּשָט
+украшенный
+
+שרשרת נורות
+огоньки,гирлянда
+
+קִינוּחַ
+десерт
+
+תָמָר \\ תמָרִים
+финик
+
+סָחוּט
+измученный, слабый
+
+
+לִשלוֹף שן
+вырвать зуб
+
+מְחוּספָּס
+шершавый
+
+חַג-הַמוֹלָד \\ קרִיסמֶס\\ כּרִיסמֶס
+рождество
+
+שָלָב
+стадия
+
+מַאֲזָן
+баланс  ,соотношение,итог
+לַהֲטוּטנוּת
+жонглирование
+
+
+דוֹחַק
+крайность
+
+דגִימָה
+выборка
+
+נציג
+представитель
+
+
+רולטה רוסית
+руск.рулетка
+
+עוֹבֶש
+плесень
+
+עֲבֵירָה\\ אָשָם
+грех как проступок
+
+חֵטא
+грех религиозный
+
+טוֹרחָנִי
+суетливый
+
+בְּעִיטָה
+пинок
+
+מְעוֹרָבוּת
+вовлеченность
+
+גִישָה
+установка
+
+מִזרוֹן
+матрас
+
+פִּיחוּת
+девальвация
+
+
+תוֹבעָנִי
+требовательный
+
+
+סלִיק
+заначка
+
+מערכת הנשימה
+дых.система
+
+מַעֲרֶכֶת חִיסוּנִית
+иммунная система
+
+מִקָדִימָה
+впереди
+
+מְשַעֲשֵעַ
+прикольный,забавный
+
+מַגנִיב
+прикольный, интересный,классный
+
+מְקוֹרִי
+оригинальный
+
+עֵדוּת אוֹפִי
+характеристика (свидетельство характера)
+
+
+מוּכָח
+доказанный
+
+סֶרֶט אֵימָה
+фильм ужасов
+
+מְהִירוּת
+скорость
+
+
+
+הֶעָרָה
+замечания (устные)
+
+שָלָב \\ שלַבִּים
+стадия
+
+פּלוּמָה
+ворс,ворсинка
+
+חַצרָן
+дворник
+
+
+תַרחִיש
+сценарий как прогноз событий
+
+תַסרִיט
+сценарий для фильма
+
+חֲרוֹשֶת
+промышленность    תַעֲשִׂייָה  производство
+
+קצב הלב משתבש
+сбивается сердечный ритм
+
+מַסלוּל רִיצָה
+беговая дорожка
+
+אינסטינקט של שימור עצמי
+инстинкт самосохранения
+
+נַדנֵדָה
+качели
+
+פּרָס
+приз,награда
+
+אַחרָאִי
+ответственный (прилагательное)
+
+אַחרַאי 
+ответственный, ответственное лицо
+
+אֲרוֹך \\אֲרוּכַּת\\אֲרוּכֵּי- טווָח
+долгосрочный
+
+טווָח
+предел, зона действия
+
+אוֹפֶּרָטִיבִי
+оперативный
+
+קָבוּעַ
+постоянный
+
+מַצִיל
+спасатель
+
+
+נִפגָע
+жертва
+
+שוּתָף
+участник , партнер
+
+פִּיכֵּחַ
+трезвый
+
+עֵצָה\\עֵצוֹת
+совет,советы
+
+יְבוּא
+импорт
+
+כּוּפתָה \\ כּוּפתָאוֹת
+клецки (в т.ч.пельмени)
+
+כִּיסָנֵי בָּשָר
+пельмени
+
+
+סטנדאפיסט
+стендап-комик
+
+הַשקָפַת עוֹלָם
+мировоззрение
+
+תַרגוּם
+перевод (завершенный)
+
+תִירגוּם // תִרגוּם
+перевод ) как процесс)
+
+זְבוּב
+Звув - זְבוּב
+
+סכיזוֹפרֶניָה
+шизофрения
+
+חֲשָד
+подозрение
+
+עָמִית
+коллега
+
+נפנף ביד
+махнуть рукой
+
+מְצוּעֲצָע
+вычурный,пафосный
+
+לְרַכֵל 
+сплетничать
+
+רכלן
+сплетник
+
+
+
+סֵפֶל \\ ספָלִים
+кружки,чашки
+
+עִיווּת
+искажение
+
+
+כּפָל
+дубликат
+
+
+כַּתָב
+корреспондент
+
+
+שָבָץ\\ שָבָץ מוֹחִי
+инсульт
+
+הֶתקֵף
+приступ   болезни
+
+קַצֶרֶת \\אַסטמָה
+астма
+
+נִמרָץ
+резко,внезапно
+
+
+מִשפְּטָן
+юрист
+
+אביזרים
+аксессуары
+
+מוּגלָה
+гной
+
+עָנָף \\ תחוּם
+отрасль
+
+לָהוּט
+увлеченный
+
+דָלוּק עַל
+увлеченный,влюбленный,"горящий" чем-то
+
+חֵפֶץ\\חֲפָצִים
+предметы как атрибуты
+
+תֶרֶד
+шпинат
+
+עֵרָנִי
+бодрый, чуткий, на чеку, бдительный
+
+רַעֲנָן
+свежий,бодрящий
+
+כּתַב-עֵת
+журнал
+
+פִּיסוּק
+пунктуация
+
+מִטפַּחַת
+платок
+
+סָפוּג
+насыщенный,"пропитанный
+
+סְפוֹג
+губка
+
+הַגשָמָה עַצמִית
+самореализация
+
+אֵזוֹר תַעֲשִׂייָה
+промышленная зона
+
+הֲגִירָה
+эмиграция
+
+עַצמוֹתָיו
+останки
+
+עַצמוֹת קדוֹשִים
+мощи
+
+חֲבֵרוּת
+дружба
+
+זִיז
+выступ,выступающая часть
+
+דֵאוֹדוֹרַנט
+дезодорант
+
+
+הִתרַשמוּת \\ רוֹשֶם 
+впечатление
+
+
+נוירוני מראה
+зеркальн.нейроны
+
+רוֹקֵחַ \\רוֹקַחַת
+фармацевт
+
+מנכ'ל
+гендиректор
+
+
+תַחזוּקָה
+тех.обслуживание
+
+עִיפעֵף \\לְעַפעֵף
+моргать
+
+בָּלוּי
+поношенный,потрепанный,изношенный
+
+מַפַּל מַיִם \\ מַפָּל
+водопад
+
+לִגרוֹם מַחֲלַת יָם/נְסִיעָה
+укачивать
+
+בּוֹשֶׂם \\ בּשָׂמִים
+парфюм
+
+מַכשִיר קֶשֶר
+рация
+
+
+
+
+סִינכרוֹנִי\\ סִימוּלטָנִי
+синхронно
+
+חברת תרופות
+фармацевтическая компания
+
+תֵיבַת הִילוּכִים
+коробка передач
+
+חוּש הוּמוֹר
+чувство юмора
+
+חוּש הַטַעַם
+вкус  (как ощущение)
+
+חוּש הַרְאִייָה
+зрение
+
+חוּש הַרֵיחַ
+обоняние
+
+חוּש הַשמִיעָה
+слух
+
+חוּש (הַ)מִישוּש
+осязание
+
+איברי חישה
+органы чувств
+
+מְטוּמטָם
+тупой
+
+רַכֶּבֶל \\ רַכבָּל
+фуникулер
+
+קרִיסָה
+приседание
+
+חֲזִיר-יָם \\ שַרקָן
+морская  свинка
+
+
+
+מִתחַלֶה
+симулянт
+
+
+
+דַלֶקֶת שַׁלפּוּחִית הַשֶׁתֶן \\ ציסטיטיס
+цистит
+
+הפרעת קשב
+сидром дефицита внимания
+
+
+לחץ אטמוספרי
+атмосферное давление
+
+יַצִיב
+устойчивый, стойкий
+
+
+רוֹבֶד \\ רְבָדִים
+слой,слои
+
+מִבנֵה-גוּף
+телосложение
+
+מָסוֹף
+терминал
+
+מוסר כפול
+двойная мораль (двойные стандарты)
+
+פּוּמִית
+микрофон (тел.)
+
+
+וֶרֶד בָּר
+шиповник
+
+נְקוּדַת חֵן
+родинка
+
+להוציא מכליו
+выводить из себя
+
+שֶלֶט \\ שלָטִים
+вывеска
+
+לַעֲקוֹף
+объехать
+
+דגָם
+лекало
+
+
+גֵירוּשִין/ גֵירוּשִים
+развод
+
+תַעַמלָן
+пропагандист
+
+מוביל דעה
+лидер  мнение
+
+עֲדִין-טַעַם
+гурман
+
+זְכוּכִית \\ גָבִיעַ
+бокал
+
+חָזוּת \\ חיצוניות \\ מראה החיצוני
+внешность
+
+צוֹלְלָן
+дайвер
+
+תחנת כוח הידרואלקטרית
+гидроэлектростанция
+
+רֶסֶק
+паста, пюре
+
+רֶסֶק עַגבָנִיוֹת
+томатная паста
+
+מַמתִיק
+подсластитель
+
+תַחלִיף
+заменитель
+
+תַחלִיף סוכר
+сах.заменитель
+
+הַנחָיָה
+инструкция
+
+בּוֹר
+яма
+
+אֲרוֹן-מֵתִים
+гроб
+
+אִיכָּר\\ אִיכָּרָה
+крестьянин, крестьянка
+
+
+בָּתוּל
+девственник
+
+בִּקתָה
+хижина
+
+רוֹגֶז \\ הִתעַצבְּנוּת
+раздражение,злость
+
+
+מִפקָדָה
+штаб
+
+
+לגלוש באינטרנט
+сидеть в интернете
+
+מותג \\ בּרֶנד
+бренд
+
+הִתייַחֲסוּת
+позиция,поведение
+
+סֵבֶל\\ סבָלוֹת\\ סִבלוֹת
+страдания
+
+סיבים תזונתיים
+клетчатка
+
+כלי דם
+кровеносные сосуды
+
+התקף פאניקה
+панич.атака
+
+הפרעת אישיות
+расстройство личности
+
+הִתפּוֹרֵר \\לְהִתפּוֹרֵר
+крошиться
+
+קוֹלטָן
+рецептор
+
+עֲטִיפַת סֵפֶר
+книжная обложка
+
+זֵעָה
+пот
+
+עַשֶשֶת
+кариес
+
+
+    </data>
+</odoo>

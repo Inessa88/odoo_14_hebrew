@@ -48,15 +48,11 @@ class LastExerciseDate(models.Model):
     repetition_interval = fields.Selection(
         selection=[
             ('1', 'In a day'),
-            ('3', 'In three days'),
             ('7', 'In a week'),
-            ('14', 'In two weeks'),
             ('30', 'In a month'),
-            ('90', 'In three months'),
-            ('183', 'In half a year'),
             ('1000000', 'Never (initial learning)'),
         ],
-        string='Repetition interval', 
+        string='Repetition interval',
         required=True,
         default='1',
     )
