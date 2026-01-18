@@ -662,7 +662,6 @@
             <!-- <field name="audio">hebrew_learning/static/audio/word_3942.mp3</field> -->
             <field name="group_ids" eval="[(4, ref('group_170'))]"/>
         </record>
-        <!-- not done yet: main picture, but _present picture is done -->
         <record id="word_3970" model="words">
             <field name="translation_word">собирать, составлять; надевать (очки)</field>
             <field name="pronunciation_word">leharkiv</field>
@@ -818,7 +817,7 @@
         </record>
         <record id="word_3987" model="words">
             <field name="translation_word">грузить, нагружать; заряжать</field>
-            <field name="pronunciation_word">lehat in</field>
+            <field name="pronunciation_word">lehatin</field>
             <field name="hebrew_word_nikud">לְהַטעִין</field>
             <field name="picture" type="base64" file="hebrew_learning/static/img/word_3987.png"/>
             <field name="picture_present" type="base64" file="hebrew_learning/static/img/word_3987_present.png"/>
@@ -1861,7 +1860,7 @@
             <field name="group_ids" eval="[(4, ref('group_170'))]"/>
         </record>
         <record id="word_4103" model="words">
-            <field name="translation_word">страдать,терпеть</field>
+            <field name="translation_word">страдать, терпеть</field>
             <field name="pronunciation_word">lisbol</field>
             <field name="hebrew_word_nikud">לִסבּוֹל</field>
             <field name="picture" type="base64" file="hebrew_learning/static/img/word_4103.png"/>
